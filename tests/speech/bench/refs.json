@@ -1,0 +1,82 @@
+[
+ {
+  "file": "n0-r2-clean.wav",
+  "text": "Deferred revenue is cash a company has collected from a customer but hasn't earned yet, because it still owes the product or service. It only becomes revenue once the company delivers, so until then it sits on the balance sheet as a liability. For taxes, it is usually taxed when the cash comes in, which creates a deferred tax asset.",
+  "q": 0
+ },
+ {
+  "file": "n0-r2-hard.wav",
+  "text": "Deferred revenue is cash a company has collected from a customer but hasn't earned yet, because it still owes the product or service. It only becomes revenue once the company delivers, so until then it sits on the balance sheet as a liability. For taxes, it is usually taxed when the cash comes in, which creates a deferred tax asset.",
+  "q": 0
+ },
+ {
+  "file": "n0-r5-clean.wav",
+  "text": "Deferred revenue is cash a company has collected from a customer but hasn't earned yet, because it still owes the product or service. It only becomes revenue once the company delivers, so until then it sits on the balance sheet as a liability. For taxes, it is usually taxed when the cash comes in, which creates a deferred tax asset.",
+  "q": 0
+ },
+ {
+  "file": "n0-r5-hard.wav",
+  "text": "Deferred revenue is cash a company has collected from a customer but hasn't earned yet, because it still owes the product or service. It only becomes revenue once the company delivers, so until then it sits on the balance sheet as a liability. For taxes, it is usually taxed when the cash comes in, which creates a deferred tax asset.",
+  "q": 0
+ },
+ {
+  "file": "n1-r2-clean.wav",
+  "text": "Accounts receivable is revenue the company has earned and recorded but hasn't collected in cash yet, so it's an asset. When the customer pays, accounts receivable goes down and cash goes up by the same amount, and nothing changes on the income statement.",
+  "q": 1
+ },
+ {
+  "file": "n1-r2-hard.wav",
+  "text": "Accounts receivable is revenue the company has earned and recorded but hasn't collected in cash yet, so it's an asset. When the customer pays, accounts receivable goes down and cash goes up by the same amount, and nothing changes on the income statement.",
+  "q": 1
+ },
+ {
+  "file": "n1-r5-clean.wav",
+  "text": "Accounts receivable is revenue the company has earned and recorded but hasn't collected in cash yet, so it's an asset. When the customer pays, accounts receivable goes down and cash goes up by the same amount, and nothing changes on the income statement.",
+  "q": 1
+ },
+ {
+  "file": "n1-r5-hard.wav",
+  "text": "Accounts receivable is revenue the company has earned and recorded but hasn't collected in cash yet, so it's an asset. When the customer pays, accounts receivable goes down and cash goes up by the same amount, and nothing changes on the income statement.",
+  "q": 1
+ },
+ {
+  "file": "n2-r2-clean.wav",
+  "text": "Free cash flow is cash flow from operations minus capital expenditures. Unlevered free cash flow starts with EBIT times one minus the tax rate, adds back depreciation and amortization, then subtracts CapEx and the increase in net working capital. You discount it at the WACC to get enterprise value.",
+  "q": 2
+ },
+ {
+  "file": "n2-r2-hard.wav",
+  "text": "Free cash flow is cash flow from operations minus capital expenditures. Unlevered free cash flow starts with EBIT times one minus the tax rate, adds back depreciation and amortization, then subtracts CapEx and the increase in net working capital. You discount it at the WACC to get enterprise value.",
+  "q": 2
+ },
+ {
+  "file": "n2-r5-clean.wav",
+  "text": "Free cash flow is cash flow from operations minus capital expenditures. Unlevered free cash flow starts with EBIT times one minus the tax rate, adds back depreciation and amortization, then subtracts CapEx and the increase in net working capital. You discount it at the WACC to get enterprise value.",
+  "q": 2
+ },
+ {
+  "file": "n2-r5-hard.wav",
+  "text": "Free cash flow is cash flow from operations minus capital expenditures. Unlevered free cash flow starts with EBIT times one minus the tax rate, adds back depreciation and amortization, then subtracts CapEx and the increase in net working capital. You discount it at the WACC to get enterprise value.",
+  "q": 2
+ },
+ {
+  "file": "n3-r2-clean.wav",
+  "text": "A company's beta measures how much its stock moves relative to the market. To get the cost of equity, you take the risk free rate and add beta times the equity risk premium. For a private company, you unlever the betas of comparable companies, take the median, and relever it at the target capital structure.",
+  "q": 3
+ },
+ {
+  "file": "n3-r2-hard.wav",
+  "text": "A company's beta measures how much its stock moves relative to the market. To get the cost of equity, you take the risk free rate and add beta times the equity risk premium. For a private company, you unlever the betas of comparable companies, take the median, and relever it at the target capital structure.",
+  "q": 3
+ },
+ {
+  "file": "n3-r5-clean.wav",
+  "text": "A company's beta measures how much its stock moves relative to the market. To get the cost of equity, you take the risk free rate and add beta times the equity risk premium. For a private company, you unlever the betas of comparable companies, take the median, and relever it at the target capital structure.",
+  "q": 3
+ },
+ {
+  "file": "n3-r5-hard.wav",
+  "text": "A company's beta measures how much its stock moves relative to the market. To get the cost of equity, you take the risk free rate and add beta times the equity risk premium. For a private company, you unlever the betas of comparable companies, take the median, and relever it at the target capital structure.",
+  "q": 3
+ }
+]

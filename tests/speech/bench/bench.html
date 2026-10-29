@@ -1,0 +1,37 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Speech model bench</title>
+<pre id="out">loading…</pre>
+<script type="module">
+// Compares speech models on the same clips: words wrong (WER) and seconds per clip.
+// bench.html?model=onnx-community/whisper-base.en&device=wasm&dtype=q8
+import { pipeline, env } from "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1";
+env.allowLocalModels = false;
+const P = new URLSearchParams(location.search), out = document.getElementById("out");
+const model = P.get("model") || "onnx-community/whisper-base.en", device = P.get("device") || "wasm";
+let dtype = P.get("dtype") || "q8"; try { dtype = JSON.parse(dtype); } catch {}
+const log = s => { out.textContent += "\n" + s; };
+const norm = s => s.toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9' ]/g, " ").replace(/\b(\d+)\b/g, m => ({"1":"one","4":"four","10":"ten","5":"five","40":"forty"}[m] || m)).split(/\s+/).filter(Boolean);
+function wer(ref, hyp){ const r = norm(ref), h = norm(hyp); const d = Array.from({length: r.length + 1}, (_, i) => [i]); for (let j = 1; j <= h.length; j++) d[0][j] = j;
+  for (let i = 1; i <= r.length; i++) for (let j = 1; j <= h.length; j++) d[i][j] = Math.min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + (r[i-1] === h[j-1] ? 0 : 1)); return d[r.length][h.length] / r.length; }
+try {
+  const t0 = performance.now();
+  const asr = await pipeline("automatic-speech-recognition", model, {device, dtype});
+  const load = (performance.now() - t0) / 1000; log(`loaded ${model} on ${device} in ${load.toFixed(1)}s`);
+  const refs = await (await fetch("refs.json")).json();
+  const res = {model, device, dtype, load: +load.toFixed(1), clean: [], hard: [], secs: []};
+  // warm up
+  await asr(new Float32Array(16000));
+  for (const r of refs){
+    const buf = await (await fetch(r.file)).arrayBuffer();
+    const a = (await new OfflineAudioContext(1, 16000 * 60, 16000).decodeAudioData(buf)).getChannelData(0).slice();
+    let pk = 0; for (const v of a) pk = Math.max(pk, Math.abs(v)); const g = Math.min(30, 0.9 / Math.max(pk, 1e-6)); for (let i = 0; i < a.length; i++) a[i] *= g;
+    const t = performance.now(); const o = await asr(a, {chunk_length_s: 30}); const s = (performance.now() - t) / 1000;
+    const w = wer(r.text, o.text); res[r.file.includes("hard") ? "hard" : "clean"].push(w); res.secs.push(s / (a.length / 16000));
+    log(`${r.file} ${(w*100).toFixed(1)}% ${s.toFixed(2)}s | ${o.text.slice(0, 90)}`);
+  }
+  const avg = a => a.reduce((x, y) => x + y, 0) / a.length;
+  res.summary = {cleanWER: +(avg(res.clean) * 100).toFixed(1), hardWER: +(avg(res.hard) * 100).toFixed(1), secPerAudioSec: +avg(res.secs).toFixed(3)};
+  document.title = "DONE"; log("RESULT " + JSON.stringify(res.summary));
+} catch (e) { document.title = "ERR"; log("ERROR " + e); }
+</script>

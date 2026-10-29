@@ -1,0 +1,39 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Speech model comparison</title>
+<pre id="out">ready</pre>
+<script src="predictor-lib.js"></script>
+<script>
+// Word error rate of a speech model on the test clips, raw and after the app's term fixes.
+//   runModel("onnx-community/whisper-base.en") -> {model, clean, noisy, fixed, secs}
+const NUM = {zero:0,one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,forty:40,fifty:50};
+function norm(t){
+  return String(t).toLowerCase().replace(/[’']/g, "").replace(/\$/g, " ").replace(/%/g, " percent").replace(/-/g, " ")
+    .replace(/\b(?:zero|one|two|three|four|five|six|seven|eight|nine|ten|forty|fifty)\b/g, m => String(NUM[m]))
+    .replace(/[^a-z0-9 ]/g, " ").replace(/\bp e\b/g, "pe").replace(/\bi r r\b/g, "irr").split(/\s+/).filter(Boolean);
+}
+function wer(ref, hyp){
+  const r = norm(ref), h = norm(hyp), d = Array.from({length: r.length + 1}, (_, i) => [i]);
+  for (let j = 1; j <= h.length; j++) d[0][j] = j;
+  for (let i = 1; i <= r.length; i++) for (let j = 1; j <= h.length; j++)
+    d[i][j] = Math.min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + (r[i-1] === h[j-1] ? 0 : 1));
+  return {err: d[r.length][h.length], n: r.length};
+}
+window.runModel = async (model, dtype = "q8") => {
+  const { pipeline } = await import("https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1");
+  const asr = await pipeline("automatic-speech-recognition", model, { device: "wasm", dtype });
+  const refs = await (await fetch("clips/refs.json")).json();
+  const tot = {clean:[0,0], noisy:[0,0], fixed:[0,0]}, rows = []; let secs = 0;
+  for (const r of refs) for (const variant of ["clean", "noisy"]){
+    const file = variant === "clean" ? r.file : r.file.replace(".wav", "_noisy.wav");
+    const buf = await (await fetch("clips/" + file)).arrayBuffer();
+    const audio = (await new OfflineAudioContext(1, 16000 * 60, 16000).decodeAudioData(buf)).getChannelData(0);
+    const t0 = performance.now(); const out = await asr(audio, {chunk_length_s: 30, stride_length_s: 5}); secs += (performance.now() - t0) / 1000;
+    const w = wer(r.text, out.text); tot[variant][0] += w.err; tot[variant][1] += w.n;
+    const f = wer(r.text, predictTerms(fixTerms(out.text), null)); tot.fixed[0] += f.err; tot.fixed[1] += f.n;
+    rows.push(`${file}: ${w.err}/${w.n} | ${out.text.trim()}`);
+  }
+  const pct = k => (100 * tot[k][0] / tot[k][1]).toFixed(1) + "%";
+  return {model, cleanWER: pct("clean"), noisyWER: pct("noisy"), afterFixesWER: pct("fixed"), transcribeSecs: +secs.toFixed(1), rows};
+};
+</script>

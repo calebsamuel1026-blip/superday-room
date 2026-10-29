@@ -1,0 +1,182 @@
+[
+ {
+  "file": "s0-r0-clean.wav",
+  "q": "q-0444",
+  "text": "Um, so for part one, at the time of purchase, capital expenditures are not listed on the income statement. On the cash flow statement it goes under cash flow from investing, so cash is down a hundred dollars. On the balance sheet, cash is down a hundred and PP&E is up a hundred, so it balances. For part two, after one year, depreciation is ten dollars, so pre-tax income is down ten and net income is down seven fifty at a twenty five percent tax rate. You add back the ten of depreciation, so cash is up two fifty. PP&E is down ten, assets are down seven fifty, and retained earnings are down seven fifty.",
+  "cond": "clean"
+ },
+ {
+  "file": "s0-r0-quiet.wav",
+  "q": "q-0444",
+  "text": "Um, so for part one, at the time of purchase, capital expenditures are not listed on the income statement. On the cash flow statement it goes under cash flow from investing, so cash is down a hundred dollars. On the balance sheet, cash is down a hundred and PP&E is up a hundred, so it balances. For part two, after one year, depreciation is ten dollars, so pre-tax income is down ten and net income is down seven fifty at a twenty five percent tax rate. You add back the ten of depreciation, so cash is up two fifty. PP&E is down ten, assets are down seven fifty, and retained earnings are down seven fifty.",
+  "cond": "quiet"
+ },
+ {
+  "file": "s0-r0-noisy.wav",
+  "q": "q-0444",
+  "text": "Um, so for part one, at the time of purchase, capital expenditures are not listed on the income statement. On the cash flow statement it goes under cash flow from investing, so cash is down a hundred dollars. On the balance sheet, cash is down a hundred and PP&E is up a hundred, so it balances. For part two, after one year, depreciation is ten dollars, so pre-tax income is down ten and net income is down seven fifty at a twenty five percent tax rate. You add back the ten of depreciation, so cash is up two fifty. PP&E is down ten, assets are down seven fifty, and retained earnings are down seven fifty.",
+  "cond": "noisy"
+ },
+ {
+  "file": "s0-r0-clipped.wav",
+  "q": "q-0444",
+  "text": "Um, so for part one, at the time of purchase, capital expenditures are not listed on the income statement. On the cash flow statement it goes under cash flow from investing, so cash is down a hundred dollars. On the balance sheet, cash is down a hundred and PP&E is up a hundred, so it balances. For part two, after one year, depreciation is ten dollars, so pre-tax income is down ten and net income is down seven fifty at a twenty five percent tax rate. You add back the ten of depreciation, so cash is up two fifty. PP&E is down ten, assets are down seven fifty, and retained earnings are down seven fifty.",
+  "cond": "clipped"
+ },
+ {
+  "file": "s0-r4-clean.wav",
+  "q": "q-0444",
+  "text": "Um, so for part one, at the time of purchase, capital expenditures are not listed on the income statement. On the cash flow statement it goes under cash flow from investing, so cash is down a hundred dollars. On the balance sheet, cash is down a hundred and PP&E is up a hundred, so it balances. For part two, after one year, depreciation is ten dollars, so pre-tax income is down ten and net income is down seven fifty at a twenty five percent tax rate. You add back the ten of depreciation, so cash is up two fifty. PP&E is down ten, assets are down seven fifty, and retained earnings are down seven fifty.",
+  "cond": "clean-fast"
+ },
+ {
+  "file": "s1-r0-clean.wav",
+  "q": "q-0424",
+  "text": "If you sell PP&E for a hundred dollars with a twenty dollar gain, pre-tax income goes up twenty, and with a twenty five percent tax rate, net income goes up fifteen. On the cash flow statement, you start with fifteen, subtract the twenty dollar gain, and add the hundred of proceeds in cash flow from investing, so net cash is up ninety five. On the balance sheet, cash is up ninety five, PP&E is down eighty, and retained earnings are up fifteen.",
+  "cond": "clean"
+ },
+ {
+  "file": "s1-r0-quiet.wav",
+  "q": "q-0424",
+  "text": "If you sell PP&E for a hundred dollars with a twenty dollar gain, pre-tax income goes up twenty, and with a twenty five percent tax rate, net income goes up fifteen. On the cash flow statement, you start with fifteen, subtract the twenty dollar gain, and add the hundred of proceeds in cash flow from investing, so net cash is up ninety five. On the balance sheet, cash is up ninety five, PP&E is down eighty, and retained earnings are up fifteen.",
+  "cond": "quiet"
+ },
+ {
+  "file": "s1-r0-noisy.wav",
+  "q": "q-0424",
+  "text": "If you sell PP&E for a hundred dollars with a twenty dollar gain, pre-tax income goes up twenty, and with a twenty five percent tax rate, net income goes up fifteen. On the cash flow statement, you start with fifteen, subtract the twenty dollar gain, and add the hundred of proceeds in cash flow from investing, so net cash is up ninety five. On the balance sheet, cash is up ninety five, PP&E is down eighty, and retained earnings are up fifteen.",
+  "cond": "noisy"
+ },
+ {
+  "file": "s1-r0-clipped.wav",
+  "q": "q-0424",
+  "text": "If you sell PP&E for a hundred dollars with a twenty dollar gain, pre-tax income goes up twenty, and with a twenty five percent tax rate, net income goes up fifteen. On the cash flow statement, you start with fifteen, subtract the twenty dollar gain, and add the hundred of proceeds in cash flow from investing, so net cash is up ninety five. On the balance sheet, cash is up ninety five, PP&E is down eighty, and retained earnings are up fifteen.",
+  "cond": "clipped"
+ },
+ {
+  "file": "s1-r4-clean.wav",
+  "q": "q-0424",
+  "text": "If you sell PP&E for a hundred dollars with a twenty dollar gain, pre-tax income goes up twenty, and with a twenty five percent tax rate, net income goes up fifteen. On the cash flow statement, you start with fifteen, subtract the twenty dollar gain, and add the hundred of proceeds in cash flow from investing, so net cash is up ninety five. On the balance sheet, cash is up ninety five, PP&E is down eighty, and retained earnings are up fifteen.",
+  "cond": "clean-fast"
+ },
+ {
+  "file": "s2-r0-clean.wav",
+  "q": "q-0436",
+  "text": "I would rather have ten dollars of cost savings, uh, because it goes straight to the bottom line. At a twenty five percent tax rate, that's seven fifty of net income. Ten dollars of revenue only adds the margin, so if the margin is ten percent, that's just one dollar.",
+  "cond": "clean"
+ },
+ {
+  "file": "s2-r0-quiet.wav",
+  "q": "q-0436",
+  "text": "I would rather have ten dollars of cost savings, uh, because it goes straight to the bottom line. At a twenty five percent tax rate, that's seven fifty of net income. Ten dollars of revenue only adds the margin, so if the margin is ten percent, that's just one dollar.",
+  "cond": "quiet"
+ },
+ {
+  "file": "s2-r0-noisy.wav",
+  "q": "q-0436",
+  "text": "I would rather have ten dollars of cost savings, uh, because it goes straight to the bottom line. At a twenty five percent tax rate, that's seven fifty of net income. Ten dollars of revenue only adds the margin, so if the margin is ten percent, that's just one dollar.",
+  "cond": "noisy"
+ },
+ {
+  "file": "s2-r0-clipped.wav",
+  "q": "q-0436",
+  "text": "I would rather have ten dollars of cost savings, uh, because it goes straight to the bottom line. At a twenty five percent tax rate, that's seven fifty of net income. Ten dollars of revenue only adds the margin, so if the margin is ten percent, that's just one dollar.",
+  "cond": "clipped"
+ },
+ {
+  "file": "s2-r4-clean.wav",
+  "q": "q-0436",
+  "text": "I would rather have ten dollars of cost savings, uh, because it goes straight to the bottom line. At a twenty five percent tax rate, that's seven fifty of net income. Ten dollars of revenue only adds the margin, so if the margin is ten percent, that's just one dollar.",
+  "cond": "clean-fast"
+ },
+ {
+  "file": "s3-r0-clean.wav",
+  "q": "q-0056",
+  "text": "Basic equity value is one hundred shares times ten dollars, so one thousand. The ten options are in the money, so the company gets fifty dollars and buys back five shares. So diluted shares are one hundred five, and diluted equity value is one thousand fifty.",
+  "cond": "clean"
+ },
+ {
+  "file": "s3-r0-quiet.wav",
+  "q": "q-0056",
+  "text": "Basic equity value is one hundred shares times ten dollars, so one thousand. The ten options are in the money, so the company gets fifty dollars and buys back five shares. So diluted shares are one hundred five, and diluted equity value is one thousand fifty.",
+  "cond": "quiet"
+ },
+ {
+  "file": "s3-r0-noisy.wav",
+  "q": "q-0056",
+  "text": "Basic equity value is one hundred shares times ten dollars, so one thousand. The ten options are in the money, so the company gets fifty dollars and buys back five shares. So diluted shares are one hundred five, and diluted equity value is one thousand fifty.",
+  "cond": "noisy"
+ },
+ {
+  "file": "s3-r0-clipped.wav",
+  "q": "q-0056",
+  "text": "Basic equity value is one hundred shares times ten dollars, so one thousand. The ten options are in the money, so the company gets fifty dollars and buys back five shares. So diluted shares are one hundred five, and diluted equity value is one thousand fifty.",
+  "cond": "clipped"
+ },
+ {
+  "file": "s3-r4-clean.wav",
+  "q": "q-0056",
+  "text": "Basic equity value is one hundred shares times ten dollars, so one thousand. The ten options are in the money, so the company gets fifty dollars and buys back five shares. So diluted shares are one hundred five, and diluted equity value is one thousand fifty.",
+  "cond": "clean-fast"
+ },
+ {
+  "file": "s4-r0-clean.wav",
+  "q": "q-1148",
+  "text": "So an unlevered, sorry, an unlevered DCF uses unlevered free cash flow, and you discount it at the WACC, which gives you enterprise value. A levered DCF uses levered free cash flow, after interest, and you discount it at the cost of equity, which gives you equity value directly.",
+  "cond": "clean"
+ },
+ {
+  "file": "s4-r0-quiet.wav",
+  "q": "q-1148",
+  "text": "So an unlevered, sorry, an unlevered DCF uses unlevered free cash flow, and you discount it at the WACC, which gives you enterprise value. A levered DCF uses levered free cash flow, after interest, and you discount it at the cost of equity, which gives you equity value directly.",
+  "cond": "quiet"
+ },
+ {
+  "file": "s4-r0-noisy.wav",
+  "q": "q-1148",
+  "text": "So an unlevered, sorry, an unlevered DCF uses unlevered free cash flow, and you discount it at the WACC, which gives you enterprise value. A levered DCF uses levered free cash flow, after interest, and you discount it at the cost of equity, which gives you equity value directly.",
+  "cond": "noisy"
+ },
+ {
+  "file": "s4-r0-clipped.wav",
+  "q": "q-1148",
+  "text": "So an unlevered, sorry, an unlevered DCF uses unlevered free cash flow, and you discount it at the WACC, which gives you enterprise value. A levered DCF uses levered free cash flow, after interest, and you discount it at the cost of equity, which gives you equity value directly.",
+  "cond": "clipped"
+ },
+ {
+  "file": "s4-r4-clean.wav",
+  "q": "q-1148",
+  "text": "So an unlevered, sorry, an unlevered DCF uses unlevered free cash flow, and you discount it at the WACC, which gives you enterprise value. A levered DCF uses levered free cash flow, after interest, and you discount it at the cost of equity, which gives you equity value directly.",
+  "cond": "clean-fast"
+ },
+ {
+  "file": "s5-r0-clean.wav",
+  "q": "q-2548",
+  "text": "Equity interests are when you own between twenty and fifty percent of another company. You don't consolidate it. You record your share of its net income, so if you own thirty percent and it earns a hundred thousand, you record thirty thousand.",
+  "cond": "clean"
+ },
+ {
+  "file": "s5-r0-quiet.wav",
+  "q": "q-2548",
+  "text": "Equity interests are when you own between twenty and fifty percent of another company. You don't consolidate it. You record your share of its net income, so if you own thirty percent and it earns a hundred thousand, you record thirty thousand.",
+  "cond": "quiet"
+ },
+ {
+  "file": "s5-r0-noisy.wav",
+  "q": "q-2548",
+  "text": "Equity interests are when you own between twenty and fifty percent of another company. You don't consolidate it. You record your share of its net income, so if you own thirty percent and it earns a hundred thousand, you record thirty thousand.",
+  "cond": "noisy"
+ },
+ {
+  "file": "s5-r0-clipped.wav",
+  "q": "q-2548",
+  "text": "Equity interests are when you own between twenty and fifty percent of another company. You don't consolidate it. You record your share of its net income, so if you own thirty percent and it earns a hundred thousand, you record thirty thousand.",
+  "cond": "clipped"
+ },
+ {
+  "file": "s5-r4-clean.wav",
+  "q": "q-2548",
+  "text": "Equity interests are when you own between twenty and fifty percent of another company. You don't consolidate it. You record your share of its net income, so if you own thirty percent and it earns a hundred thousand, you record thirty thousand.",
+  "cond": "clean-fast"
+ }
+]

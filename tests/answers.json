@@ -1,0 +1,1252 @@
+[
+ {
+  "id": "a1",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "so the three statements are the income statement, the balance sheet and the cash flow statement. the income statement shows revenue and expenses over a period like a quarter or a year. you start with revenue, subtract cost of goods sold and operating expenses to get operating income, then take out interest and taxes, and it ends at net income. the balance sheet is a snapshot at one point in time. it lists assets like cash, receivables, inventory and PP&E, then liabilities like payables and debt, and shareholders' equity, and assets always equal liabilities plus equity. the cash flow statement ties it together. it starts with net income, adds back non-cash items like depreciation, adjusts for changes in working capital, and that gives cash from operations. then you add cash from investing, mostly capex, and cash from financing, like debt and dividends, and the total is the net change in cash.",
+  "errors": []
+ },
+ {
+  "id": "a1",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "the three statements are the income statement, balance sheet and cash flow statement. the income statement is revenue minus expenses over a period and you end up at net income. the balance sheet is a snapshot with assets on one side and liabilities and shareholders' equity on the other, and they have to balance. the cash flow statement starts from net income and shows where cash came from and where it went, so operating, investing and financing activities.",
+  "errors": []
+ },
+ {
+  "id": "a1",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "um so the income statement is like, revenue and stuff, and then you get profit i think. the balance sheet has assets and, um, liabilities, you know what the company owns and what it owes. and the cash flow is, uh, about cash i guess, like how much cash the company has. i think they all kind of connect somehow.",
+  "errors": []
+ },
+ {
+  "id": "a1",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "so the income statement is a snapshot of the company at a point in time, it shows assets and liabilities. the balance sheet shows revenue and expenses over the year and ends in net income. then the cash flow statement starts with cash from the balance sheet and subtracts depreciation since it's an expense, and then you get the ending cash. assets equal liabilities minus equity.",
+  "errors": [
+   "swaps the income statement and balance sheet (IS covers a period, BS is a point-in-time snapshot)",
+   "cash flow statement starts with net income, not balance sheet cash",
+   "depreciation is added back on the cash flow statement, not subtracted",
+   "assets equal liabilities plus equity, not minus"
+  ]
+ },
+ {
+  "id": "a1",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "net income, balance sheet, cash flow, retained earnings, depreciation, working capital, assets, liabilities, equity, revenue, yeah those all link together and, uh, balance.",
+  "errors": []
+ },
+ {
+  "id": "a1",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, so the three statements are the income statement, the balance sheet and the cash flow statement. like, the income statement shows revenue and expenses over a period like a quarter or a year. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, you start with revenue, subtract cost of goods sold and operating expenses to get operating income, then take out interest and taxes, and it ends at net income. so yeah, the balance sheet is a snapshot at one point in time. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, it lists assets like cash, receivables, inventory and PP&E, then liabilities like payables and debt, and shareholders' equity, and assets always equal liabilities plus equity. so like i was saying, so the three statements are the income statement, the balance sheet and the cash flow statement. i mean, the cash flow statement ties it together. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. uh, it starts with net income, adds back non-cash items like depreciation, adjusts for changes in working capital, and that gives cash from operations. um, then you add cash from investing, mostly capex, and cash from financing, like debt and dividends, and the total is the net change in cash. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. so yeah, to go back, so the three statements are the income statement, the balance sheet and the cash flow statement. the income statement shows revenue and expenses over a period like a quarter or a year. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, it lists assets like cash, receivables, inventory and PP&E, then liabilities like payables and debt, and shareholders' equity, and assets always equal liabilities plus equity. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, the cash flow statement ties it together. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, it starts with net income, adds back non-cash items like depreciation, adjusts for changes in working capital, and that gives cash from operations. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "a2",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "sure. on the income statement you have revenue at the top, then cost of goods sold and SG&A, which gets you to operating income, then interest and taxes down to pre-tax income and net income. on the balance sheet, assets are things like cash, accounts receivable, inventory and PP&E, liabilities are accounts payable, accrued expenses and debt, and then shareholders' equity. on the cash flow statement, operating has net income, D&A, stock comp and changes in working capital, investing has capex and buying or selling investments, and financing has debt issued or repaid, dividends, and share issuances or buybacks.",
+  "errors": []
+ },
+ {
+  "id": "a2",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "income statement has revenue, COGS, SG&A, operating income and net income. the balance sheet has cash, receivables, inventory, PP&E, payables, debt and equity. on the cash flow statement, operating is net income plus depreciation and changes in working capital, investing is capex, and financing is, you know, debt and dividends and things like that.",
+  "errors": []
+ },
+ {
+  "id": "a2",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so the income statement has revenue and net income. the balance sheet has assets and liabilities, like cash and debt i think. and the cash flow statement has operating, investing and financing, um, operating is like cash from the business, the others i'm not totally sure what goes in them.",
+  "errors": []
+ },
+ {
+  "id": "a2",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "income statement has revenue, COGS, inventory and dividends paid out to shareholders. the balance sheet has cash, accounts receivable, which is a liability because customers owe the company, and accounts payable as an asset. cash flow statement has capex as an operating expense and depreciation under investing.",
+  "errors": [
+   "inventory is a balance sheet asset, not an income statement item",
+   "dividends are a financing cash flow, not an income statement line",
+   "accounts receivable is an asset and accounts payable is a liability (reversed)",
+   "capex is an investing cash flow, not operating",
+   "depreciation is a non-cash add-back in operating, not investing"
+  ]
+ },
+ {
+  "id": "a2",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "revenue, COGS, SG&A, net income, cash, inventory, PP&E, debt, equity, capex, dividends, D&A, working capital. yeah, all of those, across the statements.",
+  "errors": []
+ },
+ {
+  "id": "a2",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, sure. like, on the income statement you have revenue at the top, then cost of goods sold and SG&A, which gets you to operating income, then interest and taxes down to pre-tax income and net income. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, on the balance sheet, assets are things like cash, accounts receivable, inventory and PP&E, liabilities are accounts payable, accrued expenses and debt, and then shareholders' equity. so like i was saying, sure. so yeah, on the cash flow statement, operating has net income, D&A, stock comp and changes in working capital, investing has capex and buying or selling investments, and financing has debt issued or repaid, dividends, and share issuances or buybacks. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so yeah, to go back, sure. on the income statement you have revenue at the top, then cost of goods sold and SG&A, which gets you to operating income, then interest and taxes down to pre-tax income and net income. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, on the balance sheet, assets are things like cash, accounts receivable, inventory and PP&E, liabilities are accounts payable, accrued expenses and debt, and then shareholders' equity. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, on the cash flow statement, operating has net income, D&A, stock comp and changes in working capital, investing has capex and buying or selling investments, and financing has debt issued or repaid, dividends, and share issuances or buybacks. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "v1",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "a DCF values a company based on the cash it will produce in the future. first i project unlevered free cash flow for five to ten years, which is EBIT times one minus the tax rate, plus D&A, minus capex, minus the increase in working capital. second i pick a discount rate, usually WACC, which blends the cost of equity and after-tax cost of debt at the target capital structure. third, since the company keeps going after the forecast, i calculate a terminal value, either with the Gordon growth method using a perpetual growth rate near long-term GDP, or with an exit multiple on final year EBITDA. fourth i discount each year's cash flow and the terminal value back to today at WACC and add them up, which gives enterprise value. last, to get equity value i subtract debt and preferred and noncontrolling interest and add cash, then divide by diluted shares to get an implied share price, which i compare to the current price.",
+  "errors": []
+ },
+ {
+  "id": "v1",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "so you project the free cash flows for about five years, then you pick a discount rate, which is the WACC, and calculate a terminal value for everything after the projection period. you discount all of those back to present value and add them up and that gives you the enterprise value. then you subtract net debt to get to equity value and divide by shares to get a price per share.",
+  "errors": []
+ },
+ {
+  "id": "v1",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "um so a DCF is where you, like, forecast the company's cash flows into the future and then discount them back. i think you use WACC for that, the discount rate. and there's a terminal value too i think, for after the forecast. and then you add it all up to get the value of the company, and maybe divide by shares, i'm not sure.",
+  "errors": []
+ },
+ {
+  "id": "v1",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "you project free cash flow, which starts from net income plus interest expense, then discount at the cost of equity. a higher WACC makes the company worth more because you're getting compensated for more risk. you add up the present values and that's your equity value, then you add net debt on top to get enterprise value. for terminal value you take the last year's cash flow and divide by the growth rate.",
+  "errors": [
+   "a higher WACC lowers value, it does not raise it",
+   "summing discounted unlevered cash flows gives enterprise value, not equity value",
+   "going from EV to equity value means subtracting net debt, not adding it",
+   "unlevered FCF is built from EBIT after tax, not net income plus interest, and is discounted at WACC not cost of equity",
+   "Gordon growth terminal value divides by (discount rate minus growth), not by growth alone"
+  ]
+ },
+ {
+  "id": "v1",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "free cash flow, WACC, terminal value, Gordon growth, exit multiple, discount rate, present value, enterprise value, equity value, diluted shares, EBIT, tax, capex, yeah that's a DCF.",
+  "errors": []
+ },
+ {
+  "id": "v1",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, a DCF values a company based on the cash it will produce in the future. like, first i project unlevered free cash flow for five to ten years, which is EBIT times one minus the tax rate, plus D&A, minus capex, minus the increase in working capital. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, second i pick a discount rate, usually WACC, which blends the cost of equity and after-tax cost of debt at the target capital structure. so yeah, third, since the company keeps going after the forecast, i calculate a terminal value, either with the Gordon growth method using a perpetual growth rate near long-term GDP, or with an exit multiple on final year EBITDA. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so like i was saying, a DCF values a company based on the cash it will produce in the future. basically, fourth i discount each year's cash flow and the terminal value back to today at WACC and add them up, which gives enterprise value. i mean, last, to get equity value i subtract debt and preferred and noncontrolling interest and add cash, then divide by diluted shares to get an implied share price, which i compare to the current price. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. so yeah, to go back, a DCF values a company based on the cash it will produce in the future. first i project unlevered free cash flow for five to ten years, which is EBIT times one minus the tax rate, plus D&A, minus capex, minus the increase in working capital. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, third, since the company keeps going after the forecast, i calculate a terminal value, either with the Gordon growth method using a perpetual growth rate near long-term GDP, or with an exit multiple on final year EBITDA. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, fourth i discount each year's cash flow and the terminal value back to today at WACC and add them up, which gives enterprise value. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, last, to get equity value i subtract debt and preferred and noncontrolling interest and add cash, then divide by diluted shares to get an implied share price, which i compare to the current price. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, a DCF values a company based on the cash it will produce in the future. and um, to be fair i also watched a bunch of youtube videos about this, some of them were really long, one was like an hour and a half, but i found it pretty useful, even though the guy talked really fast. but anyway, like i said, first i project unlevered free cash flow for five to ten years, which is EBIT times one minus the tax rate, plus D&A, minus capex, minus the increase in working capital. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "v2",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "equity value is what the company is worth to common shareholders only, basically market cap, which is share price times diluted shares. enterprise value is the value of the core business operations to every investor with a claim, so debt holders and preferred holders and noncontrolling interests as well as common equity. to go from equity value to EV you add debt, preferred stock and noncontrolling interest and you subtract cash, because cash isn't part of core operations and could be used to pay down debt. so EV equals equity value plus debt plus preferred plus NCI minus cash. i use EV with metrics like EBITDA that go to all investors, and equity value with metrics like net income and EPS.",
+  "errors": []
+ },
+ {
+  "id": "v2",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "equity value is the market cap, so what the equity holders own, share price times shares. enterprise value is the value of the whole business to all capital providers. you get from equity value to EV by adding debt and subtracting cash.",
+  "errors": []
+ },
+ {
+  "id": "v2",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so equity value is like the market cap and enterprise value is, um, the total value of the company i think including the debt. and you do something with cash, i think you take it out, because it's not part of the operations. i don't remember exactly what else gets added.",
+  "errors": []
+ },
+ {
+  "id": "v2",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "equity value is the value of the whole company including debt holders, and enterprise value is just what's left for shareholders. to get from equity value to enterprise value you add cash and subtract debt, since cash is an asset that adds to the value of the business.",
+  "errors": [
+   "reverses the definitions: equity value is for common shareholders only, EV covers all investors",
+   "EV is equity value plus debt minus cash, not plus cash minus debt"
+  ]
+ },
+ {
+  "id": "v2",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "market cap, enterprise value, equity value, debt, cash, preferred stock, noncontrolling interest, net debt, shares outstanding, diluted, EBITDA multiple, yeah so those are related.",
+  "errors": []
+ },
+ {
+  "id": "v2",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, equity value is what the company is worth to common shareholders only, basically market cap, which is share price times diluted shares. like, enterprise value is the value of the core business operations to every investor with a claim, so debt holders and preferred holders and noncontrolling interests as well as common equity. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, to go from equity value to EV you add debt, preferred stock and noncontrolling interest and you subtract cash, because cash isn't part of core operations and could be used to pay down debt. so like i was saying, equity value is what the company is worth to common shareholders only, basically market cap, which is share price times diluted shares. so yeah, so EV equals equity value plus debt plus preferred plus NCI minus cash. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, i use EV with metrics like EBITDA that go to all investors, and equity value with metrics like net income and EPS. so yeah, to go back, equity value is what the company is worth to common shareholders only, basically market cap, which is share price times diluted shares. enterprise value is the value of the core business operations to every investor with a claim, so debt holders and preferred holders and noncontrolling interests as well as common equity. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, to go from equity value to EV you add debt, preferred stock and noncontrolling interest and you subtract cash, because cash isn't part of core operations and could be used to pay down debt. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, so EV equals equity value plus debt plus preferred plus NCI minus cash. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "d1",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "in a basic LBO, a private equity firm buys a company using a lot of debt and a smaller equity check, pays the debt down with the company's cash flow, and sells it a few years later. first i make assumptions: the purchase price, usually an EBITDA multiple, how much is debt versus equity, interest rates, and operating assumptions. second i build sources and uses. uses are the purchase price, any refinanced debt and fees, and sources are the new debt tranches plus the sponsor equity, which is the plug. third i adjust the balance sheet for the deal, new debt, new equity and goodwill. then i project the three statements over about five years and use free cash flow after interest to pay down debt. finally i assume an exit in year three to five at an exit multiple, often the same as entry, subtract net debt to get exit equity value, and compare that to the initial equity to get the IRR and the money-on-money multiple.",
+  "errors": []
+ },
+ {
+  "id": "d1",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "you assume a purchase price and how much debt and equity to use, then set up sources and uses to see how much equity the sponsor puts in. then you project the company's cash flows and use them to pay down the debt each year. at the end you assume you sell it in about five years at some exit multiple and calculate the IRR.",
+  "errors": []
+ },
+ {
+  "id": "d1",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so um the private equity firm buys a company with a lot of debt, like a mortgage, i think. then the company's cash flows pay off the debt over time. and then they sell the company later for more money and that's the return. there's like a sources and uses thing too, i think that's where the money comes from.",
+  "errors": []
+ },
+ {
+  "id": "d1",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "the sponsor buys the company with mostly equity and a little debt, you build sources and uses so the debt is the plug. then you project the cash flows, add interest expense back to free cash flow, and assume an exit after fifteen to twenty years. to get IRR you take exit enterprise value divided by the purchase price, you don't need to subtract any debt.",
+  "errors": [
+   "LBOs use mostly debt and a smaller equity check, and equity is the plug",
+   "interest expense reduces cash available, it is not added back for debt paydown",
+   "typical exit is year 3 to 5, not 15 to 20",
+   "exit equity value requires subtracting net debt from exit EV before computing returns"
+  ]
+ },
+ {
+  "id": "d1",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "purchase price, sources and uses, debt, equity, interest rate, free cash flow, cash sweep, exit multiple, IRR, MOIC, leverage, balance sheet, goodwill, yeah that's an LBO.",
+  "errors": []
+ },
+ {
+  "id": "d1",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, in a basic LBO, a private equity firm buys a company using a lot of debt and a smaller equity check, pays the debt down with the company's cash flow, and sells it a few years later. like, first i make assumptions: the purchase price, usually an EBITDA multiple, how much is debt versus equity, interest rates, and operating assumptions. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, second i build sources and uses. so yeah, uses are the purchase price, any refinanced debt and fees, and sources are the new debt tranches plus the sponsor equity, which is the plug. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so like i was saying, in a basic LBO, a private equity firm buys a company using a lot of debt and a smaller equity check, pays the debt down with the company's cash flow, and sells it a few years later. basically, third i adjust the balance sheet for the deal, new debt, new equity and goodwill. i mean, then i project the three statements over about five years and use free cash flow after interest to pay down debt. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. uh, finally i assume an exit in year three to five at an exit multiple, often the same as entry, subtract net debt to get exit equity value, and compare that to the initial equity to get the IRR and the money-on-money multiple. so yeah, to go back, in a basic LBO, a private equity firm buys a company using a lot of debt and a smaller equity check, pays the debt down with the company's cash flow, and sells it a few years later. first i make assumptions: the purchase price, usually an EBITDA multiple, how much is debt versus equity, interest rates, and operating assumptions. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, uses are the purchase price, any refinanced debt and fees, and sources are the new debt tranches plus the sponsor equity, which is the plug. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, third i adjust the balance sheet for the deal, new debt, new equity and goodwill. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, then i project the three statements over about five years and use free cash flow after interest to pay down debt. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, finally i assume an exit in year three to five at an exit multiple, often the same as entry, subtract net debt to get exit equity value, and compare that to the initial equity to get the IRR and the money-on-money multiple. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "d2",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "leverage lets the sponsor put in less of its own money, so the same exit proceeds are spread over a smaller equity check and the IRR goes up. interest is also tax-deductible, so debt is a cheaper source of funding than equity. and as the company's cash flow pays down debt, the equity value grows even if enterprise value stays flat. the downside is that more debt means more risk, if the company underperforms it can't cover interest and could breach covenants or default.",
+  "errors": []
+ },
+ {
+  "id": "d2",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "private equity firms use leverage because it reduces the amount of equity they have to put in, which magnifies the returns, the IRR goes up. also as they pay the debt down with cash flow, the equity value grows. the risk is that too much debt could mean the company can't pay and defaults.",
+  "errors": []
+ },
+ {
+  "id": "d2",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so they use debt because, um, it means they don't have to use as much of their own money, so the returns look bigger i think. and interest is, like, there's some tax thing with it. the risk is, you know, if the company can't pay the debt back.",
+  "errors": []
+ },
+ {
+  "id": "d2",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "private equity uses leverage because it reduces risk, since banks vet the deal and share the downside. interest payments are not tax deductible, but the debt lowers the purchase price. and it lowers the IRR slightly, but it makes the returns more stable.",
+  "errors": [
+   "leverage increases risk, it does not reduce it",
+   "interest is generally tax-deductible, which is a benefit of debt",
+   "leverage boosts IRR by shrinking the equity check, it does not lower it"
+  ]
+ },
+ {
+  "id": "d2",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "leverage, debt, equity check, IRR, returns, interest, tax shield, deductible, paydown, default risk, covenants, magnify, yeah that's why they use leverage.",
+  "errors": []
+ },
+ {
+  "id": "d2",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, leverage lets the sponsor put in less of its own money, so the same exit proceeds are spread over a smaller equity check and the IRR goes up. like, interest is also tax-deductible, so debt is a cheaper source of funding than equity. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, and as the company's cash flow pays down debt, the equity value grows even if enterprise value stays flat. so like i was saying, leverage lets the sponsor put in less of its own money, so the same exit proceeds are spread over a smaller equity check and the IRR goes up. so yeah, the downside is that more debt means more risk, if the company underperforms it can't cover interest and could breach covenants or default. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so yeah, to go back, leverage lets the sponsor put in less of its own money, so the same exit proceeds are spread over a smaller equity check and the IRR goes up. interest is also tax-deductible, so debt is a cheaper source of funding than equity. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, and as the company's cash flow pays down debt, the equity value grows even if enterprise value stays flat. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, the downside is that more debt means more risk, if the company underperforms it can't cover interest and could breach covenants or default. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "b1",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "so i grew up in tampa, and my parents run a small landscaping business. around fourteen i started helping my dad with invoices and i saw how a good month or a slow month decided whether he could buy a new truck, and that's what got me curious about how businesses make money. i came to usf as a finance major, now a 3.7 gpa, and joined the student investment club, where i'm now treasurer for a twenty-two thousand dollar fund. i pitched two positions and last year the portfolio beat the s&p by about two points. then last summer i interned at gulf coast capital partners, a small advisory boutique, and i built a valuation model for a twelve million dollar revenue hvac company that was being sold and helped draft the buyer materials. that was the turning point, because i loved working on a real transaction with a team, and that's why i want investment banking. which is why i'm excited to be here today for this analyst role.",
+  "errors": []
+ },
+ {
+  "id": "b1",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "i'm from tampa and my family has a small landscaping business, which got me interested in how companies work. i study finance at usf and i'm treasurer of the investment club, where we manage about twenty-two thousand dollars and beat the s&p last year. last summer i interned at a small advisory boutique and built a valuation model for a company that was being sold. i really enjoyed that, so i'm here interviewing for banking.",
+  "errors": []
+ },
+ {
+  "id": "b1",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "um so i'm a finance major at usf, and, like, i'm in the investment club. i did an internship too at a small firm, i did some excel stuff and, you know, helped out with valuation i think. i've always been interested in finance and the markets and so i think banking would be a good fit for me.",
+  "errors": []
+ },
+ {
+  "id": "b1",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "so i'm a finance major at a state school, and honestly my dad pushed me toward banking because he heard the pay is really good. i interned at a small firm where my boss kind of did all the work and i mostly got coffee. i want to be at a top bank because i think the brand opens doors, and i heard analysts make around a hundred and fifty thousand.",
+  "errors": [
+   "money and prestige as the main motivation",
+   "no specific accomplishments or story, just a list of generic activities",
+   "motive credited to the parent and no personal drive",
+   "no link between experiences and why banking"
+  ]
+ },
+ {
+  "id": "b1",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "finance major, investment club, internship, valuation, dcf, excel, teamwork, leadership, passionate, hardworking, detail oriented, banking, yeah that's me.",
+  "errors": []
+ },
+ {
+  "id": "b1",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, so i grew up in tampa, and my parents run a small landscaping business. like, around fourteen i started helping my dad with invoices and i saw how a good month or a slow month decided whether he could buy a new truck, and that's what got me curious about how businesses make money. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, i came to usf as a finance major, now a 3.7 gpa, and joined the student investment club, where i'm now treasurer for a twenty-two thousand dollar fund. so yeah, i pitched two positions and last year the portfolio beat the s&p by about two points. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so like i was saying, so i grew up in tampa, and my parents run a small landscaping business. basically, then last summer i interned at gulf coast capital partners, a small advisory boutique, and i built a valuation model for a twelve million dollar revenue hvac company that was being sold and helped draft the buyer materials. i mean, that was the turning point, because i loved working on a real transaction with a team, and that's why i want investment banking. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. uh, which is why i'm excited to be here today for this analyst role. so yeah, to go back, so i grew up in tampa, and my parents run a small landscaping business. around fourteen i started helping my dad with invoices and i saw how a good month or a slow month decided whether he could buy a new truck, and that's what got me curious about how businesses make money. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, i pitched two positions and last year the portfolio beat the s&p by about two points. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, then last summer i interned at gulf coast capital partners, a small advisory boutique, and i built a valuation model for a twelve million dollar revenue hvac company that was being sold and helped draft the buyer materials. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, that was the turning point, because i loved working on a real transaction with a team, and that's why i want investment banking. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, which is why i'm excited to be here today for this analyst role. and um, to be fair i also watched a bunch of youtube videos about this, some of them were really long, one was like an hour and a half, but i found it pretty useful, even though the guy talked really fast. but anyway, like i said, so i grew up in tampa, and my parents run a small landscaping business. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "b2",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "a few reasons. first, the learning curve. i want to be on live deals, building models and valuations and working with senior people early. at my internship i built a valuation model for a business sale and what i loved was seeing the numbers turn into a real decision for the owner, and i want to do that every day at a higher level. second, the team and the intensity. in my investment club we ran a stock pitch against a tight deadline and i liked how everyone pushed each other, and banking looks like that on a bigger scale. third, long term i want to advise business owners through big moments, like selling a company they spent decades building. my dad has a small landscaping company, so i know what that decision means to a family. banking is the best place to build the skills to do that well.",
+  "errors": []
+ },
+ {
+  "id": "b2",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "i like that banking has a steep learning curve, you get to do valuation and modeling and work on real deals with senior people. at my internship i built a valuation model for a company that was being sold and i loved it. and i like the team environment and how intense it is, because i work well under pressure.",
+  "errors": []
+ },
+ {
+  "id": "b2",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so i think investment banking is, um, a good way to learn a lot about finance, like i've always liked it, you know? and the deals are interesting and, like, the people are smart. i think i'd be good at it because i work hard.",
+  "errors": []
+ },
+ {
+  "id": "b2",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "honestly the pay is a big part of it, and a bank on my resume opens doors, so after two years i'd probably move to a hedge fund or private equity where the real money is. i'm also just looking for the most prestigious name i can get.",
+  "errors": [
+   "leads with money and prestige",
+   "signals planning to leave in two years for the buy side",
+   "no personal or experience-based reasons"
+  ]
+ },
+ {
+  "id": "b2",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "learning curve, deals, modeling, valuation, teamwork, hours, intensity, clients, exposure, analyst program, long term, passionate, finance, yeah those are the reasons.",
+  "errors": []
+ },
+ {
+  "id": "b2",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, a few reasons. like, first, the learning curve. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, i want to be on live deals, building models and valuations and working with senior people early. so yeah, at my internship i built a valuation model for a business sale and what i loved was seeing the numbers turn into a real decision for the owner, and i want to do that every day at a higher level. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, second, the team and the intensity. so like i was saying, a few reasons. i mean, in my investment club we ran a stock pitch against a tight deadline and i liked how everyone pushed each other, and banking looks like that on a bigger scale. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. uh, third, long term i want to advise business owners through big moments, like selling a company they spent decades building. um, my dad has a small landscaping company, so i know what that decision means to a family. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. like, banking is the best place to build the skills to do that well. so yeah, to go back, a few reasons. first, the learning curve. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, second, the team and the intensity. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, in my investment club we ran a stock pitch against a tight deadline and i liked how everyone pushed each other, and banking looks like that on a bigger scale. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "m1",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "i'd pitch costco, ticker COST, trading around nine hundred dollars. my thesis is it's a high quality compounder where membership fees give it more earnings power than the market gives it credit for. first, the membership model: about seventy million paid households with renewal rates near ninety percent in the u.s. and canada, and fee increases every five or six years drop almost straight to operating income. second, steady comps growth in the mid single digits plus around twenty-five new warehouses a year. third, margins are low by design because they pass savings to members, which is exactly what keeps traffic and loyalty high. it trades around fifty times earnings, which looks expensive next to retail at twenty-something, but i think growth plus renewal rates justify a premium and a fee hike could add about ten percent to eps. the risks are multiple compression if growth slows, a consumer slowdown, and tariffs on margins. i'd be wrong if renewal rates fell below the high eighties. my twelve month target is about a thousand fifty, so about fifteen percent upside.",
+  "errors": []
+ },
+ {
+  "id": "m1",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "i'd pitch costco, ticker COST, around nine hundred a share. it's a membership model with about ninety percent renewal rates, and they raise fees every few years, which flows right into profit. they also grow comps in the mid single digits and open new warehouses every year. it trades at a high multiple, but i think that's justified by how consistent it is, and i'd say a target of around a thousand fifty.",
+  "errors": []
+ },
+ {
+  "id": "m1",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "um so i'd pitch costco, i think the ticker is COST. it's a good company, like everyone shops there, and it has a membership thing. i think it's going to keep growing, and the stock is, you know, probably going to go up over time. i guess a risk is the economy slowing down.",
+  "errors": []
+ },
+ {
+  "id": "m1",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "i'd pitch tesla, because the p/e is really high so it must be undervalued, high growth always means cheap. there are basically no risks, the stock can only go one way, and i'd say it'll double in a year, it's basically guaranteed.",
+  "errors": [
+   "treats a high P/E as evidence the stock is undervalued",
+   "claims there are no risks",
+   "guarantees a return and gives an unsupported price target",
+   "no company-specific numbers or catalysts"
+  ]
+ },
+ {
+  "id": "m1",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "costco, ticker, growth, margins, catalyst, valuation, P/E, comps, membership, upside, risks, price target, undervalued, buy rating, yeah so i'd buy it.",
+  "errors": []
+ },
+ {
+  "id": "m1",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, i'd pitch costco, ticker COST, trading around nine hundred dollars. like, my thesis is it's a high quality compounder where membership fees give it more earnings power than the market gives it credit for. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, first, the membership model: about seventy million paid households with renewal rates near ninety percent in the u.s. so yeah, and canada, and fee increases every five or six years drop almost straight to operating income. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, second, steady comps growth in the mid single digits plus around twenty-five new warehouses a year. i mean, third, margins are low by design because they pass savings to members, which is exactly what keeps traffic and loyalty high. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. so like i was saying, i'd pitch costco, ticker COST, trading around nine hundred dollars. uh, it trades around fifty times earnings, which looks expensive next to retail at twenty-something, but i think growth plus renewal rates justify a premium and a fee hike could add about ten percent to eps. um, the risks are multiple compression if growth slows, a consumer slowdown, and tariffs on margins. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. like, i'd be wrong if renewal rates fell below the high eighties. you know, my twelve month target is about a thousand fifty, so about fifteen percent upside. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. so yeah, to go back, i'd pitch costco, ticker COST, trading around nine hundred dollars. my thesis is it's a high quality compounder where membership fees give it more earnings power than the market gives it credit for. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, third, margins are low by design because they pass savings to members, which is exactly what keeps traffic and loyalty high. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, it trades around fifty times earnings, which looks expensive next to retail at twenty-something, but i think growth plus renewal rates justify a premium and a fee hike could add about ten percent to eps. and um, to be fair i also watched a bunch of youtube videos about this, some of them were really long, one was like an hour and a half, but i found it pretty useful, even though the guy talked really fast. but anyway, like i said, the risks are multiple compression if growth slows, a consumer slowdown, and tariffs on margins. so yeah, and i should also say the library at my school has a bloomberg terminal, which i used a few times, although mostly the lines were so long i just ended up going to get coffee and coming back. but anyway, like i said, i'd be wrong if renewal rates fell below the high eighties. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-0002",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "they all feed into each other. net income from the income statement does two things. it goes into retained earnings in shareholders' equity on the balance sheet, and it's the first line of the cash flow statement. on the cash flow statement, changes in balance sheet items like receivables, inventory and payables show up as working capital adjustments in operating activities. investing and financing activities, like capex or issuing debt, change PP&E, debt and equity on the balance sheet. and then the ending cash balance from the cash flow statement becomes the cash line on the balance sheet, which is what makes the balance sheet balance.",
+  "errors": []
+ },
+ {
+  "id": "q-0002",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "net income from the income statement flows into retained earnings on the balance sheet and it's the starting point of the cash flow statement. changes in things like inventory and receivables on the balance sheet show up as adjustments in operating cash flow. and the ending cash from the cash flow statement goes to the cash line on the balance sheet.",
+  "errors": []
+ },
+ {
+  "id": "q-0002",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so um the income statement gives you net income, and that goes into the cash flow statement, i think that's the first line. and then the balance sheet is connected because the cash goes there at the end. there's something with retained earnings too, i don't remember exactly how it works.",
+  "errors": []
+ },
+ {
+  "id": "q-0002",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "so net income goes to the cash flow statement and to the assets side of the balance sheet as cash. depreciation reduces cash on the cash flow statement, so you subtract it. then the ending cash flows to the income statement, which is how all three reconcile, and changes in debt show up in operating activities.",
+  "errors": [
+   "net income flows into retained earnings (equity), not directly to assets",
+   "depreciation is added back as a non-cash expense, not subtracted",
+   "ending cash goes to the balance sheet, not the income statement",
+   "changes in debt belong in financing activities, not operating"
+  ]
+ },
+ {
+  "id": "q-0002",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "net income, retained earnings, cash flow statement, balance sheet, working capital, capex, debt, PP&E, ending cash, depreciation, they all link, reconcile, yeah.",
+  "errors": []
+ },
+ {
+  "id": "q-0002",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, they all feed into each other. like, net income from the income statement does two things. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, it goes into retained earnings in shareholders' equity on the balance sheet, and it's the first line of the cash flow statement. so yeah, on the cash flow statement, changes in balance sheet items like receivables, inventory and payables show up as working capital adjustments in operating activities. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so like i was saying, they all feed into each other. basically, investing and financing activities, like capex or issuing debt, change PP&E, debt and equity on the balance sheet. i mean, and then the ending cash balance from the cash flow statement becomes the cash line on the balance sheet, which is what makes the balance sheet balance. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. so yeah, to go back, they all feed into each other. net income from the income statement does two things. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, on the cash flow statement, changes in balance sheet items like receivables, inventory and payables show up as working capital adjustments in operating activities. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, investing and financing activities, like capex or issuing debt, change PP&E, debt and equity on the balance sheet. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, and then the ending cash balance from the cash flow statement becomes the cash line on the balance sheet, which is what makes the balance sheet balance. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, they all feed into each other. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-0041",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "the mid-year convention assumes that an asset is placed in service, or disposed of, halfway through the year, no matter when it actually happened. so you only take half a year of depreciation in the first year and half in the last year. for example, if a company buys a machine for a hundred thousand with a ten year life, year one gets five thousand of depreciation instead of ten. it's used because companies buy equipment continuously throughout the year, so it's a more accurate and simpler way to approximate depreciation than tracking the exact day, especially for capital-intensive firms.",
+  "errors": []
+ },
+ {
+  "id": "q-0041",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "the mid-year convention assumes assets are bought halfway through the year so you take half a year of depreciation in the first year. it's used because companies buy assets throughout the year, so it's a reasonable approximation, and it makes things simpler.",
+  "errors": []
+ },
+ {
+  "id": "q-0041",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "um so mid-year convention is like, you assume the asset is put in use in the middle of the year, so you get about half the depreciation. and, like, it's for accuracy i think. i'm not sure about the last year though.",
+  "errors": []
+ },
+ {
+  "id": "q-0041",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "mid-year convention assumes assets are bought at the end of the year so there's no depreciation until year two. it's mostly used to discount cash flows in a DCF, to push the cash flows later, and it increases net income because you take larger depreciation upfront.",
+  "errors": [
+   "mid-year convention assumes the asset is placed in service halfway through the year, giving half a year of depreciation, not zero",
+   "confuses depreciation convention with discounting cash flows",
+   "half-year depreciation in year one lowers, not raises, that year's expense"
+  ]
+ },
+ {
+  "id": "q-0041",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "mid-year convention, depreciation, half year, asset, placed in service, disposal, capital intensive, accuracy, straight-line, first year, last year, yeah that's it.",
+  "errors": []
+ },
+ {
+  "id": "q-0041",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, the mid-year convention assumes that an asset is placed in service, or disposed of, halfway through the year, no matter when it actually happened. like, so you only take half a year of depreciation in the first year and half in the last year. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, for example, if a company buys a machine for a hundred thousand with a ten year life, year one gets five thousand of depreciation instead of ten. so like i was saying, the mid-year convention assumes that an asset is placed in service, or disposed of, halfway through the year, no matter when it actually happened. so yeah, it's used because companies buy equipment continuously throughout the year, so it's a more accurate and simpler way to approximate depreciation than tracking the exact day, especially for capital-intensive firms. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so yeah, to go back, the mid-year convention assumes that an asset is placed in service, or disposed of, halfway through the year, no matter when it actually happened. so you only take half a year of depreciation in the first year and half in the last year. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, for example, if a company buys a machine for a hundred thousand with a ten year life, year one gets five thousand of depreciation instead of ten. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, it's used because companies buy equipment continuously throughout the year, so it's a more accurate and simpler way to approximate depreciation than tracking the exact day, especially for capital-intensive firms. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, the mid-year convention assumes that an asset is placed in service, or disposed of, halfway through the year, no matter when it actually happened. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, so you only take half a year of depreciation in the first year and half in the last year. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-0301",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "enterprise value doesn't change. when the company issues two hundred million of equity in the IPO, cash goes up by two hundred and shareholders' equity goes up by two hundred. equity value goes up by two hundred because there are more shares outstanding, but at the same time net debt goes down by two hundred because there's two hundred more cash. since EV is equity value plus debt minus cash, plus two hundred and minus two hundred net out to zero. the core operations haven't changed, so the EV shouldn't either, as long as you ignore the stock price pop.",
+  "errors": []
+ },
+ {
+  "id": "q-0301",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "enterprise value stays the same. equity value goes up by two hundred million since they issued new shares, but cash also goes up by two hundred, and you subtract cash in the EV formula, so it nets out.",
+  "errors": []
+ },
+ {
+  "id": "q-0301",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "um i think it stays the same, because you get cash from the IPO. like the equity goes up and the cash goes up so, you know, they kind of cancel. i'm not totally sure how to say why.",
+  "errors": []
+ },
+ {
+  "id": "q-0301",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "enterprise value goes up by two hundred million because equity value goes up with the new shares. the cash that comes in also increases the value of the company since cash is an asset that adds to EV.",
+  "errors": [
+   "cash is subtracted in the EV formula, so new cash offsets the higher equity value and EV is unchanged",
+   "EV does not go up by 200"
+  ]
+ },
+ {
+  "id": "q-0301",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "equity, cash, IPO, two hundred million, enterprise value, equity value, net debt, shares, balance sheet, nets out, yeah.",
+  "errors": []
+ },
+ {
+  "id": "q-0301",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, enterprise value doesn't change. like, when the company issues two hundred million of equity in the IPO, cash goes up by two hundred and shareholders' equity goes up by two hundred. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, equity value goes up by two hundred because there are more shares outstanding, but at the same time net debt goes down by two hundred because there's two hundred more cash. so like i was saying, enterprise value doesn't change. so yeah, since EV is equity value plus debt minus cash, plus two hundred and minus two hundred net out to zero. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, the core operations haven't changed, so the EV shouldn't either, as long as you ignore the stock price pop. so yeah, to go back, enterprise value doesn't change. when the company issues two hundred million of equity in the IPO, cash goes up by two hundred and shareholders' equity goes up by two hundred. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, equity value goes up by two hundred because there are more shares outstanding, but at the same time net debt goes down by two hundred because there's two hundred more cash. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, since EV is equity value plus debt minus cash, plus two hundred and minus two hundred net out to zero. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, the core operations haven't changed, so the EV shouldn't either, as long as you ignore the stock price pop. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, enterprise value doesn't change. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, when the company issues two hundred million of equity in the IPO, cash goes up by two hundred and shareholders' equity goes up by two hundred. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-0701",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "enterprise value is EBITDA times the multiple, so eighty million times seven is five hundred sixty million. to get to equity value I go from EV to net debt. they have six hundred million of debt and two hundred million of cash so net debt is four hundred million. five sixty minus four hundred is a hundred and sixty million. so enterprise value is five sixty and equity value is a hundred and sixty million.",
+  "errors": []
+ },
+ {
+  "id": "q-0701",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "EV is eighty times seven, which is five sixty million. then equity value is EV minus debt plus cash, so five sixty minus six hundred plus two hundred, and that gets me around a hundred and sixty million.",
+  "errors": []
+ },
+ {
+  "id": "q-0701",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so enterprise value is eighty times seven, that's five sixty. and then equity value you take away the debt and, um, do something with the cash, i think the answer is around four hundred, maybe a bit lower, i'm not sure.",
+  "errors": []
+ },
+ {
+  "id": "q-0701",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "EV is eighty times seven which is five sixty million. for equity value you add the debt and subtract the cash, so five sixty plus six hundred minus two hundred, which is nine hundred and sixty million.",
+  "errors": [
+   "to go from EV to equity value you subtract debt and add cash, not the reverse",
+   "correct equity value is 160 million, not 960 million"
+  ]
+ },
+ {
+  "id": "q-0701",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "eighty million, seven times, EBITDA, enterprise value, equity value, debt, cash, net debt, six hundred, two hundred, five sixty, subtract, add, yeah.",
+  "errors": []
+ },
+ {
+  "id": "q-0701",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, enterprise value is EBITDA times the multiple, so eighty million times seven is five hundred sixty million. like, to get to equity value I go from EV to net debt. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, they have six hundred million of debt and two hundred million of cash so net debt is four hundred million. so like i was saying, enterprise value is EBITDA times the multiple, so eighty million times seven is five hundred sixty million. so yeah, five sixty minus four hundred is a hundred and sixty million. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, so enterprise value is five sixty and equity value is a hundred and sixty million. so yeah, to go back, enterprise value is EBITDA times the multiple, so eighty million times seven is five hundred sixty million. to get to equity value I go from EV to net debt. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, they have six hundred million of debt and two hundred million of cash so net debt is four hundred million. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, five sixty minus four hundred is a hundred and sixty million. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, so enterprise value is five sixty and equity value is a hundred and sixty million. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, enterprise value is EBITDA times the multiple, so eighty million times seven is five hundred sixty million. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, to get to equity value I go from EV to net debt. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-1201",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "i'd start from the fact that even if it's all equity today, a mature company usually adds debt over time, so a flat all-equity discount rate would overstate WACC later in the forecast. the cleaner way is to pick a target capital structure for year ten, based on mature comparable companies, and gradually move the WACC toward it. so early years use the cost of equity, with no cost of debt, then as debt is introduced I'd blend in an after-tax cost of debt and re-lever beta. the simpler alternative is to keep a pure equity discount rate and say that if the company does lever up, I would layer in the cost of debt at that point.",
+  "errors": []
+ },
+ {
+  "id": "q-1201",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "even though it's all equity today, I'd assume it adds debt as it matures, so I'd choose a target capital structure for year ten from comps and move the WACC gradually toward that. or the simple way is to just use the cost of equity and note that once there's debt you'd add the cost of debt.",
+  "errors": []
+ },
+ {
+  "id": "q-1201",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so um if it's all equity now then the WACC is just the cost of equity, i think. and as it grows up, it'd probably take on some debt so, you know, the WACC would change and you'd include a cost of debt. i'm not sure exactly how you phase it in.",
+  "errors": []
+ },
+ {
+  "id": "q-1201",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "if the company is all equity, WACC is just the cost of debt since the company has none, so you'd keep that fixed. as it matures and adds debt, WACC goes up because debt is riskier than equity and costs more, so the valuation should be higher.",
+  "errors": [
+   "an all-equity company's WACC equals the cost of equity, not the cost of debt",
+   "debt is cheaper than equity (and tax-deductible), so adding debt typically lowers WACC",
+   "a higher discount rate lowers value, it does not raise it"
+  ]
+ },
+ {
+  "id": "q-1201",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "all equity, WACC, cost of debt, cost of equity, target capital structure, year ten, mature, leverage, beta, comps, tax shield, gradually, yeah.",
+  "errors": []
+ },
+ {
+  "id": "q-1201",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, i'd start from the fact that even if it's all equity today, a mature company usually adds debt over time, so a flat all-equity discount rate would overstate WACC later in the forecast. like, the cleaner way is to pick a target capital structure for year ten, based on mature comparable companies, and gradually move the WACC toward it. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, so early years use the cost of equity, with no cost of debt, then as debt is introduced I'd blend in an after-tax cost of debt and re-lever beta. so like i was saying, i'd start from the fact that even if it's all equity today, a mature company usually adds debt over time, so a flat all-equity discount rate would overstate WACC later in the forecast. so yeah, the simpler alternative is to keep a pure equity discount rate and say that if the company does lever up, I would layer in the cost of debt at that point. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so yeah, to go back, i'd start from the fact that even if it's all equity today, a mature company usually adds debt over time, so a flat all-equity discount rate would overstate WACC later in the forecast. the cleaner way is to pick a target capital structure for year ten, based on mature comparable companies, and gradually move the WACC toward it. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, so early years use the cost of equity, with no cost of debt, then as debt is introduced I'd blend in an after-tax cost of debt and re-lever beta. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, the simpler alternative is to keep a pure equity discount rate and say that if the company does lever up, I would layer in the cost of debt at that point. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, i'd start from the fact that even if it's all equity today, a mature company usually adds debt over time, so a flat all-equity discount rate would overstate WACC later in the forecast. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-2144",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "so i'm from tampa, and my parents run a small landscaping company. when i was around fourteen i started doing their invoices and i saw how one slow month could decide whether my dad could afford a new truck. that made me curious about how businesses make decisions with money. at usf i majored in finance, and i joined the student investment club, where i'm now treasurer of a twenty-two thousand dollar fund that beat the s&p by about two points last year. last summer i interned at a small advisory boutique where i built a valuation model for a twelve million dollar revenue company that was being sold, and it was the first time i saw a deal from the inside. i loved how the work mattered to the owner, and that's why banking is the natural next step for me.",
+  "errors": []
+ },
+ {
+  "id": "q-2144",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "i grew up in tampa and my family has a small landscaping business, so i got interested in how companies make money. i'm a finance major at usf and treasurer of the investment club. last summer i interned at an advisory firm and built a valuation model for a company that was being sold, which i really liked, so i want to go into investment banking.",
+  "errors": []
+ },
+ {
+  "id": "q-2144",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so i'm a finance major and i've, um, always been into business and the markets. i did an internship and the investment club and stuff. and, you know, i think banking is a good next step for me, i think.",
+  "errors": []
+ },
+ {
+  "id": "q-2144",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "honestly, i started with finance because my uncle told me bankers make a lot of money. i did the investment club for the resume, and my internship was fine, my manager was kind of useless though. i think banking is the best way to get rich fast and then i can figure out what i really want.",
+  "errors": [
+   "money is the stated reason for choosing finance",
+   "blames a manager and treats experiences as resume padding",
+   "no genuine interest or link to IB"
+  ]
+ },
+ {
+  "id": "q-2144",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "finance, passion, investment club, internship, valuation, learning, banking, natural next step, hardworking, curious, markets, yeah that's my background.",
+  "errors": []
+ },
+ {
+  "id": "q-2144",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, so i'm from tampa, and my parents run a small landscaping company. like, when i was around fourteen i started doing their invoices and i saw how one slow month could decide whether my dad could afford a new truck. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, that made me curious about how businesses make decisions with money. so yeah, at usf i majored in finance, and i joined the student investment club, where i'm now treasurer of a twenty-two thousand dollar fund that beat the s&p by about two points last year. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so like i was saying, so i'm from tampa, and my parents run a small landscaping company. basically, last summer i interned at a small advisory boutique where i built a valuation model for a twelve million dollar revenue company that was being sold, and it was the first time i saw a deal from the inside. i mean, i loved how the work mattered to the owner, and that's why banking is the natural next step for me. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. so yeah, to go back, so i'm from tampa, and my parents run a small landscaping company. when i was around fourteen i started doing their invoices and i saw how one slow month could decide whether my dad could afford a new truck. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, at usf i majored in finance, and i joined the student investment club, where i'm now treasurer of a twenty-two thousand dollar fund that beat the s&p by about two points last year. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, last summer i interned at a small advisory boutique where i built a valuation model for a twelve million dollar revenue company that was being sold, and it was the first time i saw a deal from the inside. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, i loved how the work mattered to the owner, and that's why banking is the natural next step for me. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-2194",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "you're an independent advisory firm, and the core is m&a, so advising companies on buying, selling and merging, plus capital markets, helping clients raise debt and equity, and a restructuring practice that works with companies and creditors in distress. you're known in the middle market and for covering industries like healthcare, industrials and tech with dedicated teams, so clients get a banker who knows their sector. from what I've read, you've closed several sell-side deals this year, and you rank well in middle-market m&a league tables. what stood out to me from talking with your analysts is the collaborative culture, where juniors get real exposure to clients early.",
+  "errors": []
+ },
+ {
+  "id": "q-2194",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "you advise companies on m&a, so buying and selling businesses, and you also have capital markets and a restructuring group. you focus on the middle market and have industry groups like healthcare and industrials. you've also closed some deals recently, and I liked the culture when I talked to people here.",
+  "errors": []
+ },
+ {
+  "id": "q-2194",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so um you guys do investment banking, like m&a and helping companies raise money, i think. you're kind of in the middle market, and have some industry groups. i'm not totally sure about specific deals, but i read good things about the culture.",
+  "errors": []
+ },
+ {
+  "id": "q-2194",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "you're a big commercial bank, so you take deposits and make loans to consumers, and you mostly do trading for your own account. i think you're best known for credit cards and mortgages.",
+  "errors": [
+   "describes a retail/commercial bank, not an advisory firm",
+   "misses core M&A, capital markets and restructuring businesses"
+  ]
+ },
+ {
+  "id": "q-2194",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "m&a, capital markets, restructuring, middle market, healthcare, industrials, league tables, deals, culture, sell-side, buy-side, advisory, yeah that's what you do.",
+  "errors": []
+ },
+ {
+  "id": "q-2194",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, you're an independent advisory firm, and the core is m&a, so advising companies on buying, selling and merging, plus capital markets, helping clients raise debt and equity, and a restructuring practice that works with companies and creditors in distress. like, you're known in the middle market and for covering industries like healthcare, industrials and tech with dedicated teams, so clients get a banker who knows their sector. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, from what I've read, you've closed several sell-side deals this year, and you rank well in middle-market m&a league tables. so like i was saying, you're an independent advisory firm, and the core is m&a, so advising companies on buying, selling and merging, plus capital markets, helping clients raise debt and equity, and a restructuring practice that works with companies and creditors in distress. so yeah, what stood out to me from talking with your analysts is the collaborative culture, where juniors get real exposure to clients early. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so yeah, to go back, you're an independent advisory firm, and the core is m&a, so advising companies on buying, selling and merging, plus capital markets, helping clients raise debt and equity, and a restructuring practice that works with companies and creditors in distress. you're known in the middle market and for covering industries like healthcare, industrials and tech with dedicated teams, so clients get a banker who knows their sector. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, from what I've read, you've closed several sell-side deals this year, and you rank well in middle-market m&a league tables. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, what stood out to me from talking with your analysts is the collaborative culture, where juniors get real exposure to clients early. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, you're an independent advisory firm, and the core is m&a, so advising companies on buying, selling and merging, plus capital markets, helping clients raise debt and equity, and a restructuring practice that works with companies and creditors in distress. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-2344",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "my secret is that I restore old mechanical watches on weekends. it started when my grandfather gave me his broken seiko and instead of paying someone, I watched youtube videos and bought a five dollar toolkit. i've fixed about fifteen since then, and the funny part is it takes a lot of patience and attention to detail, you have to follow a precise process or a tiny spring flies across the room. it's also my favorite way to de-stress. I think it shows I can stay calm and focus on small details, which is useful in banking models.",
+  "errors": []
+ },
+ {
+  "id": "q-2344",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "my secret is that I'm into restoring old watches. I started with my grandpa's watch and I've fixed a few since then. it's relaxing and I think it shows I'm patient and careful with details.",
+  "errors": []
+ },
+ {
+  "id": "q-2344",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "um, i don't really have a secret, i guess. i kind of like, play video games a lot? and, uh, i cook sometimes. i'm not sure that's really a secret though, you know.",
+  "errors": []
+ },
+ {
+  "id": "q-2344",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "my secret is that i once cheated on an accounting midterm and never got caught. i also don't really like finance much, but the pay is good. it all worked out in the end though.",
+  "errors": [
+   "admits to cheating, a serious integrity red flag",
+   "says they don't like finance, undermining motivation",
+   "treats the question as a confession rather than something light"
+  ]
+ },
+ {
+  "id": "q-2344",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "creative, quirky, unique skill, hobby, detail oriented, memorable, personable, professional, lighthearted, not on my resume, positive trait, yeah that's my secret.",
+  "errors": []
+ },
+ {
+  "id": "q-2344",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, my secret is that I restore old mechanical watches on weekends. like, it started when my grandfather gave me his broken seiko and instead of paying someone, I watched youtube videos and bought a five dollar toolkit. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, i've fixed about fifteen since then, and the funny part is it takes a lot of patience and attention to detail, you have to follow a precise process or a tiny spring flies across the room. so like i was saying, my secret is that I restore old mechanical watches on weekends. so yeah, it's also my favorite way to de-stress. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, I think it shows I can stay calm and focus on small details, which is useful in banking models. so yeah, to go back, my secret is that I restore old mechanical watches on weekends. it started when my grandfather gave me his broken seiko and instead of paying someone, I watched youtube videos and bought a five dollar toolkit. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, i've fixed about fifteen since then, and the funny part is it takes a lot of patience and attention to detail, you have to follow a precise process or a tiny spring flies across the room. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, it's also my favorite way to de-stress. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, I think it shows I can stay calm and focus on small details, which is useful in banking models. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, my secret is that I restore old mechanical watches on weekends. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, it started when my grandfather gave me his broken seiko and instead of paying someone, I watched youtube videos and bought a five dollar toolkit. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-2526",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "the three statements are the income statement, balance sheet and cash flow statement. the income statement shows revenue and expenses over a period and goes down to net income, the last line. the balance sheet is a snapshot at one point in time. it shows assets like cash, inventory and PP&E, liabilities like debt and accounts payable, and shareholders' equity, and assets have to equal liabilities plus equity. the cash flow statement starts with net income, adds back non-cash expenses and adjusts for changes in working capital, then shows cash spent or received from investing and financing, and ends with the net change in cash.",
+  "errors": []
+ },
+ {
+  "id": "q-2526",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "the income statement shows revenue and expenses over a period and ends with net income. the balance sheet shows assets, liabilities and equity at one point in time, and assets equal liabilities plus equity. the cash flow statement starts with net income and shows the cash from operations, investing and financing.",
+  "errors": []
+ },
+ {
+  "id": "q-2526",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so the income statement is, um, revenue and expenses and you get net income i think. the balance sheet has assets and liabilities and they balance. and the cash flow statement is like, the cash coming in and out of the company, uh, i'm not totally sure how it starts.",
+  "errors": []
+ },
+ {
+  "id": "q-2526",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "the income statement shows the company's assets and liabilities at a point in time. the balance sheet shows revenue and expenses and ends with net income. the cash flow statement begins with ending cash and subtracts depreciation, because depreciation is a cash cost. assets plus liabilities equal equity.",
+  "errors": [
+   "swaps the income statement and balance sheet",
+   "cash flow statement starts with net income and adds back depreciation (non-cash)",
+   "accounting equation is assets = liabilities + equity"
+  ]
+ },
+ {
+  "id": "q-2526",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "income statement, balance sheet, cash flow, net income, assets, liabilities, equity, depreciation, working capital, investing, financing, net change in cash, yeah, they all tie together.",
+  "errors": []
+ },
+ {
+  "id": "q-2526",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, the three statements are the income statement, balance sheet and cash flow statement. like, the income statement shows revenue and expenses over a period and goes down to net income, the last line. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, the balance sheet is a snapshot at one point in time. so like i was saying, the three statements are the income statement, balance sheet and cash flow statement. so yeah, it shows assets like cash, inventory and PP&E, liabilities like debt and accounts payable, and shareholders' equity, and assets have to equal liabilities plus equity. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, the cash flow statement starts with net income, adds back non-cash expenses and adjusts for changes in working capital, then shows cash spent or received from investing and financing, and ends with the net change in cash. so yeah, to go back, the three statements are the income statement, balance sheet and cash flow statement. the income statement shows revenue and expenses over a period and goes down to net income, the last line. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, the balance sheet is a snapshot at one point in time. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, it shows assets like cash, inventory and PP&E, liabilities like debt and accounts payable, and shareholders' equity, and assets have to equal liabilities plus equity. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-2618",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "yes, it can. enterprise value is equity value plus debt minus cash, so if a company has more cash than its equity value and no debt, EV comes out negative. you see it with some struggling tech or biotech companies that burned through funding but still hold a lot of cash. in practice, the same can happen with implied EV from a valuation, and when that happens people usually just say the EV is zero rather than negative, because a business can't really be worth less than nothing.",
+  "errors": []
+ },
+ {
+  "id": "q-2618",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "yes, it can be negative if cash is greater than the equity value and there's little debt. in practice people just say the EV is zero in those cases. it happens with some biotech or struggling tech companies.",
+  "errors": []
+ },
+ {
+  "id": "q-2618",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "um yeah i think so, if the company has a lot of cash, like more cash than the market cap. then the formula goes negative. i'm not sure what you'd say about it though.",
+  "errors": []
+ },
+ {
+  "id": "q-2618",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "no, enterprise value can never be negative because a company's value always has to be positive. even if it has lots of cash, the market cap would just be higher, so EV can't go below zero.",
+  "errors": [
+   "EV can be negative when cash exceeds equity value and there is little debt"
+  ]
+ },
+ {
+  "id": "q-2618",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "enterprise value, negative, cash, equity value, debt, market cap, zero, biotech, formula, yeah, could happen.",
+  "errors": []
+ },
+ {
+  "id": "q-2618",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, yes, it can. like, enterprise value is equity value plus debt minus cash, so if a company has more cash than its equity value and no debt, EV comes out negative. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, you see it with some struggling tech or biotech companies that burned through funding but still hold a lot of cash. so like i was saying, yes, it can. so yeah, in practice, the same can happen with implied EV from a valuation, and when that happens people usually just say the EV is zero rather than negative, because a business can't really be worth less than nothing. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so yeah, to go back, yes, it can. enterprise value is equity value plus debt minus cash, so if a company has more cash than its equity value and no debt, EV comes out negative. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, you see it with some struggling tech or biotech companies that burned through funding but still hold a lot of cash. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-2877",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "the IRR drops. a ten percent decline each year means the exit multiple slides to about nine times and then eight, so on average we're selling at nine times instead of ten. that cuts the proceeds to the PE firm by about ten percent, from twenty-four hundred to twenty-one sixty. on eight hundred of equity that's a 2.7x multiple, down from 3x. a 2.5x over five years is about a twenty percent IRR, and 2.5x over three is around thirty-five, so 2.7x lands in between, closer to the higher end, about thirty percent.",
+  "errors": []
+ },
+ {
+  "id": "q-2877",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "the IRR goes down because the exit multiple falls to roughly nine times on average instead of ten, so the proceeds drop from twenty-four hundred to about twenty-one sixty, and the multiple of money is 2.7x. so the IRR would be around thirty percent or so.",
+  "errors": []
+ },
+ {
+  "id": "q-2877",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so um the share price falling means the exit multiple is lower, so the proceeds are lower, which means the IRR goes down. i think the money multiple would be like 2.something, so maybe the IRR is around twenty-five or thirty percent, not sure.",
+  "errors": []
+ },
+ {
+  "id": "q-2877",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "a falling share price actually makes the IRR go up, because the PE firm can buy more shares cheaply in years four and five. the proceeds would be around twenty-six hundred, so the multiple is 3.3x and the IRR is around forty percent.",
+  "errors": [
+   "a falling share price lowers exit proceeds, so IRR falls, not rises",
+   "proceeds drop to about 2,160, not 2,600",
+   "money multiple is about 2.7x, not 3.3x"
+  ]
+ },
+ {
+  "id": "q-2877",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "IRR, exit multiple, share price, proceeds, money multiple, nine times, ten percent, twenty-four hundred, twenty-one sixty, years four and five, five years, yeah, goes down.",
+  "errors": []
+ },
+ {
+  "id": "q-2877",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, the IRR drops. like, a ten percent decline each year means the exit multiple slides to about nine times and then eight, so on average we're selling at nine times instead of ten. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, that cuts the proceeds to the PE firm by about ten percent, from twenty-four hundred to twenty-one sixty. so like i was saying, the IRR drops. so yeah, on eight hundred of equity that's a 2.7x multiple, down from 3x. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, a 2.5x over five years is about a twenty percent IRR, and 2.5x over three is around thirty-five, so 2.7x lands in between, closer to the higher end, about thirty percent. so yeah, to go back, the IRR drops. a ten percent decline each year means the exit multiple slides to about nine times and then eight, so on average we're selling at nine times instead of ten. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, that cuts the proceeds to the PE firm by about ten percent, from twenty-four hundred to twenty-one sixty. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, on eight hundred of equity that's a 2.7x multiple, down from 3x. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "q-0013",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "net income goes down by seven dollars. if depreciation goes up ten, pre-tax income falls by ten. at a thirty percent tax rate, taxes fall by three dollars, because thirty percent of ten is three. so net income is down ten minus three, which is seven. the depreciation is an expense, but the tax shield gives back thirty percent of it, so net income only falls by seventy percent of the increase.",
+  "errors": []
+ },
+ {
+  "id": "q-0013",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "pre-tax income goes down by ten, taxes go down by three at thirty percent, so net income falls by seven.",
+  "errors": []
+ },
+ {
+  "id": "q-0013",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so um depreciation goes up by ten, so net income goes down. i think you multiply by the tax rate somehow, so maybe it falls by like three or seven, i'm not sure which.",
+  "errors": []
+ },
+ {
+  "id": "q-0013",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "net income goes down by ten because depreciation is an expense, and then taxes go up by three because the company earns less, so net income falls by thirteen.",
+  "errors": [
+   "lower pre-tax income reduces taxes, it does not increase them",
+   "net income falls by 7, not 10 or 13"
+  ]
+ },
+ {
+  "id": "q-0013",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "depreciation, ten dollars, thirty percent, tax rate, pre-tax income, net income, tax shield, expense, three, seven, yeah.",
+  "errors": []
+ },
+ {
+  "id": "q-0013",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, net income goes down by seven dollars. like, if depreciation goes up ten, pre-tax income falls by ten. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, at a thirty percent tax rate, taxes fall by three dollars, because thirty percent of ten is three. so like i was saying, net income goes down by seven dollars. so yeah, so net income is down ten minus three, which is seven. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, the depreciation is an expense, but the tax shield gives back thirty percent of it, so net income only falls by seventy percent of the increase. so yeah, to go back, net income goes down by seven dollars. if depreciation goes up ten, pre-tax income falls by ten. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, at a thirty percent tax rate, taxes fall by three dollars, because thirty percent of ten is three. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, so net income is down ten minus three, which is seven. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, the depreciation is an expense, but the tax shield gives back thirty percent of it, so net income only falls by seventy percent of the increase. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, net income goes down by seven dollars. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, if depreciation goes up ten, pre-tax income falls by ten. and um, to be fair i also watched a bunch of youtube videos about this, some of them were really long, one was like an hour and a half, but i found it pretty useful, even though the guy talked really fast. but anyway, like i said, at a thirty percent tax rate, taxes fall by three dollars, because thirty percent of ten is three. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "b7",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "in my investment club we entered a stock pitch competition with a three week deadline, and my teammate and i disagreed on how to value our pick. he wanted to use just p/e comps and i wanted to build a dcf. we were both getting frustrated, and the work stalled for about four days. so i asked him to grab coffee and just listen first. it turned out he had a lot on his plate with a part-time job and was nervous about modeling a dcf. i suggested we split it. he would own the comps and the industry section, which he was strong at, and i would build the dcf and walk him through it. we presented both, and the combined valuation gave us a more defensible range. we finished two days early and placed second out of fourteen teams. i learned to ask about the other person's situation before assuming the problem is their effort, and that it's usually worth the awkward conversation early.",
+  "errors": []
+ },
+ {
+  "id": "b7",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "in my investment club, my teammate and i disagreed on how to value a stock for a competition. i wanted a DCF and he wanted comps. we talked it through and decided to do both and split the work, and in the end we placed second out of fourteen teams. i learned that talking directly helps a lot.",
+  "errors": []
+ },
+ {
+  "id": "b7",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so um there was this time in a group project, where we kind of disagreed on stuff, and, like, it was a bit tense. we eventually figured it out i think, and the project went fine. i learned communication is important, you know.",
+  "errors": []
+ },
+ {
+  "id": "b7",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "in a group project my teammate wasn't pulling his weight and kept missing deadlines, so i just ended up doing most of it myself. i told him it was unfair, and he got defensive. we got an a, but honestly i wouldn't work with him again, he was just lazy.",
+  "errors": [
+   "blames the teammate and calls him lazy",
+   "no empathy or attempt to understand the other side",
+   "no constructive resolution and no lesson, no STAR structure"
+  ]
+ },
+ {
+  "id": "b7",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "conflict, teammate, communication, teamwork, resolution, STAR, situation, task, action, result, empathy, compromise, listening, lesson, yeah that's a story.",
+  "errors": []
+ },
+ {
+  "id": "b7",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, in my investment club we entered a stock pitch competition with a three week deadline, and my teammate and i disagreed on how to value our pick. like, he wanted to use just p/e comps and i wanted to build a dcf. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, we were both getting frustrated, and the work stalled for about four days. so yeah, so i asked him to grab coffee and just listen first. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, it turned out he had a lot on his plate with a part-time job and was nervous about modeling a dcf. i mean, i suggested we split it. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. so like i was saying, in my investment club we entered a stock pitch competition with a three week deadline, and my teammate and i disagreed on how to value our pick. uh, he would own the comps and the industry section, which he was strong at, and i would build the dcf and walk him through it. um, we presented both, and the combined valuation gave us a more defensible range. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. like, we finished two days early and placed second out of fourteen teams. you know, i learned to ask about the other person's situation before assuming the problem is their effort, and that it's usually worth the awkward conversation early. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. so yeah, to go back, in my investment club we entered a stock pitch competition with a three week deadline, and my teammate and i disagreed on how to value our pick. he wanted to use just p/e comps and i wanted to build a dcf. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, i suggested we split it. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, he would own the comps and the industry section, which he was strong at, and i would build the dcf and walk him through it. and um, to be fair i also watched a bunch of youtube videos about this, some of them were really long, one was like an hour and a half, but i found it pretty useful, even though the guy talked really fast. but anyway, like i said, we presented both, and the combined valuation gave us a more defensible range. so yeah, and i should also say the library at my school has a bloomberg terminal, which i used a few times, although mostly the lines were so long i just ended up going to get coffee and coming back. but anyway, like i said, we finished two days early and placed second out of fourteen teams. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "b5",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "my biggest weakness has been speaking up in larger groups. in smaller settings i'm fine, but in my first investment club meetings, i would have an idea and hold back because there were forty people in the room. it cost us once, because i noticed a mistake in a stock model and only told the treasurer afterward. so i started working on it. i joined a campus public speaking workshop, and i set a goal to share one idea in every meeting. since then i've pitched three positions to the full club, and last month my pitch was voted the best of the semester. i still get a bit nervous, but i've learned to prepare an opening line, which gets me going.",
+  "errors": []
+ },
+ {
+  "id": "b5",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "one weakness is that i can be nervous speaking in front of big groups. i've been working on it by joining a public speaking workshop and presenting to my investment club, and i've gotten much better at it, though i still prepare a lot beforehand.",
+  "errors": []
+ },
+ {
+  "id": "b5",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "um, i think my weakness is probably, like, i can be nervous when i present sometimes? i'm working on it i guess, i try to practice more. i think it's getting better, you know.",
+  "errors": []
+ },
+ {
+  "id": "b5",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "my biggest weakness is that i'm a perfectionist, i work too hard and care too much about getting every detail right. i sometimes stay up all night on projects because i can't stop. honestly that's probably my only weakness.",
+  "errors": [
+   "disguised strength ('perfectionist', 'work too hard')",
+   "no real weakness and no concrete steps or evidence of improvement"
+  ]
+ },
+ {
+  "id": "b5",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "weakness, improvement, self-aware, growth, steps, public speaking, time management, feedback, progress, specific, honest, yeah, working on it.",
+  "errors": []
+ },
+ {
+  "id": "b5",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, my biggest weakness has been speaking up in larger groups. like, in smaller settings i'm fine, but in my first investment club meetings, i would have an idea and hold back because there were forty people in the room. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, it cost us once, because i noticed a mistake in a stock model and only told the treasurer afterward. so yeah, so i started working on it. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. so like i was saying, my biggest weakness has been speaking up in larger groups. basically, i joined a campus public speaking workshop, and i set a goal to share one idea in every meeting. i mean, since then i've pitched three positions to the full club, and last month my pitch was voted the best of the semester. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. uh, i still get a bit nervous, but i've learned to prepare an opening line, which gets me going. so yeah, to go back, my biggest weakness has been speaking up in larger groups. in smaller settings i'm fine, but in my first investment club meetings, i would have an idea and hold back because there were forty people in the room. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, so i started working on it. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ },
+ {
+  "id": "a20",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "answer": "start with the income statement. depreciation up ten means operating income is down ten, and with a forty percent tax rate, taxes fall by four, so net income is down six. on the cash flow statement, net income is down six, but depreciation is non-cash so I add back ten, which means cash from operations is up four. on the balance sheet, cash is up four and PP&E is down ten because of the extra depreciation, so total assets are down six. on the other side, retained earnings are down six because of the lower net income, so liabilities and equity are down six, and the balance sheet balances.",
+  "errors": []
+ },
+ {
+  "id": "a20",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "answer": "operating income is down ten, so net income is down six after the forty percent tax. on the cash flow statement net income is down six and I add back ten of depreciation, so cash is up four. on the balance sheet cash goes up four and PP&E goes down ten, so assets are down six, and equity is down six from retained earnings.",
+  "errors": []
+ },
+ {
+  "id": "a20",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "answer": "so um depreciation goes up by ten, so net income goes down, by like six i think because of the tax. and then on the cash flow you add back the depreciation. and the balance sheet, uh, PP&E goes down and cash changes, and equity goes down a little. i think it balances.",
+  "errors": []
+ },
+ {
+  "id": "a20",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "answer": "income statement, net income goes down by ten because depreciation is an expense, and taxes don't change. on the cash flow statement net income is down ten and you subtract the ten of depreciation again, so cash is down twenty. on the balance sheet cash is down twenty and PP&E is up ten.",
+  "errors": [
+   "lower pre-tax income reduces taxes, so net income falls by 6, not 10",
+   "depreciation is added back on the cash flow statement, not subtracted",
+   "cash goes up by 4 (the tax savings), not down",
+   "PP&E goes down by depreciation, not up"
+  ]
+ },
+ {
+  "id": "a20",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "answer": "depreciation, net income, forty percent, tax rate, PP&E, cash, retained earnings, add back, operating income, balance sheet, cash flow, balances, yeah.",
+  "errors": []
+ },
+ {
+  "id": "a20",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "answer": "okay so, um, let me think about how to say this, so basically, um, start with the income statement. like, depreciation up ten means operating income is down ten, and with a forty percent tax rate, taxes fall by four, so net income is down six. and honestly this reminds me of a class i took freshman year, the professor was great, he used to bring donuts every friday, and i remember thinking this stuff would never matter, but it kind of does, which is funny. you know, on the cash flow statement, net income is down six, but depreciation is non-cash so I add back ten, which means cash from operations is up four. so like i was saying, start with the income statement. so yeah, on the balance sheet, cash is up four and PP&E is down ten because of the extra depreciation, so total assets are down six. oh and also, i was talking to my roommate about this the other day, he's an engineering major, and he said finance is just math with extra steps, and i said not really, but anyway, you know how roommates are. basically, on the other side, retained earnings are down six because of the lower net income, so liabilities and equity are down six, and the balance sheet balances. so yeah, to go back, start with the income statement. depreciation up ten means operating income is down ten, and with a forty percent tax rate, taxes fall by four, so net income is down six. so like, kind of off topic, but i've been following the markets a lot lately, there's been so much going on with rates and the fed and everything, and my group chat is always arguing about it, which is a little nerdy i guess. but anyway, like i said, on the cash flow statement, net income is down six, but depreciation is non-cash so I add back ten, which means cash from operations is up four. and, um, at my internship my manager used to say there are always three ways to do everything, which i thought was a bit much at first, but then you realize he was right, there were three ways, and we tried all of them. but anyway, like i said, on the balance sheet, cash is up four and PP&E is down ten because of the extra depreciation, so total assets are down six. i also play intramural soccer, and honestly the team stuff there is not that different, you have to communicate, show up early, and not get mad when somebody misses a pass, which i guess is a bit of a stretch to compare, but whatever. but anyway, like i said, on the other side, retained earnings are down six because of the lower net income, so liabilities and equity are down six, and the balance sheet balances. and i remember reading a book about this over the summer, i forget the name, it had a blue cover, it was about some famous investor, and there was a whole chapter on it that i kind of skimmed, but i got the gist. but anyway, like i said, start with the income statement. like, you know, when i was in high school i thought i wanted to be an architect, then i took an econ class, and it just clicked, but i still like drawing buildings, so that's something i guess. but anyway, like i said, depreciation up ten means operating income is down ten, and with a forty percent tax rate, taxes fall by four, so net income is down six. so yeah, um, i think that's basically it, i hope that makes sense, sorry if that was a lot.",
+  "errors": []
+ }
+]

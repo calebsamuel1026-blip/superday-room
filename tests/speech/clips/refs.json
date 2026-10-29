@@ -1,0 +1,38 @@
+﻿[
+    {
+        "file":  "clip0.wav",
+        "voice":  "Microsoft David Desktop",
+        "rate":  0,
+        "text":  "If depreciation goes up by ten dollars, operating income falls by ten and net income falls by six at a forty percent tax rate. On the cash flow statement you add back the ten of depreciation, so cash is up four."
+    },
+    {
+        "file":  "clip1.wav",
+        "voice":  "Microsoft Zira Desktop",
+        "rate":  0,
+        "text":  "To get from equity value to enterprise value, you add debt, preferred stock and noncontrolling interest, and you subtract cash. Enterprise value reflects the core operations available to all investors."
+    },
+    {
+        "file":  "clip2.wav",
+        "voice":  "Microsoft David Desktop",
+        "rate":  3,
+        "text":  "In a leveraged buyout, the private equity firm funds the purchase with mostly debt, uses the company\u0027s free cash flow to pay down that debt, and exits in about five years. Leverage magnifies the IRR because the equity check is smaller."
+    },
+    {
+        "file":  "clip3.wav",
+        "voice":  "Microsoft Zira Desktop",
+        "rate":  3,
+        "text":  "The WACC blends the cost of equity, the after tax cost of debt and the cost of preferred stock, weighted by market values. Higher leverage lowers the WACC at first because debt is cheaper, but too much raises the risk of default."
+    },
+    {
+        "file":  "clip4.wav",
+        "voice":  "Microsoft David Desktop",
+        "rate":  0,
+        "text":  "An all stock deal is accretive when the buyer\u0027s P E multiple is higher than the seller\u0027s. You also look at synergies, the amortization of new intangibles and the interest on any new debt."
+    },
+    {
+        "file":  "clip5.wav",
+        "voice":  "Microsoft Zira Desktop",
+        "rate":  0,
+        "text":  "Goodwill is not amortized. It is tested for impairment every year, and an impairment charge reduces net income and shareholders\u0027 equity, but it is a non cash charge that you add back on the cash flow statement."
+    }
+]

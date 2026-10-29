@@ -1,0 +1,332 @@
+[
+ {
+  "id": "a2",
+  "t": "acct",
+  "l": "Basic",
+  "s": 60,
+  "q": "Give me examples of major line items on each of the three financial statements.",
+  "k": [
+   "IS: Revenue, COGS, SG&A, Operating Income, Pre-Tax Income, Net Income",
+   "BS: Cash, Accounts Receivable, Inventory, PP&E, Accounts Payable, Accrued Expenses, Debt, Shareholders' Equity",
+   "CFS: CFO (Net Income, D&A, SBC, changes in operating assets and liabilities), CFI (CapEx, sale of PP&E, buying/selling investments), CFF (dividends, debt raised/repaid, shares issued/repurchased)"
+  ]
+ },
+ {
+  "id": "q-1173",
+  "t": "val",
+  "l": "Advanced",
+  "s": 90,
+  "q": "Why can't we use a DCF to value an oil and gas company?",
+  "k": [
+   "You can use a DCF, but a traditional DCF is problematic for E&P companies because:",
+   "Cash flows are heavily dependent on commodity prices, which are notoriously difficult to forecast over a 5-10 year projection period.",
+   "Oil and gas reserves are depleting assets with finite lives, so the perpetuity growth assumption in a terminal value calculation is inappropriate since reserves will eventually run out.",
+   "Production profiles are non-linear. Wells have steep initial decline curves followed by long tails, making simple growth-rate projections inaccurate.",
+   "Reserve replacement and exploration success are uncertain, making future production volumes speculative.",
+   "Instead, analysts typically use a Net Asset Value (NAV) model, which values each reserve category separately based on discounted future production at strip pricing."
+  ]
+ },
+ {
+  "id": "q-0884",
+  "t": "val",
+  "l": "Basic",
+  "s": 90,
+  "q": "When is it most appropriate to use EV/EBITDA vs. P/E vs. EV/Revenue for valuation?",
+  "k": [
+   "EV/EBITDA: Best for comparing companies with different capital structures. Normalizes for leverage. Most common in M&A and LBO analysis.",
+   "P/E: Best for profitable companies with comparable capital structures. Equity-focused metric. Common in public market analysis.",
+   "EV/Revenue: Best for unprofitable or early-stage companies. Useful when EBITDA is negative or not meaningful. Common in high-growth tech sectors."
+  ]
+ },
+ {
+  "id": "q-0002",
+  "t": "acct",
+  "l": "Basic",
+  "s": 90,
+  "q": "How are the three main financial statements interconnected?",
+  "k": [
+   "The three financial statements are closely linked to provide a full picture of a company's financial health.",
+   "Net Income from the Income Statement connects to both the Balance Sheet and the Cash Flow Statement. It flows into the Shareholders’ Equity section on the Balance Sheet under Retained Earnings, and it is the starting point for the Cash Flow Statement.",
+   "Changes in Balance Sheet items, such as inventory or accounts receivable, are reflected as adjustments in the operating activities section of the Cash Flow Statement.",
+   "Investing and financing activities, such as capital expenditures or issuing debt, affect Balance Sheet items like PP&E, debt balances, and Shareholders’ Equity.",
+   "The ending cash balance on the Cash Flow Statement flows back to the Balance Sheet, ensuring that all three statements reconcile."
+  ]
+ },
+ {
+  "id": "q-2744",
+  "t": "val",
+  "l": "Basic",
+  "s": 90,
+  "q": "What's the intuition behind the Gordon Growth formula for Terminal Value?",
+  "k": [
+   "The typical formula is: Terminal Value = Final Year FCF * (1 + Terminal FCF Growth Rate) / (Discount Rate - Terminal FCF Growth Rate) But it's more intuitive to think of it as: Terminal Value = FCF in Year 1 of Terminal Period / (Discount Rate - Terminal FCF Growth Rate) A company is worth less if the Discount Rate is higher and worth more if the Terminal FCF Growth Rate is higher.",
+   "For example, let's say the company's FCF is not growing, and its Discount Rate is 10%.",
+   "It earns $100 in FCF in the first year of the Terminal Period.",
+   "You would be willing to pay $100 / 10%, or $1,000, so the Terminal Value is $1,000.",
+   "If the Discount Rate falls to 5%, now you'd pay $100 / 5%, or $2,000.",
+   "If it increases to 20%, you'd pay $100 / 20%, or $500.",
+   "The company is worth more when you have worse investment options elsewhere and worth less when you have better investment options elsewhere.",
+   "Now let's say the company's FCF is growing.",
+   "If it grows by 3% per year, you'd be willing to pay $100 / (10% - 3%), or ~$1,429 for it.",
+   "But if its FCF growth rate increases to 5% per year, you'd be willing to pay $100 / (10% - 5%), or $2,000, for it."
+  ],
+  "answer": [
+   "The typical formula is: Terminal Value = Final Year FCF * (1 + Terminal FCF Growth Rate) / (Discount Rate - Terminal FCF Growth Rate) But it's more intuitive to think of it as: Terminal Value = FCF in Year 1 of Terminal Period / (Discount Rate - Terminal FCF Growth Rate) A company is worth less if the Discount Rate is higher and worth more if the Terminal FCF Growth Rate is higher. For example, let's say the company's FCF is not growing, and its Discount Rate is 10%. It earns $100 in FCF in the first year of the Terminal Period. You would be willing to pay $100 / 10%, or $1,000, so the Terminal Value is $1,000. If the Discount Rate falls to 5%, now you'd pay $100 / 5%, or $2,000. If it increases to 20%, you'd pay $100 / 20%, or $500. The company is worth more when you have worse investment options elsewhere and worth less when you have better investment options elsewhere. Now let's say the company's FCF is growing. If it grows by 3% per year, you'd be willing to pay $100 / (10% - 3%), or ~$1,429 for it. But if its FCF growth rate increases to 5% per year, you'd be willing to pay $100 / (10% - 5%), or $2,000, for it. Higher growth lets you achieve the same targeted returns even when you pay more."
+  ]
+ },
+ {
+  "id": "q-1111",
+  "t": "val",
+  "l": "Basic",
+  "s": 90,
+  "q": "How would you find beta for a public company? What about a private company?",
+  "k": [
+   "Public Company",
+   "Regress the company's historical stock returns against a market index (typically the S&P 500) over 2-5 years. The slope of the regression is the levered beta. You can also pull it from Bloomberg, Capital IQ, or FactSet.",
+   "Private Company",
+   "Identify comparable public companies.",
+   "Unlever each comp's beta: Unlevered Beta = Levered Beta / (1 + (1 - Tax Rate) x (D/E)).",
+   "Take the median unlevered beta.",
+   "Re-lever using the private company's target D/E: Levered Beta = Unlevered Beta x (1 + (1 - Tax Rate) x (D/E))."
+  ]
+ },
+ {
+  "id": "q-1437",
+  "t": "deal",
+  "l": "Basic",
+  "s": 90,
+  "q": "How do you assess credit risk for a company?",
+  "k": [
+   "Assess credit risk across several dimensions:",
+   "Leverage ratios: Debt/EBITDA, Net Debt/EBITDA -- higher leverage means higher default risk.",
+   "Coverage ratios: EBITDA/Interest Expense (interest coverage), (EBITDA - CapEx)/Interest -- measures ability to service debt.",
+   "Free cash flow generation: Consistent, positive FCF indicates the company can meet obligations.",
+   "Liquidity: Cash on hand, revolver availability, and near-term maturities.",
+   "Business quality: Revenue predictability, customer concentration, competitive positioning, and cyclicality.",
+   "Debt maturity profile: Concentration of near-term maturities creates refinancing risk.",
+   "Credit ratings: Moody's, S&P, and Fitch ratings provide a benchmark for relative credit quality."
+  ]
+ },
+ {
+  "id": "q-1253",
+  "t": "deal",
+  "l": "Basic",
+  "s": 90,
+  "q": "What are five common strategic reasons for two companies to merge?",
+  "k": [
+   "Common strategic rationales for M&A:",
+   "Cost Synergies: Eliminate redundant functions, achieve economies of scale.",
+   "Revenue Synergies: Cross-selling, expanded distribution, complementary products.",
+   "Market Consolidation: Gain market share and pricing power.",
+   "Geographic Expansion: Enter new markets or regions.",
+   "Vertical Integration: Control supply chain, reduce costs, improve margins."
+  ]
+ },
+ {
+  "id": "q-1260",
+  "t": "deal",
+  "l": "Basic",
+  "s": 90,
+  "q": "Why would two companies choose to enter into a joint venture?",
+  "k": [
+   "Joint ventures allow companies to collaborate while maintaining independence.",
+   "Common motivations:",
+   "Risk sharing: Split capital requirements and operational risks for large projects.",
+   "Complementary capabilities: Combine different expertise, technology, or market access.",
+   "Market entry: Partner with local company to navigate foreign regulations or distribution.",
+   "Resource pooling: Share R&D costs or manufacturing infrastructure.",
+   "Strategic testing: Explore partnership benefits before full merger.",
+   "Regulatory considerations: Satisfy antitrust requirements or ownership restrictions."
+  ]
+ },
+ {
+  "id": "q-0838",
+  "t": "val",
+  "l": "Basic",
+  "s": 90,
+  "q": "Strengths and weaknesses of each valuation methodology (DCF, Comps, Precedents, etc.)?",
+  "k": [
+   "DCF: Theoretically most sound, but heavily dependent on assumptions (WACC, terminal growth rate).",
+   "Comps: Market-based and easy to calculate, but can be skewed if comps are not truly comparable or the market is over/undervalued.",
+   "Precedent Transactions: Captures real premiums paid, but every deal is unique in timing, synergy assumptions, and market conditions."
+  ]
+ },
+ {
+  "id": "q-0587",
+  "t": "acct",
+  "l": "Advanced",
+  "s": 90,
+  "q": "What are the differences between operating leases and capital leases?",
+  "k": [
+   "Under current accounting standards (ASC 842 / IFRS 16), the distinction has changed significantly. Previously, operating leases were off-balance-sheet expenses, while capital leases were treated like assets and debt.",
+   "Now, most leases (both operating and finance/capital) must be capitalized on the balance sheet. This involves recognizing a \"Right-of-Use\" (ROU) asset and a corresponding lease liability.",
+   "The primary difference now lies in the income statement recognition:",
+   "Finance (Capital) Leases: Interest and amortization are recorded as separate expenses.",
+   "Operating Leases: A single lease expense is recorded, typically on a straight-line basis."
+  ]
+ },
+ {
+  "id": "q-2132",
+  "t": "sector",
+  "l": "Basic",
+  "s": 90,
+  "q": "What is shareholder activism?",
+  "k": [
+   "Shareholder activism is when an investor acquires a significant stake in a public company (typically 5-15%) and uses that ownership position to push for changes intended to increase shareholder value.",
+   "Common Activist Demands:",
+   "Operational improvements (cost-cutting, margin expansion)",
+   "Capital allocation changes (share buybacks, special dividends, divestitures)",
+   "Strategic alternatives (sale of the company, spin-offs, breakups)",
+   "Governance changes (board seats, executive compensation, management replacement)",
+   "Notable activist investors include Elliott Management, Carl Icahn, Starboard Value, and Third Point. Activists typically file a 13D with the SEC when they cross 5% ownership, signaling their intentions to the market."
+  ]
+ },
+ {
+  "id": "q-0370",
+  "t": "deal",
+  "l": "Advanced",
+  "s": 90,
+  "q": "Why would an LBO not be relevant for the metals and mining industry?",
+  "k": [
+   "An ideal LBO candidate has dependable cash flows, low capital expenditures, and limited commodity risk.",
+   "The metals and mining industry often has large initial investments, frequent CapEx, and exposure to unpredictable commodity price fluctuations.",
+   "During downturns, high-cost mines may be forced to sell assets, and juniors may lack capital to expand, so mergers are more common than classic LBOs."
+  ]
+ },
+ {
+  "id": "q-1065",
+  "t": "val",
+  "l": "Advanced",
+  "s": 90,
+  "q": "How would you value a celebrity?",
+  "k": [
+   "Apply standard valuation approaches adapted to the context:",
+   "DCF: Project future cash flows from endorsements, appearances, media deals, and royalties. Discount at appropriate rate reflecting career longevity and stability risks.",
+   "Comparable Approach: Analyze compensation for similar celebrities in same industry (sports, entertainment, etc.) with similar audience reach.",
+   "Precedent Transactions: Review deals for similar celebrity partnerships or acquisitions of celebrity brands/likeness rights.",
+   "Key considerations:",
+   "Brand strength and audience demographics.",
+   "Career stage and longevity.",
+   "Diversification of income streams.",
+   "Reputational risk and controversy exposure."
+  ]
+ },
+ {
+  "id": "q-1887",
+  "t": "deal",
+  "l": "Basic",
+  "s": 90,
+  "q": "What are the types of covenants?",
+  "k": [
+   "Covenants are generally split into Affirmative vs. Negative, or Maintenance vs. Incurrence.",
+   "Incurrence (Negative): Prevent the company from taking specific actions (e.g., issuing more debt, paying dividends). Common in High Yield.",
+   "Maintenance (Financial): Require the company to maintain specific financial metrics (e.g., Debt/EBITDA below 4.0x). Common in Bank Debt."
+  ]
+ },
+ {
+  "id": "q-2709",
+  "t": "val",
+  "l": "Basic",
+  "s": 90,
+  "q": "How do pensions factor into the Free Cash Flow calculations?",
+  "k": [
+   "There are different components of the Pension Expense, including the Service Cost, the Interest Expense, the Expected Return on Plan Assets, the Amortization of Net Losses or Gains, and Other Adjustments.",
+   "The Service Cost is an operating expense and should be deducted in both types of Free Cash Flow (and then added back as a non-cash expense).",
+   "The company incurs this expense regardless of the funded status of its plan because it's based on the employee count, average salary, years of employment, etc., and so it is considered operational.",
+   "In an Unlevered DCF, you exclude the non-operational components: the Interest Expense, Expected Return on Plan Assets, and Amortization of Net Losses or Gains.",
+   "You should also subtract the company's contributions into the plan because those are also operational (they do not depend on the plan's funded status).",
+   "Then, if the pension plan is unfunded (Pension Liabilities > Pension Assets), you subtract this unfunded portion when moving from Implied Enterprise Value to Implied Equity Value.",
+   "You may also multiply it by (1 - Tax Rate) if pension contributions are tax-deductible.",
+   "In a Levered DCF, the main difference is that you deduct all expenses associated with the pension plan (everything mentioned above, including company contributions) because there is no \"bridge\" at the end.",
+   "So, all associated expenses must be deducted within Levered FCF."
+  ],
+  "answer": [
+   "There are different components of the Pension Expense, including the Service Cost, the Interest Expense, the Expected Return on Plan Assets, the Amortization of Net Losses or Gains, and Other Adjustments. The Service Cost is an operating expense and should be deducted in both types of Free Cash Flow (and then added back as a non-cash expense). The company incurs this expense regardless of the funded status of its plan because it's based on the employee count, average salary, years of employment, etc., and so it is considered operational. In an Unlevered DCF, you exclude the non-operational components: the Interest Expense, Expected Return on Plan Assets, and Amortization of Net Losses or Gains.",
+   "You should also subtract the company's contributions into the plan because those are also operational (they do not depend on the plan's funded status). Then, if the pension plan is unfunded (Pension Liabilities > Pension Assets), you subtract this unfunded portion when moving from Implied Enterprise Value to Implied Equity Value. You may also multiply it by (1 - Tax Rate) if pension contributions are tax-deductible. In a Levered DCF, the main difference is that you deduct all expenses associated with the pension plan (everything mentioned above, including company contributions) because there is no \"bridge\" at the end. So, all associated expenses must be deducted within Levered FCF."
+  ]
+ },
+ {
+  "id": "q-1076",
+  "t": "val",
+  "l": "Advanced",
+  "s": 90,
+  "q": "How does Capital Expenditure (CapEx) affect the following valuation multiples: EV/EBIT, EV/EBITDA, and P/E?",
+  "k": [
+   "EV/EBITDA: No direct impact, as EBITDA excludes D&A (which results from past CapEx).",
+   "EV/EBIT: Higher CapEx leads to higher D&A, which lowers EBIT, increasing the EV/EBIT multiple.",
+   "P/E: Higher CapEx leads to higher D&A, which lowers pre-tax income and NI, increasing the P/E multiple (assuming EV/equity value held constant).",
+   "Note: While CapEx itself doesn't appear in these metrics directly, it drives depreciation which impacts EBIT and NI."
+  ]
+ },
+ {
+  "id": "q-0112",
+  "t": "val",
+  "l": "Basic",
+  "s": 90,
+  "q": "What are some downsides of using public comps for valuation?",
+  "k": [
+   "No two companies are perfectly comparable, so results can be skewed.",
+   "The stock market can fluctuate or be driven by sentiment.",
+   "Thinly traded stocks may not reflect true investor views."
+  ]
+ },
+ {
+  "id": "q-0549",
+  "t": "acct",
+  "l": "Advanced",
+  "s": 90,
+  "q": "How do PIK (Payment-in-Kind) bonds affect the 3 financial statements?",
+  "k": [
+   "PIK interest is non-cash. On the income statement, you still record interest expense, reducing pre-tax income and net income.",
+   "On the cash flow statement, add back the non-cash interest in CFO. The net effect is that Cash increases by the tax shield amount (Net Income decreases by Interest * (1-t), then adding back the full Interest results in a net positive change of Interest * t).",
+   "On the balance sheet, debt principal increases by the PIK amount, retained earnings decreases by the after-tax interest, and Cash is up by the tax shield."
+  ]
+ },
+ {
+  "id": "q-2545",
+  "t": "acct",
+  "l": "Basic",
+  "s": 45,
+  "q": "How are Prepaid Expenses (PE) and Accounts Payable (AP) different?",
+  "k": [
+   "It's similar to the difference between Accounts Receivable and Deferred Revenue above:",
+   "Prepaid Expenses have already been paid out in cash, but haven't yet shown up on the Income Statement, whereas Accounts Payable haven't been paid out in cash but have shown up on the IS.",
+   "PE is for product/services that have not yet been delivered to the company, whereas AP is for products/services that have already been delivered."
+  ],
+  "answer": [
+   "It's similar to the difference between Accounts Receivable and Deferred Revenue above:",
+   "1. Prepaid Expenses have already been paid out in cash, but haven't yet shown up on the Income Statement, whereas Accounts Payable haven't been paid out in cash but have shown up on the IS.",
+   "2. PE is for product/services that have not yet been delivered to the company, whereas AP is for products/services that have already been delivered."
+  ]
+ },
+ {
+  "id": "q-1901",
+  "t": "deal",
+  "l": "Basic",
+  "s": 90,
+  "q": "In a restructuring scenario, what forms of consideration can unsecured creditors expect to receive?",
+  "k": [
+   "Typically a mix of cash, new debt, and most often new equity in the reorganized entity.",
+   "Explanation:",
+   "Cash: Usually limited, reflects available exit financing or asset sales.",
+   "New Debt: Often at a lower coupon / longer maturity to reduce cash burden.",
+   "Equity / Warrants: Primary recovery tool; shifts unsecured creditors into owners.",
+   "No Recovery: If enterprise value > collateralized claims only, unsecured may be wiped."
+  ]
+ },
+ {
+  "id": "q-1499",
+  "t": "deal",
+  "l": "Advanced",
+  "s": 90,
+  "q": "Pros and Cons of Capital Expenditures (Capex) in a Leveraged Buyout (LBO)?",
+  "k": [
+   "Pros:",
+   "Enhances operational efficiency and growth potential.",
+   "Can increase the value of the acquired company.",
+   "Cons:",
+   "Increases debt levels if financed through borrowing, potentially raising financial risk.",
+   "Requires careful cash flow management to ensure debt obligations can be met."
+  ]
+ }
+]

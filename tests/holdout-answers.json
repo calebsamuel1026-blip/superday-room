@@ -1,0 +1,830 @@
+[
+ {
+  "id": "a8",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "so the cash flow statement has three sections. cash flow from operations starts with net income, adds back non cash items like depreciation and stock comp, and then adjusts for changes in operating assets and liabilities like receivables, inventory and payables. cash flow from investing covers the long term side of the business, so capex on property and equipment, acquisitions of other companies, and buying or selling investments. cash flow from financing is how the company raises and returns capital, so issuing or repaying debt, paying dividends, and issuing or repurchasing shares. now the current versus long term rule of thumb is not perfect because there are exceptions. deferred revenue can be a long term liability but it still sits in operations. short term investments are current assets but they go in investing. and the revolver is a current liability but it goes in financing."
+ },
+ {
+  "id": "a8",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "the cash flow statement has operating, investing and financing. operating starts from net income, adds back non cash stuff like depreciation, then adjusts for working capital changes. investing is capex and acquisitions and buying securities. financing is debt, dividends and issuing or buying back stock. the rule of thumb is that current items go in operations and long term items go in investing or financing, but it is not always true. for example the revolver is a current liability but it goes in financing because it is about how you fund the company. short term investments are current but they show up in investing."
+ },
+ {
+  "id": "a8",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "um so the cash flow statement has like operating investing and financing. operating is basically net income and then you adjust it i think for working capital and stuff. investing is like capex, and financing is debt and equity i guess. and the rule of thumb thing is, um, i think some current things can go in other sections, you know, but i dont remember exactly which ones. probably like some of the liabilities. yeah."
+ },
+ {
+  "id": "a8",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "non-cash expenses are added back to net income, not subtracted",
+   "dividends and debt repayments belong in financing, while acquisitions belong in investing (sections swapped)",
+   "deferred revenue is a liability, not an asset, and the rule of thumb has several exceptions not just one"
+  ],
+  "answer": "so there are three sections. operations starts with net income and subtracts non cash expenses like depreciation, then adjusts for working capital. investing is where you put dividends and debt repayments along with capex. financing covers acquisitions and purchases of property and equipment. the current versus long term rule is basically always true, current items go in operations and long term items go in investing or financing, the only real exception is deferred revenue which is a current asset so it stays in operations."
+ },
+ {
+  "id": "a8",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "cash flow from operations, cash flow from investing, cash flow from financing, net income, depreciation, non cash, working capital, capex, acquisitions, debt, dividends, share repurchase, deferred revenue, short term investments, revolver, current, long term"
+ },
+ {
+  "id": "a8",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "okay so the cash flow statement, i actually just finished my intermediate accounting class last semester and honestly it was my favorite statement because it is the one you cannot really manipulate as easily as earnings, my professor used to say cash is king and i think that stuck with me. anyway it has three sections. the first is cash flow from operations, and that starts with net income, and then you add back the non cash things like depreciation and amortization and stock based comp, and then you look at changes in operating assets and liabilities, so if receivables go up that is a use of cash and if payables go up that is a source, and i always had to draw that out on a piece of paper because the signs confused me for like a month. my roommate who is an engineer used to laugh at me about it. then the second section is cash flow from investing, which is basically capex, so buying property plant and equipment, plus acquisitions of other companies, and buying or selling investments. i remember when apple bought a bunch of stuff and it showed up there. and the third section is cash flow from financing, which is about how you pay for the company, so taking on debt or repaying it, dividends, issuing stock, buying back stock. buybacks have been huge lately, which is kind of interesting because the interest rate environment keeps changing and also the tax rules on them changed a couple years ago. so for the rule of thumb, people say current stuff is operations and long term stuff is investing and financing, and that is mostly true but not totally. like deferred revenue could be a long term liability but it is still in operations. and short term investments are current assets but they go in investing. and the revolver is a current liability but it goes in financing, not operations, because it is how the company funds itself. so yeah the rule of thumb is useful but you have to know the exceptions, and i would say that in general the cash flow statement is just really important for understanding a business, like even for my fantasy football league i basically track cash in and out."
+ },
+ {
+  "id": "a12",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "common stock and apic record the value of the shares at the time the company issued them, so basically the cash investors originally paid in. it does not change when the stock price moves later, because the market price after issuance is not recorded on the balance sheet. treasury stock is the other side. it is the cumulative value of shares the company has bought back, and it shows up as a negative within shareholders equity, so it reduces total equity. it is recorded at the repurchase price, so it also does not move when the share price changes afterward."
+ },
+ {
+  "id": "a12",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "common stock and apic is the amount investors paid when the company issued the shares, and it stays the same even if the stock price goes up or down later. treasury stock is shares the company bought back, and it is a negative in equity. so buybacks reduce total shareholders equity."
+ },
+ {
+  "id": "a12",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "so common stock and apic is um like the stock the company has sold, and treasury stock is i think when the company holds its own stock. its in equity somewhere. i dont remember the details of how its valued or whatever."
+ },
+ {
+  "id": "a12",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "common stock and APIC reflect value at issuance, not current market value, and do not rise with the share price",
+   "treasury stock is repurchased shares shown as a negative in equity, not an asset"
+  ],
+  "answer": "common stock and apic is the current market value of all the shares outstanding, so it goes up every time the stock price rises. treasury stock is shares the company issued but has not sold yet, and it sits as a positive asset on the balance sheet because the company still owns them."
+ },
+ {
+  "id": "a12",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "common stock apic treasury stock repurchased shares negative equity issuance market value par value additional paid in capital shareholders equity buyback balance sheet"
+ },
+ {
+  "id": "a12",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "so um common stock and apic, okay, i learned this in my financial accounting class with professor hendricks who was honestly really tough but fair. so common stock and apic is basically the value of the shares at the time they were issued. like if a company sells a share to an investor for fifty dollars then fifty dollars goes in there, split between par value and the additional paid in capital, and par value is usually tiny like a penny which is kind of a legacy thing. and the important part is that it does not change when the stock price changes later, because once the shares are out there the company is not really getting that money when people trade on the exchange, that is just between investors. my dad actually owns a little bit of tesla stock and he always asks me if the company gets money when he sells and i have to explain it does not. anyway then treasury stock is the opposite kind of. it is the value of the shares that the company has repurchased, and cumulatively, so over time, and it shows up as a negative in shareholders equity. so it reduces equity. and again it does not change when the share price changes, it is recorded at the cost when they bought it back. buybacks have been really popular recently, a lot of big tech companies do them, and some people think they are better than dividends for tax reasons, but that is a separate topic. so yeah, common stock and apic is at issuance value, treasury stock is cumulative buyback value as a negative, and neither changes with the market price. i think that is basically it."
+ },
+ {
+  "id": "a22",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "so a decrease in prepaid expenses means we are now recognizing an expense that we already paid cash for earlier. on the income statement, expenses go up by 100, so pre tax income goes down by 100, and with a 40 percent tax rate net income falls by 60. on the cash flow statement, we start with net income down 60, then a decrease in prepaid expenses, which is an asset, is a source of cash so we add back 100. that gives us a net cash increase of 40. on the balance sheet, cash is up 40 and prepaid is down 100, so total assets fall by 60. on the other side, retained earnings fall by 60 through net income, so both sides drop by 60 and it balances. the intuition is that the cash already left earlier, and now we just get the tax savings of 40 from the expense. if prepaid went up instead, we paid cash in advance, so cash goes down, prepaid goes up, and nothing hits the income statement."
+ },
+ {
+  "id": "a22",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "okay so prepaid going down means the expense is now being recognized. income statement, expense is up 100, pre tax income down 100, net income down 60 after the 40 percent tax. cash flow statement starts with net income down 60, and then the decrease in prepaid is a plus 100, so cash is up 40. balance sheet, cash goes up 40 and prepaid goes down 100 so assets are down 60, and retained earnings is down 60 so it balances."
+ },
+ {
+  "id": "a22",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "um so prepaid expenses goes down so that means an expense hits the income statement, so like net income goes down, but i think not by the full hundred because of taxes. and then on the cash flow statement you add something back because prepaid is an asset, and cash goes up a little i think. and the balance sheet, um, prepaid goes down and retained earnings goes down. i dont remember the exact numbers."
+ },
+ {
+  "id": "a22",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "net income falls by 60 not 100 because of the 40% tax shield",
+   "a decrease in an asset is a source of cash, so cash goes up by 40, not down by 100",
+   "cash does not fall; the cash was already spent when the prepaid was paid"
+  ],
+  "answer": "so prepaid goes down by 100 which means we recognize a 100 expense. on the income statement pre tax income is down 100 and net income is also down 100 since prepaid is not tax deductible. on the cash flow statement net income is down 100 and a decrease in prepaid is a use of cash so we subtract another 100, which means cash is down 100 overall. on the balance sheet cash is down 100, prepaid is down 100, assets are down 200, and retained earnings is down 100, it balances with some liability adjustment."
+ },
+ {
+  "id": "a22",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "prepaid expense, asset decrease, income statement expense, pre-tax income, tax rate 40 percent, net income down 60, cash flow statement, add back, cash up 40, retained earnings, balance sheet balances"
+ },
+ {
+  "id": "a22",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "okay so this is one of those questions that i actually practiced a bunch because i heard it comes up a lot. so prepaid expenses, you know like if you pay for a year of insurance upfront in january, which my parents do for our car insurance every year actually, and then it sits as an asset on the balance sheet and each month a piece of it gets expensed. so when prepaid goes down by 100, that means we are recognizing 100 of expense on the income statement, the cash already left earlier. so on the income statement the expense is up 100, pre tax income is down 100, and with a 40 percent tax rate net income is down 60. i always calculate that as a hundred times point six. then the cash flow statement, we start with net income, which is down 60, and then for working capital a decrease in an asset is a source of cash so we add 100, which gets us to cash up 40. and that makes sense because the only real cash impact is the tax savings, forty percent of a hundred. then the balance sheet, cash goes up 40, prepaid goes down 100, so total assets are down 60, and on the other side retained earnings is down 60 because net income was down 60, and so it balances. i remember my friend in the finance club got confused on the signs for this one because he thought a decrease in an asset was a use of cash like when you buy something, but it is the reverse, assets going down frees up cash. and if prepaid went up instead, then you paid cash in advance, so cash goes down and prepaid goes up and there is no income statement impact. also this is similar to how deferred revenue works but flipped, and i think that is a good thing to know too, and also depreciation is kind of a similar idea where you spend the cash first and then expense it later, and honestly all of accounting is just timing differences between cash and expenses so once you get that it clicks. and one more thing i want to mention, because it helps me remember it, is that i think about prepaid like a gift card. you paid for it at the start, and nothing happens to your income until you actually use it, and then each time you spend it, it shows up as an expense. my mom is the same way with her gym membership, she pays for the full year in january and then every month it is basically a little expense that has already been paid, and if she quits in june she has about half of it left as an asset, which she will never get back, ha. also in a three statement model prepaid is usually forecasted as a percent of operating expenses or revenue, and the change in it flows through the working capital section. and in an interview i would walk through the statements in the same order, income statement first, then cash flow, then balance sheet, and always check that assets minus liabilities and equity equals zero at the end, because if the balance sheet does not balance then something is off in the cash flow statement, which is the thing that i have messed up the most when i practice."
+ },
+ {
+  "id": "a26",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "stock based compensation is a real expense but it is non cash, so here is how it flows with a 40 percent tax rate. on the income statement, sbc is an operating expense so operating income goes down by 10, and net income goes down by 6 after the tax shield. on the cash flow statement we start with net income down 6, then add back the 10 of sbc because no cash left the company, so cash flow from operations is up 4. the 4 is just the tax savings. on the balance sheet, cash goes up 4 on the asset side. on the liabilities and equity side, common stock and apic goes up 10 because we are effectively issuing shares to employees, and retained earnings goes down 6 through net income, so equity is up 4 overall, which matches the 4 of extra cash, and the balance sheet balances."
+ },
+ {
+  "id": "a26",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "sbc goes up 10 so it is an expense, operating income down 10 and net income down 6 with the tax rate. on the cash flow statement you add back the full 10 since it is non cash, so net cash is up 4. on the balance sheet cash is up 4, and on the other side retained earnings is down 6 and apic is up 10 so equity is up 4. it balances."
+ },
+ {
+  "id": "a26",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "so stock comp is an expense so it reduces net income, um, by some amount after taxes. and then on the cash flow statement it is a non cash thing so you add it back, so cash goes up a bit i think. and on the balance sheet something in equity goes up like apic, and retained earnings goes down. yeah i think that balances out."
+ },
+ {
+  "id": "a26",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "SBC is non-cash so cash does not fall by 6; it rises by 4 after adding back 10",
+   "APIC increases by 10 rather than decreasing",
+   "retained earnings falls by 6 and equity rises by 4, not falls by 10"
+  ],
+  "answer": "so sbc goes up 10, operating income is down 10 and net income is down 6. on the cash flow statement net income is down 6 and sbc is a cash expense so you do not add anything back, so cash is down 6. on the balance sheet cash is down 6, and on the other side apic goes down 10 because shares are given away, and retained earnings is down 6, so equity is down 16 which is a bit off but the idea is that assets fall by 6."
+ },
+ {
+  "id": "a26",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "stock based compensation operating income net income tax rate 40 percent non cash add back cash flow from operations apic retained earnings equity cash up 4 balance sheet balances"
+ },
+ {
+  "id": "a26",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "so stock based compensation, okay, this one is interesting because at my internship last summer at a small software company they gave out so many rsus that the finance guy was always complaining about dilution, and he said every startup does it because they dont have the cash to pay people. so basically it goes like this. first the income statement. sbc is an expense, it sits in operating expenses, so operating income goes down by 10, and then with a 40 percent tax rate net income goes down by 6. some people argue you should ignore sbc in ebitda and a lot of tech companies report adjusted numbers that exclude it, which i think is kind of misleading, but that is a different conversation. then the cash flow statement. you start with net income which is down 6, and then you add back the sbc of 10 because it is a non cash expense, no money actually left the company, you just gave out shares. so cash flow from operations is up 4. the 4 is basically the tax savings. then on the balance sheet, cash is up 4, so assets are up 4. and on the other side common stock and apic goes up 10 since the company is issuing shares to employees, and retained earnings goes down 6 because net income dropped by 6. so equity is up 10 minus 6 which is 4. and assets are up 4, liabilities and equity are up 4, so it balances. i remember doing this on a practice sheet while eating dinner and my little brother asked what i was doing and i said accounting and he left the room. but yeah i think it is a good example of why you add back non cash items and also why you have to be careful about dilution when you value a company with a lot of stock comp, because the share count goes up over time and the diluted shares matter for the equity value per share. and i think a lot of the reason this question gets asked is that people forget the add back and just say cash goes down, but the add back is the key thing since it is non cash. also some companies like to show adjusted ebitda that excludes sbc and i think a good analyst should at least look at both, because if a company pays half its employees in stock, the true cost is not zero. my cousin works at a startup in miami and he gets options, and he says he has no clue what they are worth, which i think is a pretty common thing for people who work at early stage companies."
+ },
+ {
+  "id": "a30",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "the revolver is a short term borrowing facility, basically like a company credit card, so on the balance sheet it is a current liability. the reason it still goes in cash flow from financing is that the cash flow statement sections are organized by what the activity is about, not by the balance sheet classification. cash flow from operations is about the core business, things like receivables, inventory and payables. the revolver is not part of that, it is a way the company finances itself. when the company draws on it or pays it down, it is changing how the business is funded, which is a financing decision. so the revolver is one of the exceptions to the current versus long term rule of thumb, along with things like deferred revenue and short term investments, and it goes in financing."
+ },
+ {
+  "id": "a30",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "the revolver is short term debt, like a credit card for the company, so it is a current liability. but it goes in financing because it is about how the company funds itself and not about its day to day operations. so it is an exception to the rule that current liabilities go in operations."
+ },
+ {
+  "id": "a30",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "um so the revolver is like, a loan basically, a short term one i think. and it goes in financing because, you know, it is debt. even though it is current. i think its just an exception, like the rule isnt perfect."
+ },
+ {
+  "id": "a30",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "the revolver is short term borrowing, not long-term debt",
+   "it goes in financing because of its funding purpose, not because the classification is long term",
+   "the revolver is not a working capital item and does not relate to operations"
+  ],
+  "answer": "the revolver is really a long term debt facility because companies keep it open for five years, so it makes sense that it goes in financing. it is not actually a current liability, that is just a quirk of how it gets presented. and also it is part of working capital so you could argue it belongs in operations but by convention it goes in financing with the other long term borrowings."
+ },
+ {
+  "id": "a30",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "revolver current liability cash flow from financing short term borrowing credit card operations exception rule of thumb debt funding"
+ },
+ {
+  "id": "a30",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "so the revolver, i think of it like a credit card for a company, and actually my uncle runs a small landscaping business and he has a line of credit with his bank that he draws on in the winter when there is less revenue, and then pays down in the spring, so that is basically a revolver. so a revolver is short term borrowing, it is a current liability on the balance sheet, because it is supposed to be repaid within a year, or at least the amount that is drawn. but then on the cash flow statement it goes in cash flow from financing, not operations. and the reason is that the cash flow statement is organized by what the item is related to and not just whether it is current or long term. so operations is things that relate to the core business, like selling products and collecting from customers, and paying suppliers, and working capital like inventory. financing is about how the company raises money to fund itself, so debt, equity, dividends. and the revolver is borrowing money, it is about funding the business, so it belongs in financing even though it is current. this is one of the exceptions people talk about, the other ones i remember are deferred revenue, which could be long term but is in operations, and short term investments, which are current assets but go in investing. i also heard that in an lbo model the revolver is the first thing you draw on if you have a cash shortfall, and it is cheaper than the term loans usually, and has a commitment fee on the undrawn part, which is a fun detail. but anyway the main point for this question is it is financing because it is how the company funds itself. and also, thinking about it more, in a three statement model you would often have the revolver draw automatically if cash goes below a minimum balance, so the model would be circular because of the interest, and that is why people use a circularity toggle, which my professor made us do in a lab."
+ },
+ {
+  "id": "q-0008",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "yes, under accrual accounting a company records revenue when it is earned, not when the cash shows up, as long as collection is reasonably assured. the most common case is a credit sale, where a company delivers a product to a customer on 30 day terms. revenue is recognized at delivery and the company books accounts receivable, and the cash comes a month later. another example is a subscription or service contract where the company bills in arrears, so it has already delivered the service for the period, recognizes the revenue, and collects later. a third example is a long term contract, like a construction project or enterprise software implementation, where revenue is recognized over time as the work is performed, based on percent completion or milestones, even though the customer pays in installments. in all of these the key idea is that revenue follows performance, so the income statement matches what was earned, and the gap between revenue and cash shows up as a receivable or unbilled revenue on the balance sheet."
+ },
+ {
+  "id": "q-0008",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "sure, because of accrual accounting you recognize revenue when it is earned, not when you get paid. so the classic example is a credit sale, where you ship the product and book accounts receivable and the customer pays later. another example is a long term contract where you recognize revenue over time as you do the work, even if the customer pays at the end."
+ },
+ {
+  "id": "q-0008",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "um yeah so i think it is because of accrual accounting. like you can record the revenue when you make the sale even if the customer hasnt paid yet. so like if someone buys on credit i guess. and there are probably other cases like contracts, but i am not totally sure about the details."
+ },
+ {
+  "id": "q-0008",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "accrual accounting recognizes revenue when earned, not when cash is collected",
+   "deferred revenue is cash received before revenue is earned, the reverse of the situation asked",
+   "cash accounting, not accrual, ties revenue to cash receipt"
+  ],
+  "answer": "so a company records revenue before cash when it uses cash basis accounting, which recognizes revenue when it is earned regardless of payment. the main example is deferred revenue, where a customer pays a subscription upfront and the company books it all as revenue right away, which is revenue before cash. under accrual accounting the revenue is recognized only once the cash has been received and collected, which is why it is more conservative."
+ },
+ {
+  "id": "q-0008",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "accrual accounting revenue recognition earned collection reasonably assured credit sales accounts receivable subscription long term contracts percent completion service period matching principle"
+ },
+ {
+  "id": "q-0008",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "okay so this is really about accrual accounting versus cash accounting, and i remember my intermediate accounting professor spending like three weeks on revenue recognition, she loved it, and she always said that enron was the example of what happens when you push it too far, which is a whole other story. so under accrual accounting you record revenue when it is earned and collection is reasonably assured, not when cash comes in. a super common example is a credit sale. so say a company sells equipment to a customer on net 30 terms. they deliver it, they record revenue right then, and they put accounts receivable on the balance sheet, and then 30 days later the customer pays and receivables goes down and cash goes up. my cousin owns a small print shop and he does exactly that with his business clients, he sends the invoice and waits forever for people to pay, which stresses him out a lot. another example is subscription services. so like a software company that bills customers after the month is over, they delivered the service during the month, so they recognize that revenue even though the invoice has not been paid. and then there are long term contracts, like construction or something like building a ship, where you recognize revenue over the period of the project, based on percent complete, or milestones. and the customer might pay in chunks, or at the end. there is also the new asc 606 standard which changed a lot of this, with the five step model, identify the contract, performance obligations, transaction price, allocate and recognize when you satisfy the obligation. so the main idea is that you match the revenue to when the work is done and not to the cash, and that is why you see receivables, and sometimes unbilled revenue on the balance sheet. and also on the cash flow statement you have to adjust for the receivables increase in operations, which is why net income and cash flow from operations are different. so yeah that is when a company records revenue before getting cash. and just one more example that i think is interesting, which is when companies report revenue from a bundle of products, like a phone with a service plan, and then they have to split the revenue between the pieces and recognize each one when it is delivered. also there is the opposite situation, where you get cash before revenue, that is deferred revenue, like a magazine subscription that you pay for a year in advance, and the company records a liability and recognizes the revenue slowly. i bring it up because it is the mirror image, and between the two you can see that accrual accounting is about timing. my aunt works in the billing department of a hospital and she says the insurance companies pay them months after the patients are treated, and they still count the revenue when the treatment happens, but they have to estimate how much they will actually collect, which is why there is an allowance for doubtful accounts. so yeah, that is how collection being reasonably assured fits in, because if you doubt that you will get paid you either do not record it or you reserve against it, and i think that is a really important point because it is what keeps companies honest."
+ },
+ {
+  "id": "q-0405",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "i would start with the market, since lenders ultimately decide how much and what kind of debt a deal can get. first i would look at debt comps, so recent lbos of similar companies in the same industry and size, and see what total debt to ebitda and senior debt to ebitda they got, and at what pricing. that usually gives me a range, for example four times senior and five and a half times total. second, i would check the company itself against that range. i would look at interest coverage, ebitda divided by cash interest, usually wanting at least two times, and fixed charge coverage, and run the model to see whether free cash flow can pay down debt over five to seven years. stable, recurring cash flows can support more leverage than cyclical ones. for tranches, it follows from the same research. typically a revolver and term loan a or b on the senior secured side, then senior notes or high yield, and maybe second lien or mezzanine for the junior layer, each sized to market appetite from banks, clos and credit funds. then equity is the plug for whatever is left."
+ },
+ {
+  "id": "q-0405",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "you look at what similar lbos have done, so debt comps, to see the typical debt to ebitda multiples, like maybe four to six times total in the current market. you also check that the company can actually cover the interest, with something like ebitda to interest above two times. then for tranches you have the revolver, term loans, senior notes and maybe mezzanine, depending on what investors in the market are willing to buy. equity fills the rest."
+ },
+ {
+  "id": "q-0405",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "so um i think you look at how much ebitda the company has and then multiply by some leverage multiple, like five times or something. and the tranches are like senior debt and then subordinated debt i guess. and you look at what the market will give you. i am not sure how you decide the exact tranches though, like probably depends on the company."
+ },
+ {
+  "id": "q-0405",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "debt capacity is driven by Debt/EBITDA and coverage, not by raising 100% of purchase price in debt",
+   "mezzanine is junior to senior term loans, not senior",
+   "typical total leverage is around 4x-7x EBITDA, not 12-15x"
+  ],
+  "answer": "basically you figure out the purchase price and then try to fund as much of it as possible with debt, since debt is cheaper than equity and gives the highest irr, so usually around 90 percent of the price. in terms of ebitda that means something like twelve to fifteen times leverage. for tranches you start with mezzanine since it is the most senior and gets paid first, then term loan b, then the revolver which is the most subordinated, and you stack them based on the interest rate."
+ },
+ {
+  "id": "q-0405",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "debt comps, debt to EBITDA, leverage multiples, interest coverage, senior secured, term loan, revolver, senior notes, mezzanine, second lien, market appetite, credit agreements, free cash flow paydown"
+ },
+ {
+  "id": "q-0405",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "so for an lbo how much debt you can raise, okay, this is something i read about in the rosenbaum book and also in my private equity club we had a speaker from a mid market fund who talked about it, and he said the biggest thing is that the debt market basically tells you how much leverage you can get, you do not just choose it. so the first thing i would do is look at comparable lbo transactions, so debt comps, and see what similar companies got for total debt to ebitda and senior debt to ebitda, in the same industry and about the same size. so like maybe software companies get six or seven times because of recurring revenue and a retail company might only get three or four because it is more cyclical, and after 2008 the leverage multiples came down a lot, and then in 2021 they went up again because rates were so low and everybody had cheap money. i remember reading about some deals that were like seven times levered which seemed crazy. then second i would look at the company itself, what are its cash flows like, how stable, how much capex, and test interest coverage like ebitda over interest and also whether it can pay down debt with free cash flow over a few years. and for the tranches, there is the revolver which is usually undrawn at close, then term loan a, term loan b, which is the more common one for sponsors, then senior notes or high yield bonds, and then maybe second lien or mezzanine at the bottom. each one has a different price and different investors, banks do the revolver and term loan a, institutional investors and clos buy the term loan b, and high yield funds buy the bonds. and the number of tranches depends on how much leverage you need and what the market will bear. and then equity is whatever is left to fill the gap. my friend who interned at a debt advisory shop said that the market appetite changes week to week so you really have to talk to the lenders directly, which i thought was interesting. i also think you have to consider the credit agreement terms, like covenants, because lenders will put maintenance covenants such as a maximum leverage ratio and minimum interest coverage, and the company needs to have cushion under them, often 25 to 30 percent. and when the economy is bad the lenders get way more conservative, so you might only see four times total leverage, and the equity check has to be bigger, which brings down the irr. my friend who is in the private equity club says the best way to find the numbers is to talk to the leveraged finance desk at a bank, since they know exactly what the market is willing to buy, and i thought that was a good answer because it is what really happens in practice. also i read that some deals use pik notes or seller notes for the last bit of financing, which is interesting but not common."
+ },
+ {
+  "id": "q-0802",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "this is unusual, because it implies that ebitda is smaller than ebit, which means d and a is negative. here is the math. enterprise value is the same in both multiples. if ev over ebit is 3 times and ev over ebitda is 4 times, then ebit has to be bigger than ebitda, since the same ev divided by a smaller number gives the bigger multiple. and ebitda equals ebit plus depreciation and amortization, so ebitda can only be smaller if d and a is a negative number. normally d and a is a positive add back, so ebit is always less than ebitda. a negative d and a could happen if there was a reversal of a prior impairment, amortization of negative goodwill, or some other one time credit running through the d and a line. so i would conclude it is probably an accounting anomaly or a non recurring item rather than a normal operating business, and i would want to look at the financials and adjust the numbers before using these multiples in any valuation."
+ },
+ {
+  "id": "q-0802",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "it tells you that ebit is bigger than ebitda, because the same enterprise value divided by a smaller number gives a higher multiple. normally ebitda is bigger than ebit because you add back depreciation and amortization. so this would mean d and a is negative, which is really weird. it might be from something like a reversal of an impairment or some one time gain. so it is probably an accounting anomaly."
+ },
+ {
+  "id": "q-0802",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "um so ebit multiple is lower than the ebitda multiple, which is, kind of unusual i think. normally ebitda is higher than ebit so the multiples would be the other way. so something is weird with the depreciation, maybe. i am not totally sure what it means for the company honestly."
+ },
+ {
+  "id": "q-0802",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "a higher EV/EBITDA than EV/EBIT means EBITDA is smaller than EBIT, not larger",
+   "this implies negative D&A, which is an anomaly, not a capital-intensive business with high D&A"
+  ],
+  "answer": "so this tells us the company has a lot of depreciation and amortization, because ebitda is bigger than ebit. since ebitda adds back d and a, a company with big d and a has a higher ebitda, so the ev over ebitda comes out lower. so a 4x on ebitda and 3x on ebit means ebitda is smaller which is just normal for a capital intensive business like a manufacturer or telecom with heavy d and a."
+ },
+ {
+  "id": "q-0802",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "EV, EBIT, EBITDA, D&A negative, anomaly, impairment reversal, negative goodwill, non recurring, multiples, enterprise value constant"
+ },
+ {
+  "id": "q-0802",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "okay so this one is a little tricky because it seems backwards at first. so you have ev over ebit at three times and ev over ebitda at four times. normally, and i actually did a comps exercise for my valuation class last month on a bunch of industrial companies, normally the ebitda multiple is lower than the ebit multiple, because ebitda is a bigger number, since it adds back depreciation and amortization to ebit. like for a company like caterpillar, ev over ebitda would be maybe ten and ev over ebit would be like thirteen. so here it is the opposite. the ebitda multiple is higher. and since enterprise value is the same number in both, the only way that happens is if the denominator is smaller, so ebitda is smaller than ebit. and ebitda is ebit plus d and a, so that would mean that d and a is negative, which is basically not normal. d and a is an expense, it is positive normally and you add it back. a negative d and a could come from something unusual, like a reversal of an impairment charge, or maybe amortization of negative goodwill, which is rare and i think it got eliminated under the newer accounting rules, or some other non recurring credit. my professor mentioned that sometimes data providers mess up the classification of things too, so you also should double check that the data is right and not just a data error from capital iq or factset or whatever. so what does it tell you about the company? i would say it is not a normal operating situation and it probably reflects an accounting anomaly, so i would dig into the financial statements and normalize the numbers before relying on the multiples. and also i would not use those multiples in a comps analysis without adjusting. and this is why people look at multiple different metrics, because one of them can be distorted by one time items, which is also why i like looking at ev over revenue as a sanity check even though it is less precise. i also remember that one of the problems with these multiples is that different data providers define ebit and ebitda slightly differently, so i always check how they treat things like stock comp and operating leases, because that can change the numbers by a lot. and my professor said that when you see something that looks off like this, the right reaction is not to throw it into the average but to flag it, figure out why, and either fix it or exclude it, since one weird comp can skew the median or the mean, though the median is more robust, which is why bankers prefer it. in an interview i would say that out loud, that i would investigate it rather than just trust the number."
+ },
+ {
+  "id": "q-1199",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "the company with debt has the lower wacc, at least up to a point. debt is cheaper than equity for two reasons. lenders have a senior claim so they demand a lower return than shareholders, and interest is tax deductible, so the after tax cost of debt is even lower, which is the interest tax shield. so when you replace some expensive equity with cheaper after tax debt, the weighted average falls. now for the follow up, the wacc starts to rise when leverage gets too high. as debt piles up, lenders worry about default so the cost of debt rises. and equity holders face more financial risk, their beta goes up, so the cost of equity rises too. at some point the increase in both costs outweighs the benefit of the tax shield from adding another dollar of debt, and wacc turns up. that is the trade off theory of capital structure, where there is an optimal debt level that minimizes wacc, and past that point the levered company can have a higher wacc than the all equity one, because of financial distress costs."
+ },
+ {
+  "id": "q-1199",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "the company with debt has the lower wacc because debt is cheaper than equity, thanks to the interest tax shield. so replacing equity with debt pulls the weighted average down. but if you keep adding debt, the cost of debt goes up because of default risk and the cost of equity goes up because equity holders take on more risk. eventually those increases outweigh the tax benefit and wacc starts going up, so there is an optimal capital structure."
+ },
+ {
+  "id": "q-1199",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "so um i think the company with debt has a lower wacc because debt is cheaper than equity, you know, because of taxes. and then at some point if there is too much debt, the wacc goes up again, because it gets risky. i am not sure exactly at what point, maybe when the debt is really high."
+ },
+ {
+  "id": "q-1199",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "debt is cheaper than equity, so the levered company has the lower WACC initially",
+   "adding debt does not raise WACC immediately; the tax shield lowers WACC until distress costs dominate",
+   "the cost of equity rises with leverage, it does not fall"
+  ],
+  "answer": "the all equity company has the lower wacc because debt is riskier and more expensive than equity, since interest payments are mandatory. when you add debt the cost of debt is higher than the cost of equity so wacc goes up right away. the levered company would have a higher wacc basically at every level of debt, unless the tax rate is super high, then maybe around 70 percent debt it flips. also the cost of equity actually falls when you add debt because the company is more efficient."
+ },
+ {
+  "id": "q-1199",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "wacc lower with debt interest tax shield cost of debt cost of equity beta rises default risk optimal capital structure trade off theory financial distress levered all equity"
+ },
+ {
+  "id": "q-1199",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "okay so wacc, weighted average cost of capital, i took a corporate finance class with a professor who was really into modigliani and miller, he made us read the original paper which i did not completely understand to be honest. so for the question, two companies identical except one has no debt and the other has a lot of debt. which one has a lower wacc? the one with debt has the lower wacc, up to a point. the reason is that debt is cheaper than equity. first because lenders get paid before shareholders and have a claim on assets so they require a lower return, and second because interest is tax deductible, so the cost of debt after tax is the interest rate times one minus the tax rate. my uncle who is an accountant always says debt is the cheapest money you can get because of the deduction, but it comes with the risk of not being able to pay it back. so the more you replace equity with debt, the weighted average cost goes down, because you are swapping in cheaper capital. in the original m and m theory without taxes the wacc would not change because the cost of equity rises to offset it, but with taxes the shield makes a benefit. then the follow up, when does the wacc start going up? it is when you have too much debt. as debt rises, lenders see more default risk, so they charge a higher interest rate, the cost of debt goes up. and shareholders also see more risk, because they are last in line and have the volatility of the levered cash flows, so their required return goes up, which means a higher levered beta. at some point the increase in cost of debt and cost of equity is bigger than the tax benefit and wacc starts to rise. there are also the costs of financial distress, like losing customers and suppliers and bankruptcy costs, which i think are part of the reason. and that is the trade off theory, so there is an optimal capital structure where wacc is at its lowest. like some people say it is around thirty to forty percent debt for many companies but it depends on the industry, and utilities can carry a lot more than tech companies. so yeah that is my answer. and one more thing that i think is cool is that this idea is the basis for why private equity firms use so much leverage, because they are exploiting the tax shield and also the fact that the equity returns get magnified with leverage. but if they take it too far the company can fail, like toys r us, which went bankrupt under a heavy debt load, and my dad remembers shopping there as a kid so it was kind of sad to learn that. and for the credit rating the agencies look at debt to ebitda too, so once the leverage goes beyond investment grade levels the borrowing cost jumps up a lot, which is part of the reason wacc rises. so yeah, that is why the answer for the follow up is that it depends on how much debt and where the optimal point is for that particular company."
+ },
+ {
+  "id": "q-1596",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "the fundamental difference is how predictable the cash flows are. an apple tree produces fruit every year for many years, and you can estimate the harvest and the price of apples, so the cash flows look like an annuity. you could value it with a discounted cash flow using a fairly low discount rate, because there is little uncertainty. a race horse is far more speculative. its value depends on how many races it wins, prize money, and eventually breeding or stud fees, and all of those are uncertain. the other difference is duration and stability. a horse has a short and volatile earning period. it can get injured, underperform, or just age out of racing in a few years, and then the value drops. an apple tree gives steady returns for decades. so the tree is valued as a stable annuity, and the horse is more like an option, where there is a small chance of a huge payoff and a high chance of nothing, so it needs a much higher discount rate and a probability weighted approach."
+ },
+ {
+  "id": "q-1596",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "the apple tree has predictable cash flows, you get fruit every year, so you can value it like an annuity with a steady stream over many years. the race horse is speculative, because its value depends on winning races or breeding, which is uncertain, and its career is short and risky because of injuries. so you would use a higher discount rate for the horse."
+ },
+ {
+  "id": "q-1596",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "so um the horse is more risky and the tree is more stable i think. like the tree gives fruit every year so you know what to expect. the horse might win or might not. so it is harder to value. i guess you would use different discount rates or something."
+ },
+ {
+  "id": "q-1596",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "race horse cash flows are speculative and short, not predictable annuities",
+   "an apple tree has steady, predictable cash flows, not an unpredictable one with a short life",
+   "a tree should get the lower discount rate, not the higher one"
+  ],
+  "answer": "the difference is that a race horse has predictable cash flows because it runs a set number of races per year and the prize money is fixed, so you can value it as an annuity. an apple tree is the speculative one since the harvest depends on weather and pests and it only lives a few years, so you use a much higher discount rate for the tree. basically the horse is a bond and the tree is a stock."
+ },
+ {
+  "id": "q-1596",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "speculative predictable annuity cash flows volatile career injury breeding fees prize money steady returns duration discount rate uncertainty apple tree race horse"
+ },
+ {
+  "id": "q-1596",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "this is an interesting one, kind of a classic brain teaser type question. so i actually grew up near ocala in florida where there are a ton of horse farms, and my neighbor had a thoroughbred that cost him like eighty thousand dollars and it never won a single race, so i know a little bit about how risky those are. so the basic difference is that an apple tree is predictable and a race horse is speculative. the apple tree produces apples every year, and you can estimate how many apples it will give and what you can sell them for, so the cash flows are pretty steady, kind of like an annuity, and it lasts for many years, maybe twenty or thirty. so you could value it by discounting those cash flows at a pretty low rate, because there is not much uncertainty, besides some weather risk, my grandmother has orange trees in cuba, well, she did, and a freeze could wipe out a season, so there is some risk, but generally it is steady. the race horse, on the other hand, is valued speculatively. you are looking at the chance it wins big races and prize money, or that it becomes a stud and earns breeding fees later. but most horses do not win much at all, and a few win a huge amount, so the distribution is very skewed, a bit like venture capital. and the earning period is short, it races for maybe three or four years, and an injury can end that at any time, like what happened with the famous horses that broke a leg. so the horse has a short, volatile life and the tree has a long, stable one. and in terms of valuation you would use a dcf with a low discount rate for the tree and more of a probability weighted, scenario based approach with a high discount rate for the horse. also in the real world horses are valued by comparing to the sale prices of similar horses and pedigree, kind of like comparable transactions, which is kind of funny to think about. one more thought is that if i had to put numbers on it i might say the tree gets a discount rate of like six or eight percent, while the horse might be fifteen or twenty or more, or you could just do the expected value across scenarios. and i think this question is really testing whether you understand that valuation is about the quality and predictability of the cash flows, and not only the amount of them. like a utility is more like the apple tree and a biotech startup is more like the race horse, and the multiples that the market pays reflect that. i also read somewhere that the founders of some famous funds say the best investments are ones with a margin of safety, which is basically the apple tree, and i think that is an interesting way to connect it back to investing, even if it is a bit of a stretch for a horse question."
+ },
+ {
+  "id": "q-2151",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "my friends would say i am the reliable one, the person who does what they said they would do, even when nobody is checking. a good example is last spring, when i was treasurer of our finance club with 85 members and a 12,000 dollar budget. two weeks before the semester closed our events chair quit, and i picked up his work on top of mine, rebuilt the spreadsheet over a weekend and got every reimbursement out on time. one of my roommates, who i have lived with for three years, jokes that he has never seen me miss a deadline. i think that reliability is exactly what an investment banking team needs, because analysts are trusted with models and decks that the whole team depends on late at night, and the senior people need to know it will be right without double checking. they would also say i stay calm under pressure, which i got from five years as a goalkeeper on my club soccer team."
+ },
+ {
+  "id": "q-2151",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "i think my friends would say i am dependable and hard working. like when i was treasurer of my finance club i managed a budget of about 12,000 dollars and made sure everything got paid on time, and my friends would always come to me when they needed help organizing something. i think that fits banking because you need people who follow through and you can count on."
+ },
+ {
+  "id": "q-2151",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "um i guess my friends would say i am like a nice person and hard working, you know, i try to be helpful. i dont know, they would probably say i am funny too. i mean i am pretty reliable i think. yeah that is probably it."
+ },
+ {
+  "id": "q-2151",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "leads with money and prestige motives rather than character",
+   "no example or evidence to back the descriptor",
+   "does not tie to qualities valued in banking"
+  ],
+  "answer": "my friends would say i am super competitive and i am obsessed with making a lot of money and being at the top. everyone knows i am going to end up running something big and driving a nice car. they say i hate losing and i like nice things. i dont really have a specific example, it is just the way i am and everyone sees it."
+ },
+ {
+  "id": "q-2151",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "hard working reliable dependable team player detail oriented driven passionate about finance leader integrity funny loyal strong work ethic"
+ },
+ {
+  "id": "q-2151",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "oh that is a fun question, so i actually asked a couple of my friends this when i was preparing for interviews, because i wanted to hear it from them and not just guess. and the funny thing is my friend marcus said i was the mom of the group, which i think is because i am always the one organizing the trips and making the spreadsheet for who owes who for the airbnb, we went to nashville in march for my birthday and i made a whole itinerary and everyone made fun of me for it. but then he said something more serious which was that i am the most reliable person he knows. so if i had to pick one sentence i would say my friends describe me as the reliable one who gets things done. and an example would be last spring when i was the treasurer of our finance club, which has about 85 members, and we have a budget around 12,000 dollars, and our events chair dropped out about two weeks before the end of the semester, so i took over his work and also did mine, rebuilt the budget spreadsheet one weekend and made sure all the reimbursements went out on time. i was kind of stressed about it but it worked out. my roommate also says that i never miss a deadline, and in three years i do not think i have turned in a paper late, although there was one close call sophomore year with a statistics problem set where i fell asleep on the library couch. i also played goalkeeper on my club soccer team for five years, which i think taught me to stay calm, because as a goalie everyone sees it when you mess up so you have to move on from mistakes quickly. and i think those qualities, being reliable and calm, matter in banking because analysts are trusted with models and decks and the team needs to know that the work is right, especially at two in the morning when the deadline is close. so yeah, reliable is the word. and i think it is worth saying that my friends would probably also add that i am a little bit of a nerd about finance, since i bring up stock stuff at dinner all the time and my girlfriend says i need to stop explaining the news about interest rates, but they would still say the main thing is that they can count on me. one more example is that when my friend moved apartments last year i was the one who showed up at seven in the morning with a truck that i borrowed from my uncle, and i stayed until it was done, which is not about banking but it is about who i am. and my club soccer coach once wrote in my evaluation that i was the first one at practice and the last one to leave, which i think backs it up."
+ },
+ {
+  "id": "q-2264",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "in my sophomore marketing research class, I led a group of four on a survey project that needed 100 responses, and by the deadline we only had 62. one teammate suggested copying some of the responses and changing a few answers so we would hit the number, and said nobody would ever check. i knew that was fabricating data, and as team leader I felt responsible for what we submitted. first I talked to him privately that evening, so he would not be embarrassed in front of the group. I explained it could be an academic integrity violation for all four of us, and offered to spend the weekend collecting more responses in the dorms with him. he still refused, so I told him I would not submit fabricated data and that I would tell the professor. I emailed her, laid out the facts without accusing anyone, and asked how to proceed. she let us submit with 78 real responses and a note about the limitation. we got a B plus instead of an A, but I would take that every time, because integrity is non negotiable for me, especially in a field built on trust."
+ },
+ {
+  "id": "q-2264",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "in a group project for my statistics class, a teammate wanted to change some numbers in our data set to make our results significant. i told him privately that it was wrong and could get all of us in trouble. he did not listen, so i spoke to our professor and we reran the analysis honestly. our results were weaker but we got a decent grade, and i learned that integrity matters more than the grade."
+ },
+ {
+  "id": "q-2264",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "so um there was a time in a group project where someone kind of copied part of their work from the internet, i think. and i was a little uncomfortable about it, so i kind of mentioned it to him, you know. i think he fixed it after. it was not a huge deal, but yeah i think honesty is important."
+ },
+ {
+  "id": "q-2264",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "took no action despite seeing unethical behavior",
+   "blames the group and the professor instead of owning responsibility",
+   "does not reinforce integrity as a principle"
+  ],
+  "answer": "in my group project one of my teammates plagiarized his whole section. honestly i think the rest of the group was lazy and nobody checked, and the professor should have caught it. i didnt say anything because it wasnt my problem and i didnt want any drama, but i made sure my part was good. he ended up getting a good grade anyway so it didnt really matter."
+ },
+ {
+  "id": "q-2264",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "integrity ethics situation task action result spoke privately escalated professor compliance honesty plagiarism responsibility non negotiable"
+ },
+ {
+  "id": "q-2264",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "yeah so one time that happened, and it was honestly stressful, was in my sophomore year marketing research class, which was a class i was already nervous about because the professor had a reputation for being super strict, and she failed like five people the semester before for plagiarism. so we had a group project, four of us, and we had to run a survey and collect at least 100 responses, and as the group leader i was kind of in charge of making sure we got it done. we got 62 responses by the deadline, and honestly collecting surveys on campus is miserable, people just walk by you, it is raining, one time a guy threw the clipboard back at me. and then one of my teammates, i will not name him, he is actually a good guy, said we could just copy some of the responses and tweak them so we would hit 100 and nobody would ever notice. and i felt really uncomfortable because that is making up data, and it could be an honor code violation for all of us. so i first talked to him one on one, that same night, at the dining hall, because i did not want to embarrass him in front of the others. i told him the risk and said i would stay all weekend and help collect more, and i even offered to buy him a coffee for it, but he said it was fine and we were overthinking it. so then i told him that i was not going to submit it, and that i would let the professor know. i emailed her the next morning and explained the situation, and she was actually really understanding. she let us turn it in with 78 real responses and a note, and we got a b plus. i was a little disappointed about the grade, but i felt right about it. and the teammate ended up apologizing later, we are still friends. so yeah that is my story, integrity is something i will not compromise on, and especially in banking where trust is the whole business. looking back, one thing i learned is that it is better to say something early than to wait, because if i had kept quiet the problem would have gotten much bigger and the professor would have found out anyway. also, i did think about whether i was being too rigid, and i talked to my older brother, who works at a bank in charlotte, and he said that in his compliance training they tell you to escalate when you see something and not to try to fix it alone, so i feel like what i did matches that. and honestly i think the experience made me more careful about how i run groups now, because i set expectations at the start, like we only use real data, and we write down our sources, so that nobody feels pressure at the end. that is something i would carry into a team in banking, where a number in a pitch book has to be right."
+ },
+ {
+  "id": "q-2377",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "the thing I expect to be most challenging is managing several urgent deliverables from different people at the same time, and I have thought about how I would handle it. last summer at a wealth management firm, I once had four client reports due in the same week while a senior advisor added a rush request, and in my first month I missed a formatting error that a client noticed. since then I keep a running task list ranked by deadline, I ask clarifying questions up front about what the final version should look like, and I flag early if two requests conflict so my senior can help prioritize rather than being surprised. the second challenge will be the steep learning curve on proprietary models and systems. I would handle that by taking the training seriously, building my own cheat sheet of shortcuts, and asking for feedback after my first few assignments. I am not worried about the hours or the work itself. I know it is demanding and I am excited to get that kind of responsibility."
+ },
+ {
+  "id": "q-2377",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "i think the hardest part would be juggling a lot of urgent deadlines at once, especially at the start when the learning curve is steep. in my internship last summer i had to handle multiple reports in a week and what helped was making a priority list and asking questions early when i wasn't sure. i would do the same in this job and ask for feedback so i get better quickly."
+ },
+ {
+  "id": "q-2377",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "um i guess maybe the long hours could be hard at first, you know, but i think i can handle it. and learning the systems might take a bit. i am a quick learner though i think. so yeah, i dont know, nothing too big really."
+ },
+ {
+  "id": "q-2377",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "admits doubts about fundamental capabilities and willingness to work long hours",
+   "uses a fake weakness (perfectionist, works too hard)",
+   "does not explain how the challenges would be managed"
+  ],
+  "answer": "honestly i dont think there is anything i would struggle with. well, i guess i dont really like working late and i am not great with excel or accounting, and i tend to get stressed when there is a lot of pressure. but i would say my real weakness is that i am a perfectionist and i work too hard, so that is probably the only thing."
+ },
+ {
+  "id": "q-2377",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "multiple deadlines steep learning curve long hours prioritization organized ask questions attention to detail feedback pressure proactive hard working"
+ },
+ {
+  "id": "q-2377",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "that is a tough one and i want to be honest about it, so i have actually thought about this because i talked to a few analysts from my school who told me what to expect. the thing they all said was the volume and the number of things coming at once, like you could have three different vps send you something at 6 pm and each one says it is urgent. and for me, i think that would be the hardest part at first, the prioritization when everything is urgent. i dealt with a small version of that last summer at a wealth management firm in tampa where i interned for ten weeks. in the same week i had four client reports to finish and an advisor gave me a rush request, and then in the first month i missed a formatting mistake in one of the reports that the client noticed, which was embarrassing, and my manager was nice about it but i felt terrible. so after that i started keeping a running list on my phone with deadlines and i would check every report twice, once for numbers and once for formatting, and i asked more questions at the start, like what does the final version look like, who is it for. and when two things conflicted i would tell the person that i have two things due and ask which comes first. i think that is better than trying to do everything and then missing something. the other thing would be the learning curve with the banks proprietary systems and models, because every bank has its own templates and shortcuts and it takes time to learn them. i would handle it by going to every training, making my own cheat sheet, and asking for feedback right after my first few assignments, and i usually learn pretty quickly by doing, like when i taught myself excel shortcuts during sophomore year by just forcing myself to not use the mouse for a month. but i am not worried about the hours or the work itself, i know it is demanding and that is part of why i want it. so yeah, those are the two things. and if i can add one more thing, i think the other thing is that i am the type of person who cares a lot about the quality of my work, so when there is a time crunch i can spend too long polishing, so i am working on that by setting a time limit for each task and then sending a draft earlier than i feel ready to, which i learned from a manager last summer who told me an eighty percent draft early is better than a perfect one late. so that is something i have been practicing in my club too. also, my girlfriend jokes about how i never sleep during finals, so i know that i can handle lots of hours, but i am also trying to build good habits like exercising, because i played soccer for years and i want to keep that up to stay sharp during long weeks."
+ },
+ {
+  "id": "q-2533",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "you add back the entire non cash expense because net income was reduced by it, but no cash left the company, and you also saved on taxes. take 10 dollars of depreciation with a 40 percent tax rate. pre tax income falls by 10, taxes fall by 4, so net income falls by only 6. on the cash flow statement we start from net income, down 6, and add back the full 10 because the expense used no cash, so cash goes up by 4. that 4 is the tax savings, since we paid 4 less in cash taxes. if we only added back the after tax 6, cash would be unchanged, which would imply the expense had no effect on taxes or cash, and that is wrong."
+ },
+ {
+  "id": "q-2533",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "because the expense reduced net income but it was not an actual cash payment, so you add the whole thing back. like if depreciation is 10 and the tax rate is 40 percent, net income drops by 6 and then you add back 10, so cash goes up by 4. that 4 is the tax savings. if you only added back 6 you would say cash did not change at all."
+ },
+ {
+  "id": "q-2533",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "um so you add it back because it is non cash, you didnt actually pay anything. like depreciation reduces net income but it doesnt use any cash, so you add it back on the cash flow statement. and i think there is something about taxes too, you know, but i dont remember exactly."
+ },
+ {
+  "id": "q-2533",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "the entire pre-tax expense is added back, not the after-tax amount",
+   "depreciation does not generate cash by itself; the cash increase comes from the tax savings",
+   "cash goes up by the tax savings of 4, not 6"
+  ],
+  "answer": "you only add back the after tax amount of the expense. so with a 10 dollar depreciation and a 40 percent tax rate, net income goes down by 6 and you add back 6, so cash is unchanged. you do it that way because depreciation itself actually generates cash, since it is a source of funds that you get to keep, and the add back just reflects the cash that depreciation brings in, which is about 6."
+ },
+ {
+  "id": "q-2533",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "non cash expense depreciation amortization add back net income tax savings tax rate 40 percent cash flow statement cash up 4 after tax pre tax"
+ },
+ {
+  "id": "q-2533",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "so this is one of those things that confused me for a long time, honestly, and i had to ask my accounting tutor to explain it like three times. the reason you add back the whole non cash expense on the cash flow statement is that the expense lowered net income but no cash actually left the business. so say you buy a machine for a hundred thousand dollars, that is a cash outflow in investing, and then each year you depreciate it, which is just spreading the cost, there is no cash going out in those later years. so on the income statement, depreciation is an expense that reduces pre tax income. and because it is deductible, you pay lower taxes. so let us say the depreciation is 10 dollars and the tax rate is 40 percent. pre tax income is down 10, taxes are down 4, so net income is down 6. and then in the cash flow statement you start with net income, which is down 6, but you want to know actual cash, so you add back the full 10 since it was not cash. and you end up with cash up 4. and that 4 is the tax savings, the company paid 4 less in taxes in cash because of the depreciation deduction. now some people think you should add back the after tax number, 6, but if you did that you would get zero change in cash, and that would be saying the depreciation had no effect on taxes, which is not true. my friend in the finance club made that mistake in a mock interview, and the interviewer, who was an actual analyst, pointed it out. i think about it like the depreciation is a tax shield, you get a real benefit, and the tax shield is why it is not a total wash. also this is why capital intensive companies like utilities or airlines have big depreciation and the cash flow is higher than the net income, which is something i noticed when i looked at delta's statements for a class project."
+ },
+ {
+  "id": "q-2632",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "equity value stays the same and enterprise value goes up by 50. the 100 of preferred goes into preferred stock within equity, which is not common shareholders equity, so equity value does not change. for enterprise value, preferred stock gets added, so that is plus 100, and then we subtract cash. the company got 100 but spent 50 on pp and e, so cash is up 50, which makes ev plus 100 minus 50, so plus 50. as a check, pp and e is an operating asset up 50 with no change in operating liabilities, so net operating assets rise by 50."
+ },
+ {
+  "id": "q-2632",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "equity value does not change because the preferred stock is not part of common equity. enterprise value goes up by 50, because ev includes preferred stock, which is up 100, and then cash is up 50, so you subtract that, which gives you plus 50."
+ },
+ {
+  "id": "q-2632",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "so um preferred stock is issued so i think equity value maybe doesnt change because it is preferred not common. and enterprise value goes up, probably, since they bought pp and e. i dont know the exact amount, maybe 50 or 100."
+ },
+ {
+  "id": "q-2632",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "preferred stock is not part of common equity value, so equity value does not rise by 100",
+   "enterprise value rises by 50, not 100, because cash increases by 50 and is subtracted"
+  ],
+  "answer": "equity value goes up by 100 because the company issued 100 of new stock and equity value includes all the equity. enterprise value goes up by 100 as well, since preferred stock is added to enterprise value and the pp and e purchase doesnt change it because cash and pp and e just swap on the asset side, so ev is plus 100."
+ },
+ {
+  "id": "q-2632",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "preferred stock common shareholders equity equity value unchanged enterprise value net operating assets PP&E operating asset cash up 50 plus 50 TEV"
+ },
+ {
+  "id": "q-2632",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "okay so i think this is the one where you have to be careful about what counts in equity value, because i got it wrong the first time i saw it on a practice test and then my friend who is a junior at a bank explained it to me over lunch, we were at chipotle. so the company issues 100 of preferred stock and uses 50 of that to buy pp and e. so what happens to equity value? equity value is the value of common shareholders equity, so what is attributable to the common holders. and preferred stock is separate from common, it sits in its own line within equity, but it is not common. so the common shareholders equity does not change, and equity value stays the same. that part is easy to forget because people see equity and think it all goes up. then enterprise value. enterprise value is equity value plus debt plus preferred stock plus non controlling interest, minus cash. so preferred goes up by 100, and cash goes up by 100 minus the 50 spent, so up 50, so ev goes up by 100 minus 50, which is 50. i like that approach because it is a nice check. this is the type of question that tests whether you really understand what ev is, not just the formula, because it is the value of the core business to all the investors, and the 50 of extra cash is non operating so it does not count toward ev. my friend said an interviewer once asked him this exact thing and he froze, so i practiced it a bunch. so yeah equity value no change and ev plus 50."
+ },
+ {
+  "id": "q-2825",
+  "variant": "excellent",
+  "min": 8,
+  "max": 10,
+  "errors": [],
+  "answer": "the real purchase price is usually closest to the purchase equity value. technically it depends on how you treat the seller's cash and debt and the fees, but the buyer almost always refinances the seller's existing debt with new debt of the same amount, so it is not paying extra for that debt, it just swaps lenders. excess cash is usually distributed to shareholders before closing, and if it stays on the balance sheet the buyer gets it, which is economically the same. so the real price is roughly purchase equity value plus transaction and financing fees minus the seller's excess cash. variations are possible if cash and debt are treated very differently."
+ },
+ {
+  "id": "q-2825",
+  "variant": "good",
+  "min": 6,
+  "max": 9,
+  "errors": [],
+  "answer": "it is closer to the purchase equity value. the buyer usually refinances the seller's debt with new debt, so it is not really paying extra for the debt. and the seller's excess cash either gets distributed or the buyer ends up with it, so it basically washes. you could say it is equity value plus fees minus the excess cash."
+ },
+ {
+  "id": "q-2825",
+  "variant": "partial",
+  "min": 3,
+  "max": 6,
+  "errors": [],
+  "answer": "so um i think it is the equity value, because that is what you pay to the shareholders. and enterprise value includes the debt and the cash so i think that is less the real price. but i am not sure about the details on the debt and fees and stuff."
+ },
+ {
+  "id": "q-2825",
+  "variant": "wrong",
+  "min": 1,
+  "max": 5,
+  "errors": [
+   "buyer refinances the seller's debt rather than paying extra for it, so the real price is closer to equity value",
+   "fees are added and excess cash is subtracted, not the reverse"
+  ],
+  "answer": "the real price is closer to the purchase enterprise value because the buyer has to pay off all of the seller's debt on top of the equity, so it is effectively paying the full enterprise value. the real price would be enterprise value minus fees plus the seller's cash, because the buyer gets the cash on top of the equity purchase price and then pays the fees from it."
+ },
+ {
+  "id": "q-2825",
+  "variant": "keyword_salad",
+  "min": 0,
+  "max": 3,
+  "errors": [],
+  "answer": "purchase equity value purchase enterprise value refinance existing debt seller excess cash transaction fees financing fees real price distributed to shareholders balance sheet"
+ },
+ {
+  "id": "q-2825",
+  "variant": "rambling",
+  "min": 3,
+  "max": 7,
+  "errors": [],
+  "answer": "so this is a good question because it kind of challenges what people assume. the standard answer is that the real purchase price is closer to the purchase equity value and not the enterprise value, and the reason is how debt and cash get handled in a deal. so, in most acquisitions, the buyer is not just writing a check for the debt. what actually happens is it usually refinances the seller's existing debt and replaces it with new debt in the same amount, so it is not paying extra for the debt, it just swaps lenders. my dad refinanced our house last year and it is kind of like that, same loan amount just a different bank and a lower rate. so since the debt is replaced, the real extra cost is not the debt. then for cash, if the seller has excess cash, it is usually distributed to the shareholders before the deal closes, or if it stays on the balance sheet then the acquirer gets it when the deal closes, and that is economically equivalent, because it is either paid out or it comes over with the company. so you could say the real price is something like purchase equity value plus the transaction and financing fees, minus the excess cash of the seller. i read about this in the breaking into wall street guide and also on a forum, and some people say it is a bit of a technicality. and of course there can be variations, like if the debt has change of control provisions and has to be paid off at a premium, or if the cash is trapped overseas and the buyer cannot use it easily. in those cases it could be different. but the base case is the equity value. also this is why enterprise value is used for comparing across companies, since it is capital structure neutral, but it is not what the acquirer actually pays out of pocket. i think that is the main idea."
+ }
+]

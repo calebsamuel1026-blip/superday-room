@@ -1,0 +1,216 @@
+[
+ {
+  "id": "a8",
+  "t": "acct",
+  "l": "Basic",
+  "s": 60,
+  "q": "Explain the three sections of the Cash Flow Statement and why the 'current vs. long-term' rule of thumb isn't fully accurate.",
+  "k": [
+   "CFO: Net Income, non-cash adjustments, changes in operating assets and liabilities",
+   "CFI: investments, acquisitions, PP&E / CapEx",
+   "CFF: debt, dividends, issuing or repurchasing shares",
+   "Exceptions: Deferred Revenue can be long-term but sits in CFO; Short-Term Investments are current but sit in CFI; the Revolver is current but sits in CFF"
+  ]
+ },
+ {
+  "id": "a12",
+  "t": "acct",
+  "l": "Basic",
+  "s": 45,
+  "q": "What is Treasury Stock and what is Common Stock and APIC?",
+  "k": [
+   "Common Stock & APIC: market value of shares at the time they were issued; doesn't change with later share price moves",
+   "Treasury Stock: cumulative value of shares the company has repurchased; shown as a negative in equity; also doesn't change with share price"
+  ]
+ },
+ {
+  "id": "a22",
+  "t": "acct",
+  "l": "Intermediate",
+  "s": 90,
+  "q": "Prepaid Expenses goes down by $100. What happens on the statements? 40% tax rate.",
+  "k": [
+   "We now recognize on the IS an expense already paid in cash",
+   "IS: expense up $100, Pre-Tax Income down $100, Net Income down $60",
+   "CFS: Net Income down $60, decrease in Prepaid (an asset) is +$100, cash up $40",
+   "BS: Cash up $40, Prepaid down $100, Assets down $60; Retained Earnings down $60",
+   "Prepaid going up = paying cash in advance: Cash down, Prepaid up, no IS change"
+  ]
+ },
+ {
+  "id": "a26",
+  "t": "acct",
+  "l": "Intermediate",
+  "s": 75,
+  "q": "Stock-Based Compensation goes up by $10. What happens, 40% tax rate?",
+  "k": [
+   "IS: Operating Income –$10, Net Income –$6",
+   "CFS: add back $10 SBC as non-cash, cash +$4",
+   "BS: Cash +$4; Common Stock & APIC +$10, Retained Earnings –$6, equity +$4; balances"
+  ]
+ },
+ {
+  "id": "a30",
+  "t": "acct",
+  "l": "Intermediate",
+  "s": 60,
+  "q": "Why does the Revolver show up in Cash Flow from Financing even though it's a current liability?",
+  "k": [
+   "The Revolver is short-term borrowing like a company credit card",
+   "It relates to how the company finances itself, not its operations",
+   "So it goes in CFF, an exception to the current/long-term rule of thumb"
+  ]
+ },
+ {
+  "id": "q-0008",
+  "t": "acct",
+  "l": "Basic",
+  "s": 90,
+  "q": "Under what circumstances might a company record revenue before actually receiving cash?",
+  "k": [
+   "Under accrual accounting, revenue is recognized when it’s earned and collection is reasonably assured.",
+   "Examples include credit sales, subscription services billed before receipt of cash, and long-term contracts that recognize revenue over the service period."
+  ]
+ },
+ {
+  "id": "q-0405",
+  "t": "deal",
+  "l": "Advanced",
+  "s": 90,
+  "q": "How would you determine how much debt can be raised in an LBO and how many tranches there would be?",
+  "k": [
+   "Look at comparable LBO transactions (debt comps), typical Debt/EBITDA levels, and market appetite for different debt tranches."
+  ]
+ },
+ {
+  "id": "q-0802",
+  "t": "val",
+  "l": "Advanced",
+  "s": 90,
+  "q": "If the EV/EBIT of a company is 3x and its EV/EBITDA is 4x, what does that tell you about the company?",
+  "k": [
+   "EBITDA is < EBIT, so D&A is negative.",
+   "Because EV is constant, a higher EV/EBITDA multiple means the EBITDA denominator is smaller than EBIT, which only happens if D&A is recorded as a credit (e.g., reversal of impairment, amortization of negative goodwill, or other non-recurring income).",
+   "It's worth noting that this scenario is unusual and likely reflects an accounting anomaly rather than normal operations."
+  ]
+ },
+ {
+  "id": "q-1199",
+  "t": "val",
+  "l": "Advanced",
+  "s": 90,
+  "q": "Part 1: You have two companies that are identical except one has 100% equity and the other has a significant amount of debt. Which company has a lower WACC?\n\n\n\n\nFollow-up: At what point would the company with debt start to have a higher WACC than the all-equity company?",
+  "k": [
+   "Part 1",
+   "The company with debt has a lower WACC, up to a point. Debt is cheaper than equity due to the tax deductibility of interest (interest tax shield). Adding debt to the capital structure lowers WACC because you are replacing expensive equity with cheaper after-tax debt.",
+   "Follow-up",
+   "At excessive leverage levels, the company with debt will have a higher WACC. As debt increases:",
+   "Cost of debt rises as lenders demand higher interest rates to compensate for increased default risk.",
+   "Cost of equity rises as equity holders face greater financial risk (higher beta) from the levered capital structure.",
+   "At the point where the incremental increase in both Rd and Re outweighs the tax benefit of additional debt, WACC begins to rise.",
+   "This is the essence of the trade-off theory of capital structure -- there is an optimal leverage ratio that minimizes WACC."
+  ]
+ },
+ {
+  "id": "q-1596",
+  "t": "mkt",
+  "l": "Basic",
+  "s": 90,
+  "q": "What is the fundamental difference between valuing a race horse and an apple tree?",
+  "k": [
+   "Speculative vs. Predictable: Race horses are valued speculatively, based on potential wins or breeding fees; apple trees have predictable, annuity-like cash flows from fruit sales.",
+   "Duration and Stability: Horses have short, volatile earning periods (injury, performance, span of career), while apple trees yield steady returns over many years."
+  ]
+ },
+ {
+  "id": "q-2151",
+  "t": "beh",
+  "l": "Behavioral",
+  "s": 90,
+  "q": "How would your friends describe you in one sentence?",
+  "k": [
+   "Pick a short descriptor like “hard-working and reliable”",
+   "Back it up with a quick example or anecdote",
+   "Ensure it aligns with qualities valued in IB"
+  ]
+ },
+ {
+  "id": "q-2264",
+  "t": "beh",
+  "l": "Behavioral",
+  "s": 90,
+  "q": "Tell me about a time when you had to deal with something being done that was unethical.",
+  "k": [
+   "Situation: Describe a specific situation where you observed an action that clearly crossed an ethical line (e.g., plagiarism, misrepresenting data, breaking a clear rule). Keep it professional and anonymous.",
+   "Task: Explain the dilemma you faced and your responsibility to act.",
+   "Action: Detail your response. A strong answer often involves addressing the person directly and privately first. If that fails or is inappropriate, explain your decision to escalate the issue to a manager, professor, or compliance officer.",
+   "Result: Conclude with the outcome and reinforce your commitment to integrity, explaining that it's a non-negotiable principle for you."
+  ]
+ },
+ {
+  "id": "q-2377",
+  "t": "beh",
+  "l": "Behavioral",
+  "s": 90,
+  "q": "Are there any aspects of this job you would struggle with?",
+  "k": [
+   "Reframe \"struggle\" as anticipated challenges that you are prepared to proactively manage.",
+   "Example challenges: managing multiple urgent deliverables, the initial steep learning curve for proprietary systems, or maintaining perfection under extreme pressure.",
+   "Explain *how* you would approach these challenges (e.g., hyper-organization, seeking guidance, asking clarifying questions, prioritization).",
+   "Avoid expressing doubts about your fundamental capabilities or willingness to do the work."
+  ]
+ },
+ {
+  "id": "q-2533",
+  "t": "acct",
+  "l": "Basic",
+  "s": 60,
+  "q": "Let's say that you have a non-cash expense (Depreciation or Amortization, for example) on the Income Statement. Why do you add back the entire expense on the Cash Flow Statement?",
+  "k": [
+   "Because you want to reflect that you've saved on taxes with the non-cash expense.",
+   "Let's say you have a non-cash expense of $10 and a tax rate of 40%.",
+   "Your Net Income decreases by $6 as a result… but then you add back the entire non-cash expense of $10 on the CFS so that your cash goes up by $4.",
+   "24 / 74",
+   "That increase of $4 reflects the tax savings from the non-cash expense.",
+   "If you just added back the after-tax expense of $6 you'd be saying, \"This non-cash expense has no impact on our taxes or cash balance.\""
+  ],
+  "answer": [
+   "Because you want to reflect that you've saved on taxes with the non-cash expense.",
+   "Let's say you have a non-cash expense of $10 and a tax rate of 40%. Your Net Income decreases by $6 as a result… but then you add back the entire non-cash expense of $10 on the CFS so that your cash goes up by $4.",
+   "24 / 74",
+   "That increase of $4 reflects the tax savings from the non-cash expense. If you just added back the after-tax expense of $6 you'd be saying, \"This non-cash expense has no impact on our taxes or cash balance.\""
+  ]
+ },
+ {
+  "id": "q-2632",
+  "t": "val",
+  "l": "Basic",
+  "s": 45,
+  "q": "A company issues $100 in Preferred Stock to purchase $50 of PP&E. How do Equity Value and Enterprise Value change?",
+  "k": [
+   "CSE does not change because Preferred Stock issuances flow into Preferred Stock within Equity, not Common Shareholders' Equity.",
+   "Therefore, Eq Val stays the same.",
+   "NOA increases by $50 because the PP&E is an Operating Asset, and no Operating Liabilities change, so TEV increases by $50."
+  ],
+  "answer": [
+   "CSE does not change because Preferred Stock issuances flow into Preferred Stock within Equity, not Common Shareholders' Equity. Therefore, Eq Val stays the same. NOA increases by $50 because the PP&E is an Operating Asset, and no Operating Liabilities change, so TEV increases by $50."
+  ]
+ },
+ {
+  "id": "q-2825",
+  "t": "deal",
+  "l": "Basic",
+  "s": 60,
+  "q": "What is the \"real purchase price\" in an M&A deal? Is it closer to the Purchase Equity Value or Purchase Enterprise Value?",
+  "k": [
+   "Technically, the \"real price\" depends on the exact treatment of the Seller's Cash and Debt and the transaction/financing fees, but it is usually closest to the Purchase Equity Value.",
+   "This is because the Buyer almost always refinances the Seller's existing Debt and replaces it with new Debt in the same amount, so it doesn't \"pay extra\" for this Debt.",
+   "And if the Seller has Excess Cash, it's usually distributed to shareholders before the deal closes; if it is kept on the Balance Sheet, the Acquirer gets it after the deal closes, which is economically equivalent.",
+   "So, the \"real price\" might be something like Purchase Equity Value + Transaction/Financing Fees - Seller's Excess Cash.",
+   "But variations are possible if the treatment of Cash and Debt are very different."
+  ],
+  "answer": [
+   "Technically, the \"real price\" depends on the exact treatment of the Seller's Cash and Debt and the transaction/financing fees, but it is usually closest to the Purchase Equity Value. This is because the Buyer almost always refinances the Seller's existing Debt and replaces it with new Debt in the same amount, so it doesn't \"pay extra\" for this Debt. And if the Seller has Excess Cash, it's usually distributed to shareholders before the deal closes; if it is kept on the Balance Sheet, the Acquirer gets it after the deal closes, which is economically equivalent. So, the \"real price\" might be something like Purchase Equity Value + Transaction/Financing Fees - Seller's Excess Cash. But variations are possible if the treatment of Cash and Debt are very different."
+  ]
+ }
+]

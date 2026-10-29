@@ -1,0 +1,319 @@
+[
+ {
+  "id": "a1",
+  "t": "acct",
+  "l": "Basic",
+  "s": 90,
+  "q": "Walk me through the 3 financial statements.",
+  "k": [
+   "Income Statement: revenue and expenses over a period, down to Net Income",
+   "Balance Sheet: Assets, Liabilities and Shareholders' Equity at a point in time; Assets = Liabilities + Equity",
+   "Cash Flow Statement: starts with Net Income, adjusts for non-cash items and changes in working capital, then Cash Flow from Investing and Financing; ends with net change in cash"
+  ]
+ },
+ {
+  "id": "a2",
+  "t": "acct",
+  "l": "Basic",
+  "s": 60,
+  "q": "Give me examples of major line items on each of the three financial statements.",
+  "k": [
+   "IS: Revenue, COGS, SG&A, Operating Income, Pre-Tax Income, Net Income",
+   "BS: Cash, Accounts Receivable, Inventory, PP&E, Accounts Payable, Accrued Expenses, Debt, Shareholders' Equity",
+   "CFS: CFO (Net Income, D&A, SBC, changes in operating assets and liabilities), CFI (CapEx, sale of PP&E, buying/selling investments), CFF (dividends, debt raised/repaid, shares issued/repurchased)"
+  ]
+ },
+ {
+  "id": "v1",
+  "t": "val",
+  "l": "Must know",
+  "s": 120,
+  "q": "Walk me through a DCF.",
+  "k": [
+   "Project the company's unlevered free cash flow for 5–10 years (EBIT × (1 – tax rate) + D&A – CapEx – change in working capital)",
+   "Calculate a discount rate, usually WACC",
+   "Calculate Terminal Value with the Multiples Method or Gordon Growth Method",
+   "Discount the FCFs and Terminal Value to present value and sum them to get Enterprise Value",
+   "Bridge to Equity Value and divide by diluted shares for implied share price"
+  ]
+ },
+ {
+  "id": "v2",
+  "t": "val",
+  "l": "Must know",
+  "s": 75,
+  "q": "What's the difference between Enterprise Value and Equity Value?",
+  "k": [
+   "Equity Value: value of the whole company to common shareholders only (market cap)",
+   "Enterprise Value: value of core operations to all investors (debt, preferred, equity)",
+   "EV = Equity Value + Debt + Preferred Stock + Noncontrolling Interest – Cash"
+  ]
+ },
+ {
+  "id": "d1",
+  "t": "deal",
+  "l": "Must know",
+  "s": 120,
+  "q": "Walk me through a basic LBO model.",
+  "k": [
+   "Make assumptions for purchase price, debt and equity funding, interest rates, operations",
+   "Create Sources and Uses: how much equity the PE firm contributes",
+   "Adjust the Balance Sheet for the new debt and equity",
+   "Project the statements and use cash flow to pay down debt",
+   "Assume an exit after 3–5 years at a multiple; calculate IRR and money-on-money multiple"
+  ]
+ },
+ {
+  "id": "d2",
+  "t": "deal",
+  "l": "Must know",
+  "s": 60,
+  "q": "Why do private equity firms use leverage in an LBO?",
+  "k": [
+   "Reduces the equity check, which magnifies returns (IRR)",
+   "Interest is tax-deductible",
+   "Debt paydown increases equity value over time",
+   "Downside: more risk of default"
+  ]
+ },
+ {
+  "id": "b1",
+  "t": "beh",
+  "l": "Must know",
+  "s": 120,
+  "q": "Walk me through your resume. Tell me about yourself.",
+  "k": [
+   "Clear chronological story in 90 seconds to 2 minutes, not a list",
+   "Hook: where you're from or what started your interest",
+   "2–3 key experiences with what you did and learned, each linked to finance",
+   "A turning point that explains why investment banking",
+   "Close with why you're here today / why this role now"
+  ]
+ },
+ {
+  "id": "b2",
+  "t": "beh",
+  "l": "Must know",
+  "s": 75,
+  "q": "Why investment banking?",
+  "k": [
+   "Specific, personal reasons, not just money or prestige",
+   "Learning curve: exposure to deals, modeling, valuation and senior clients early",
+   "Teamwork, intensity and transaction work you've seen or done (cite an experience)",
+   "Ties to long-term goals without sounding like you'll leave immediately"
+  ]
+ },
+ {
+  "id": "m1",
+  "t": "mkt",
+  "l": "Must know",
+  "s": 120,
+  "q": "Pitch me a stock.",
+  "k": [
+   "Name, ticker, price and a one-line thesis",
+   "2–3 specific reasons with numbers (growth, margins, catalysts)",
+   "Valuation: why it's mispriced vs. comps or history",
+   "Key risks and what would make you wrong",
+   "Price target or expected return"
+  ]
+ },
+ {
+  "id": "q-0002",
+  "t": "acct",
+  "l": "Basic",
+  "s": 90,
+  "q": "How are the three main financial statements interconnected?",
+  "k": [
+   "The three financial statements are closely linked to provide a full picture of a company's financial health.",
+   "Net Income from the Income Statement connects to both the Balance Sheet and the Cash Flow Statement. It flows into the Shareholders’ Equity section on the Balance Sheet under Retained Earnings, and it is the starting point for the Cash Flow Statement.",
+   "Changes in Balance Sheet items, such as inventory or accounts receivable, are reflected as adjustments in the operating activities section of the Cash Flow Statement.",
+   "Investing and financing activities, such as capital expenditures or issuing debt, affect Balance Sheet items like PP&E, debt balances, and Shareholders’ Equity.",
+   "The ending cash balance on the Cash Flow Statement flows back to the Balance Sheet, ensuring that all three statements reconcile."
+  ]
+ },
+ {
+  "id": "q-0041",
+  "t": "acct",
+  "l": "Advanced",
+  "s": 90,
+  "q": "Explain the concept of the mid-year convention in depreciation and why it might be used.",
+  "k": [
+   "The mid-year convention assumes assets are placed in service (or disposed of) halfway through the year, so only a half-year’s depreciation is recorded in the first and last years.",
+   "It can increase accuracy for capital-intensive firms purchasing assets continuously throughout the year."
+  ]
+ },
+ {
+  "id": "q-0301",
+  "t": "val",
+  "l": "Advanced",
+  "s": 90,
+  "q": "How does the following affect Enterprise Value?\n\n\n\n\nIssue $200m in Equity for an IPO.",
+  "k": [
+   "EV stays unchanged.",
+   "Equity +200, Cash +200, net zero effect on EV formula."
+  ]
+ },
+ {
+  "id": "q-0701",
+  "t": "val",
+  "l": "Basic",
+  "s": 90,
+  "q": "A company has $80 million in EBITDA and is valued at 7x EBITDA. It has $200 million in cash and $600 million in debt. Calculate the Enterprise Value and Equity Value.",
+  "k": [
+   "Enterprise Value = EBITDA x Multiple = $80M x 7 = $560 million.",
+   "Equity Value = EV - Net Debt = EV - Debt + Cash = $560M - $600M + $200M = $160 million."
+  ]
+ },
+ {
+  "id": "q-1201",
+  "t": "val",
+  "l": "Advanced",
+  "s": 90,
+  "q": "How do you handle changes to debt levels in your cost of debt and WACC for an all-equity company that “matures” in 10 years?",
+  "k": [
+   "Even if the company is all equity now, you might assume it will add debt as it matures. You can model a target capital structure for year 10 and gradually move the WACC toward that.",
+   "Alternatively, you keep a pure equity discount rate but mention that if the company leverages, the cost of debt would be factored in once it’s introduced."
+  ]
+ },
+ {
+  "id": "q-2144",
+  "t": "beh",
+  "l": "Behavioral",
+  "s": 90,
+  "q": "Walk me through your background and how it led you to finance.",
+  "k": [
+   "Started with an interest or event that sparked finance curiosity",
+   "Connected academic and work experiences to that interest",
+   "Conclude by emphasizing why you see IB as the natural next step"
+  ]
+ },
+ {
+  "id": "q-2194",
+  "t": "beh",
+  "l": "Behavioral",
+  "s": 90,
+  "q": "What does our firm do?",
+  "k": [
+   "Mention the firm’s primary business lines (e.g., M&A, equity, debt, restructuring, etc.)",
+   "Highlight any notable industry verticals or niche areas they’re known for",
+   "Show awareness of the firm’s recent deals, rankings, or unique culture/approach"
+  ]
+ },
+ {
+  "id": "q-2344",
+  "t": "beh",
+  "l": "Behavioral",
+  "s": 90,
+  "q": "What is a secret of yours?",
+  "k": [
+   "Treat this as a creative behavioral question, not a request for a deep, personal secret.",
+   "Share something lighthearted, quirky, or a unique skill that is not on your resume but reflects a positive trait.",
+   "Example: \"My secret is that I'm a surprisingly good baker. I find the precision and chemistry of it to be a great way to de-stress, which I think shows my attention to detail and ability to follow a process.\"",
+   "The goal is to be memorable and personable while remaining professional."
+  ]
+ },
+ {
+  "id": "q-2526",
+  "t": "acct",
+  "l": "Basic",
+  "s": 60,
+  "q": "Walk me through the 3 financial statements.",
+  "k": [
+   "The 3 major financial statements are the Income Statement, Balance Sheet and Cash Flow Statement.",
+   "The Income Statement shows the company's revenue and expenses over a period of time, and goes down to Net Income, the final line on the statement.",
+   "The Balance Sheet shows the company's Assets - its resources - such as Cash, Inventory and PP&E, as well as its Liabilities - such as Debt and Accounts Payable - and Shareholders' Equity - at a specific point in time.",
+   "Assets must equal Liabilities plus Shareholders' Equity.",
+   "The Cash Flow Statement begins with Net Income, adjusts for non-cash expenses and changes in operating assets and liabilities (working capital), and then shows how the company has spent cash or received cash from Investing or Financing activities; at the end, you see the company's net change in cash."
+  ],
+  "answer": [
+   "The 3 major financial statements are the Income Statement, Balance Sheet and Cash Flow Statement.",
+   "The Income Statement shows the company's revenue and expenses over a period of time, and goes down to Net Income, the final line on the statement.",
+   "The Balance Sheet shows the company's Assets - its resources - such as Cash, Inventory and PP&E, as well as its Liabilities - such as Debt and Accounts Payable - and Shareholders' Equity - at a specific point in time. Assets must equal Liabilities plus Shareholders' Equity.",
+   "The Cash Flow Statement begins with Net Income, adjusts for non-cash expenses and changes in operating assets and liabilities (working capital), and then shows how the company has spent cash or received cash from Investing or Financing activities; at the end, you see the company's net change in cash."
+  ]
+ },
+ {
+  "id": "q-2618",
+  "t": "val",
+  "l": "Basic",
+  "s": 45,
+  "q": "Could a company's Enterprise Value ever be negative?",
+  "k": [
+   "Both Current and Implied Enterprise Value could be negative - for example, a company might have Cash that exceeds its Current Equity Value and no Debt.",
+   "And your Implied Enterprise Value might be the same as, or close to, its Current Enterprise Value.",
+   "Once again, you often say the company's Enterprise Value is simply $0 in cases like this."
+  ],
+  "answer": [
+   "Yes. Both Current and Implied Enterprise Value could be negative - for example, a company might have Cash that exceeds its Current Equity Value and no Debt. And your Implied Enterprise Value might be the same as, or close to, its Current Enterprise Value.",
+   "Once again, you often say the company's Enterprise Value is simply $0 in cases like this."
+  ]
+ },
+ {
+  "id": "q-2877",
+  "t": "deal",
+  "l": "Basic",
+  "s": 60,
+  "q": "How does the IRR change if, after going public, the company's share price drops by approximately 10% per year in Years 4 and 5?",
+  "k": [
+   "A 10% share price decline each year means that the EBITDA multiple falls to 9x and then ~8x.",
+   "The \"average\" EBITDA multiple at which the PE firm sells its stake is ~9x rather than 10x.",
+   "Therefore, the Proceeds to the PE Firm decline from $2,400 to $2,160, since $2,400 - $240 = $2,160.",
+   "The multiple is $2,160 / $800 = 2.7x.",
+   "A 2.5x multiple over 5 years is a 20% IRR, while a 2.5x multiple over 3 years is a ~35% IRR, so we'd expect an IRR in between those.",
+   "But it will be closer to 35% since 2.7x is above 2.5x.",
+   "We could approximate this IRR as 30%; in real life, it is exactly 30%."
+  ],
+  "answer": [
+   "A 10% share price decline each year means that the EBITDA multiple falls to 9x and then ~8x. The \"average\" EBITDA multiple at which the PE firm sells its stake is ~9x rather than 10x. Therefore, the Proceeds to the PE Firm decline from $2,400 to $2,160, since $2,400 - $240 = $2,160. The multiple is $2,160 / $800 = 2.7x. A 2.5x multiple over 5 years is a 20% IRR, while a 2.5x multiple over 3 years is a ~35% IRR, so we'd expect an IRR in between those. But it will be closer to 35% since 2.7x is above 2.5x. We could approximate this IRR as 30%; in real life, it is exactly 30%."
+  ]
+ },
+ {
+  "id": "q-0013",
+  "t": "acct",
+  "l": "Basic",
+  "s": 90,
+  "q": "If depreciation expense increases by $10 and the tax rate is 30%, how is net income impacted?",
+  "k": [
+   "Pre-tax income falls by $10, so tax expense is $3 lower (30% of $10).",
+   "Net income decreases by $7 overall."
+  ]
+ },
+ {
+  "id": "b7",
+  "t": "beh",
+  "l": "Story",
+  "s": 120,
+  "q": "Tell me about a time you had a conflict with a teammate and how you resolved it.",
+  "k": [
+   "STAR structure",
+   "Show empathy and you understood the other side",
+   "Constructive resolution focused on the team goal",
+   "Positive outcome and lesson; don't blame the other person"
+  ]
+ },
+ {
+  "id": "b5",
+  "t": "beh",
+  "l": "Must know",
+  "s": 60,
+  "q": "What's your biggest weakness?",
+  "k": [
+   "A real weakness, not a disguised strength like 'I work too hard'",
+   "Not a core requirement of the job (e.g. not 'attention to detail')",
+   "Specific steps you've taken to improve, with evidence of progress"
+  ]
+ },
+ {
+  "id": "a20",
+  "t": "acct",
+  "l": "Intermediate",
+  "s": 90,
+  "q": "Depreciation goes up by $10. Walk me through the three statements. Assume a 40% tax rate.",
+  "k": [
+   "IS: Operating Income down $10, Net Income down $6 (10 × (1 – 40%))",
+   "CFS: Net Income down $6, add back $10 Depreciation, so cash up $4",
+   "BS: Cash up $4, PP&E down $10, total Assets down $6",
+   "Retained Earnings / Shareholders' Equity down $6, so both sides down $6 and it balances"
+  ]
+ }
+]

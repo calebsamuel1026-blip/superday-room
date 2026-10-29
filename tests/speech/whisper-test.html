@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Whisper test</title>
+<pre id="out">loading…</pre>
+<script>
+// Transcribe dep10.wav with on-device Whisper and report text + timing.
+const out = document.getElementById("out");
+const log = s => { out.textContent += "\n" + s; };
+window.runTest = async (model, device) => {
+  const t0 = performance.now();
+  const { pipeline } = await import("https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1");
+  const asr = await pipeline("automatic-speech-recognition", model, { device, dtype: "q8" });
+  const t1 = performance.now();
+  const buf = await (await fetch("dep10.wav")).arrayBuffer();
+  const ctx = new OfflineAudioContext(1, 16000 * 60, 16000);
+  const audio = await ctx.decodeAudioData(buf);
+  const pcm = audio.getChannelData(0);
+  const r = await asr(pcm, { chunk_length_s: 30, stride_length_s: 5 });
+  const t2 = performance.now();
+  return { model, device, load_s: ((t1 - t0) / 1000).toFixed(1), transcribe_s: ((t2 - t1) / 1000).toFixed(1), text: r.text, webgpu: !!navigator.gpu };
+};
+out.textContent = "ready";
+</script>
